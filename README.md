@@ -2,18 +2,7 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
-
-## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒:
-👋 𝐻𝑖, 𝐼'𝑚 𝐷𝑖𝑔𝑒𝑠ℎ𝑤𝑎𝑟! <br>
-🖥️ 𝐹𝑢𝑙𝑙-𝑠𝑡𝑎𝑐𝑘 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟<br>
-💖 𝐿𝑜𝑣𝑒 𝑏𝑢𝑖𝑙𝑑𝑖𝑛𝑔 𝑓𝑎𝑠𝑡, 𝑐𝑙𝑒𝑎𝑛, 𝑎𝑛𝑑 𝑚𝑜𝑑𝑒𝑟𝑛 𝑎𝑝𝑝𝑠 <br>
-🚀 𝐴𝑙𝑤𝑎𝑦𝑠 𝑙𝑒𝑎𝑟𝑛𝑖𝑛𝑔 𝑠𝑜𝑚𝑒𝑡ℎ𝑖𝑛𝑔 𝑛𝑒𝑤! <br>
-🧠 𝐼𝑛𝑡𝑒𝑟𝑒𝑠𝑡𝑠: 𝑊𝑒𝑏 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡, 𝐶𝑙𝑒𝑎𝑛 𝑈𝐼/𝑈𝑋, 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒 <br>
-📧 𝑅𝑒𝑎𝑐ℎ 𝑚𝑒 𝑎𝑡: Mr.Digeshwar05@gmail.com
-
-
-## 🌐 𝑆𝑜𝑐𝑖𝑎𝑙𝑠:
-
+</br>
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
@@ -32,6 +21,13 @@
 
 
 
+## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒:
+👋 𝐻𝑖, 𝐼'𝑚 𝐷𝑖𝑔𝑒𝑠ℎ𝑤𝑎𝑟! <br>
+🖥️ 𝐹𝑢𝑙𝑙-𝑠𝑡𝑎𝑐𝑘 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟<br>
+💖 𝐿𝑜𝑣𝑒 𝑏𝑢𝑖𝑙𝑑𝑖𝑛𝑔 𝑓𝑎𝑠𝑡, 𝑐𝑙𝑒𝑎𝑛, 𝑎𝑛𝑑 𝑚𝑜𝑑𝑒𝑟𝑛 𝑎𝑝𝑝𝑠 <br>
+🚀 𝐴𝑙𝑤𝑎𝑦𝑠 𝑙𝑒𝑎𝑟𝑛𝑖𝑛𝑔 𝑠𝑜𝑚𝑒𝑡ℎ𝑖𝑛𝑔 𝑛𝑒𝑤! <br>
+🧠 𝐼𝑛𝑡𝑒𝑟𝑒𝑠𝑡𝑠: 𝑊𝑒𝑏 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡, 𝐶𝑙𝑒𝑎𝑛 𝑈𝐼/𝑈𝑋, 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒 <br>
+📧 𝑅𝑒𝑎𝑐ℎ 𝑚𝑒 𝑎𝑡: Mr.Digeshwar05@gmail.com
 
   
 ## 🕸️ 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘:
