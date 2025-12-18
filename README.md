@@ -2,7 +2,7 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
-</br>
+<br/>
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
@@ -94,7 +94,7 @@
 </div>
 
 
-## 🔥𝐺𝑖𝑡𝐻𝑢𝑏 𝑆𝑡𝑎𝑡𝑠:
+## 📊 𝐺𝑖𝑡𝐻𝑢𝑏 𝑆𝑡𝑎𝑡𝑠:
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=G1thub-05&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="170" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api?username=G1thub-05&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="170" alt="stats graph"/>
