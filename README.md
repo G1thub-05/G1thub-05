@@ -7,14 +7,14 @@
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
-  </a>
   <a href="https://linkedin.com/in/mr-digeshwar05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:Mr.Digeshwar05@gmail.com" style="text-decoration:none; border:none;">
+    <a href="mailto:Mr.Digeshwar05@gmail.com" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square" alt="Profile views" />
 </div>
@@ -101,17 +101,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=G1thub-05&theme=dark&hide_border=false&locale=en&hide_title=false&langs_count=5" height="170" alt="languages graph"  />
 </div>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-
-## 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=G1thub-05&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-
-
----
-[![](https://visitcount.itsvg.in/api?id=G1thub-05&icon=4&color=0)](https://visitcount.itsvg.in)
 
 
 
