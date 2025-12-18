@@ -1,3 +1,7 @@
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
+
 # 💫 About Me:
 👋 Hi, I'm Digeshwar!<br>💻 Full-stack developer (Spring Boot • MERN)<br>⚡ Love building fast, clean, and modern apps<br>🚀 Always learning something new!<br>💡 Interests: Web Development, Clean UI/UX, Backend Architecture<br>📫 Reach me at: Mr.Digeshwar05@gmail.com
 
