@@ -33,10 +33,6 @@
 
 
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mr._.digeshwar05) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mr-digeshwar05) 
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Mr.Digeshwar05@gmail.com)
-![Profile views counter](https://komarev.com/ghpvc/?username=G1thub-05&&style=flat-square)  
   
 ## 🕸️ 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘:
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
