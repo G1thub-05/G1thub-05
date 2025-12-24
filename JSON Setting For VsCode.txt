@@ -1,0 +1,83 @@
+{
+  "workbench.colorTheme": "Tinacious Design (High Contrast)",
+  "workbench.iconTheme": "vscode-icons",
+  "vscode_custom_css.imports": [],
+  "editor.minimap.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "apc.imports": [
+    "file:///c:/Users/Mr Digeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ],
+  "redhat.telemetry.enabled": true,
+  "debug.terminal.clearBeforeReusing": true,
+  "background.fullscreen": {
+    // "images": [
+    //   "https://thumbs.dreamstime.com/b/glass-texture-closeup-frosted-92555407.jpg"
+    // ],
+    "opacity": 0.6,
+    "size": "cover",
+    "position": "center",
+    "interval": 0
+  },
+  // "background.customImages": ["file:\\VS Code\\vs.png"],
+  "powermode.enabled": true,
+  "explorer.confirmDelete": false,
+  "animations.CursorAnimation": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "security.workspace.trust.untrustedFiles": "open",
+  // "background.style": {
+  //   "background-position": "100% 100%",
+  //   "background-size": "auto",
+  //   "opacity": 1
+  // },
+  // "background.styles": [{}, {}, {}],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.startupEditor": "none",
+  "files.autoSaveWhenNoErrors": true,
+  "powermode.presets": "fireworks",
+  "css.lint.unknownAtRules": "ignore",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "cSpell.ignoreWords": ["Digeshwar"],
+  "less.lint.unknownAtRules": "ignore",
+  "less.lint.unknownProperties": "ignore",
+  "window.newWindowProfile": "Default",
+  "hediet.vscode-drawio.resizeImages": null,
+  "tabnine.experimentalAutoImports": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "json.schemas": [],
+  "editor.fontFamily": "Cascadia code ,Consolas, 'Courier New', monospace",
+  // "editor.fontFamily": "CascadiaMonoNF-LightItalic",
+  "editor.fontligatures": true,
+  "editor.fontLigatures": " 'calt', 'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+  "notebook.formatOnSave.enabled": true,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "cSpell.userWords": [
+    "brandonkirbyson",
+    "calt",
+    "Cascadia",
+    "Consolas",
+    "donot",
+    "dont",
+    "fontligatures",
+    "hediet",
+    "powermode",
+    "tabnine",
+    "Tinacious",
+    "vsicons"
+  ],
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": false,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorStyle": "line-thin",
+  "sqldeveloper.sqlHistory.historyLimit": 500,
+  "sqldeveloper.telemetry.enabled": true,
+  "editor.codeActionsOnSave": { 
+  
+  
+    
+  }
+}
