@@ -1,0 +1,653 @@
+{
+	// "vscode_custom_css.imports": [
+	// 	"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+	//  "file:///C:/Users/devdigeshwar/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
+	// ],
+
+	// 🪪 Workbench Related Setting
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "none",
+	"workbench.statusBar.visible": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.activityBar.location": "top",
+	"workbench.list.smoothScrolling": true,
+	"workbench.preferredDarkColorTheme": "Visual Studio Dark",
+	"workbench.preferredHighContrastLightColorTheme": "Tinacious Design (High Contrast)",
+	"workbench.colorTheme": "Tinacious Design (High Contrast)",
+	"workbench.colorCustomizations": {
+		"terminal.background": "#0f0f1f", // for transparent  use"#00000000",
+		"statusBar.background": "#0f0f1f",
+		"statusBar.foreground": "#ffffff",
+		"editor.selectionForeground": "#ffffff",
+		"editor.inactiveSelectionBackground": "#264f7840",
+		"editor.selectionBackground": "#fdfdfd41",
+		"editor.selectionHighlightBackground": "#0078d440",
+	},
+
+	"workbench.settings.applyToAllProfiles": [
+		"animations.UseCursorColorForCursorAnimation",
+	],
+	"workbench.editorAssociations": {
+		"*.copilotmd": "vscode.markdown.preview.editor",
+		"*.svg": "default",
+	},
+
+	// 🔥Power Mode Setting
+	"powermode.enabled": false,
+	"powermode.combo.counterEnabled": "hide",
+	"powermode.combo.counterSize": 0,
+	"powermode.combo.timerEnabled": "hide",
+	"powermode.shake.intensity": 2,
+	"powermode.shake.enabled": false,
+	"powermode.presets": "flames",
+	"powermode.explosions.backgroundMode": "image",
+
+	// 🪟 Windows Related Setting
+	"window.newWindowProfile": "Default",
+	"window.menuBarVisibility": "toggle",
+	"window.confirmBeforeClose": "always",
+	"window.density.editorTabHeight": "compact",
+	"window.dialogStyle": "custom",
+	"window.titleBarStyle": "custom",
+	"window.commandCenter": false,
+
+	// 📁 File Related Setting
+	"files.trimTrailingWhitespace": true,
+	"files.autoSaveWhenNoErrors": true,
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 0,
+
+	// 🪪 Terminal Related Setting
+	"terminal.integrated.fontFamily": "monospace",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorStyleInactive": "block",
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.suggest.enabled": true,
+	"terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+	"terminal.integrated.confirmOnExit": "always",
+	"terminal.integrated.gpuAcceleration": "auto",
+
+	// ▶️ Code Runner Related Setting
+	"code-runner.fileDirectoryAsCwd": true,
+	"code-runner.saveAllFilesBeforeRun": true,
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.clearPreviousOutput": true,
+
+	// ✨ Animation Setting
+	// "animations.Install-Method": "Custom CSS and JS",
+	// "animations.Custom-CSS": true,
+	// "animations.Active": "Scale",
+	// "animations.CursorAnimation": true,
+	// "animations.Command-Palette": "Slide",
+	// "animations.Scrolling": "Slide",
+	// "animations.Enabled": true,
+	// "animations.UseCursorColorForCursorAnimation": true,
+	// "animations.Tabs": "Slide",
+	// "animations.CursorAnimationOptions": {
+	// 	"Color": "#00ffff",
+	// 	"CursorStyle": "line",
+	// 	"TrailLength": 50,
+	// },
+
+	// 🔏 Bakcground Realted Setting
+	// "background.enabled": true,
+	// "background.statusbar": {}, // Inside this paste same code as full screen
+	// "background.sidebar": {}, // Inside (Sidebar)this paste same code as full screen
+	// "background.panel": {}, // Inside (Terminal) this paste same code as full screen
+	// "background.fullscreen": {
+	// 	"images": ["https://img.freepik.com/premium-photo/laptop-cup-coffee-are-table-with-blue-background_337384-159390.jpg"],
+	// 	"opacity": 0.07,
+	// 	"size": "cover",
+	// 	"position": "center",
+	// 	"interval": 0,
+	// },
+
+	// Misclenious Related Setting
+	"fileTreeExtractor.showFileSize": true,
+	"fileTreeExtractor.useFileIcons": true,
+	"fileTreeExtractor.ignoredBy": "both",
+
+	"sqldeveloper.telemetry.enabled": true,
+	"sqldeveloper.sqlHistory.historyLimit": 500,
+	"sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
+
+	"debug.terminal.clearBeforeReusing": true,
+	"debug.confirmOnExit": "always",
+
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"notebook.formatOnSave.enabled": true,
+
+	"explorer.compactFolders": false,
+	"explorer.confirmDelete": false,
+
+	"less.lint.unknownAtRules": "ignore",
+	"less.lint.unknownProperties": "ignore",
+
+	"gitlens.ai.model": "vscode",
+	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+	"gradle.javaDebug.cleanOutput": true,
+	"vsicons.dontShowNewVersionMessage": true,
+	"java.codeGeneration.useBlocks": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+
+	"redhat.telemetry.enabled": true,
+	"sqltools.connections": [],
+	"security.workspace.trust.untrustedFiles": "open",
+	"prettier.useTabs": true,
+	"scm.countBadge": "off",
+
+	"css.lint.unknownAtRules": "ignore",
+	"eslint.format.enable": true,
+	"hediet.vscode-drawio.resizeImages": null,
+	"html.format.templating": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"geminicodeassist.project": "stalwart-mantis-bxr35",
+
+	// 🔴 cSpell Related Setting
+	"cSpell.ignoreWords": ["Digeshwar"],
+	"cSpell.userWords": [
+		"brandonkirbyson",
+		"calt",
+		"Cascadia",
+		"Consolas",
+		"donot",
+		"dont",
+		"fontligatures",
+		"hediet",
+		"powermode",
+		"RFID",
+		"tabnine",
+		"Tinacious",
+		"vsicons",
+	],
+
+	// ✨ Highlight Related Setting
+	"highlight-matching-tag.highlightFromContent": true,
+	"highlight-matching-tag.highlightSelfClosing": true,
+	"highlight-matching-tag.matchingTagBackground": "#155FFA",
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"left": {
+				"underline": "yellow",
+				"surround": "#155FFA",
+			},
+			"full": {
+				"underline": "yellow",
+				"surround": "#155FFA",
+			},
+			"right": {
+				"underline": "yellow",
+				"surround": "#155FFA",
+			},
+			"name": {
+				"underline": "yellow",
+				"surround": "#155FFA",
+			},
+		},
+		"right": {
+			"surround": "#155FFA",
+		},
+		"name": {
+			"highlight": "rgba(180, 20, 80, 0.3)",
+		},
+	},
+
+	// ✏️ Editor Setting
+	"editor.wordWrap": "on",
+	"editor.columnSelection": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.fontFamily": "CascadiaMonoNF-LightItalic ,Consolas, 'Courier New', monospace",
+	"editor.fontligatures": true,
+	"editor.fontLigatures": " 'calt', 'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+	"editor.formatOnSave": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.codeActionsOnSave": {},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.dropIntoEditor.preferences": [],
+	"editor.minimap.maxColumn": 0,
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.overtypeCursorStyle": "line-thin",
+	"editor.cursorBlinking": "phase",
+	"editor.multiCursorLimit": 1000,
+	"editor.cursorWidth": 1,
+	"editor.suggest.localityBonus": true,
+	"editor.minimap.side": "left",
+	"editor.minimap.autohide": "mouseover",
+	"editor.minimap.enabled": false,
+	"editor.minimap.scale": 1,
+	"editor.formatOnPaste": true,
+	"editor.formatOnType": true,
+	"editor.smoothScrolling": true,
+	"editor.cursorSurroundingLinesStyle": "all",
+	"[java]": { "editor.defaultFormatter": "redhat.java" },
+	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+
+	"editor.tokenColorCustomizations": {
+		"[*Light*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#000",
+					},
+				},
+			],
+		},
+		"[*Dark*]": {
+			"textMateRules": [
+				{
+					"scope": "ref.matchtext",
+					"settings": {
+						"foreground": "#fff",
+					},
+				},
+			],
+		},
+		"textMateRules": [
+			{
+				"scope": "entity.name.filename.java",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "underline",
+				},
+			},
+			{
+				"scope": "entity.name.class.java",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "entity.name.function.java",
+				"settings": {
+					"foreground": "#DCDCAA",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "variable.parameter.java",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "variable.other.object.java",
+				"settings": {
+					"foreground": "#DCDCAA",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.modifier.java",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.type.java",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.control.java",
+				"settings": {
+					"foreground": "#C586C0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "invalid.illegal.java",
+				"settings": {
+					"foreground": "#FF6B6B",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "markup.error",
+				"settings": {
+					"foreground": "#FF6B6B",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "string.quoted.double.java",
+				"settings": {
+					"foreground": "#CE9178",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.operator.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.type.annotation.java",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "meta.annotation.parameters.java",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "punctuation.terminator.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.separator.comma.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.square.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.round.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.angle.java",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "entity.name.package.java",
+				"settings": {
+					"foreground": "#858585",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.control.import.java",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "meta.timestamp.tomcat",
+				"settings": {
+					"foreground": "#858585",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "support.type.log-level.info.tomcat",
+				"settings": {
+					"foreground": "#4FC1FF",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "support.type.log-level.debug.tomcat",
+				"settings": {
+					"foreground": "#888888",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "support.type.log-level.error.tomcat",
+				"settings": {
+					"foreground": "#D32F2F",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "support.type.log-level.success.tomcat",
+				"settings": {
+					"foreground": "#73C991",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "support.type.log-level.warn.tomcat",
+				"settings": {
+					"foreground": "#FF6B6B",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "entity.name.log-level.brackets.tomcat",
+				"settings": {
+					"foreground": "#FFD700",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "markup.underline.link.tomcat",
+				"settings": {
+					"foreground": "#61AFEF",
+					"fontStyle": "underline",
+				},
+			},
+			{
+				"scope": "entity.name.filename.java.tomcat",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "underline",
+				},
+			},
+			{
+				"scope": "constant.numeric.build-duration.tomcat",
+				"settings": {
+					"foreground": "#B5CEA8",
+				},
+			},
+			{
+				"scope": "constant.numeric.integer.tomcat",
+				"settings": {
+					"foreground": "#B5CEA8",
+				},
+			},
+			{
+				"scope": "entity.name.class.java.tomcat",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "entity.name.function.java.tomcat",
+				"settings": {
+					"foreground": "#DCDCAA",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "variable.parameter.java.tomcat",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "variable.other.object.java.tomcat",
+				"settings": {
+					"foreground": "#DCDCAA",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.modifier.java.tomcat",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.type.java.tomcat",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.control.java.tomcat",
+				"settings": {
+					"foreground": "#C586C0",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "invalid.illegal.java.tomcat",
+				"settings": {
+					"foreground": "#FF6B6B",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "markup.error.tomcat",
+				"settings": {
+					"foreground": "#FF6B6B",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "string.quoted.double.java.tomcat",
+				"settings": {
+					"foreground": "#CE9178",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.operator.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "storage.type.annotation.java.tomcat",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "meta.annotation.parameters.java.tomcat",
+				"settings": {
+					"foreground": "#9CDCFE",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "punctuation.terminator.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.separator.comma.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.square.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.round.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "punctuation.bracket.angle.java.tomcat",
+				"settings": {
+					"foreground": "#D4D4D4",
+				},
+			},
+			{
+				"scope": "entity.name.package.java.tomcat",
+				"settings": {
+					"foreground": "#858585",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "keyword.control.import.java.tomcat",
+				"settings": {
+					"foreground": "#569CD6",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "support.type.log-level.http.tomcat",
+				"settings": {
+					"foreground": "#4EC9B0",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "http.method.tomcat",
+				"settings": {
+					"foreground": "#C586C0",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "http.status.success.tomcat",
+				"settings": {
+					"foreground": "#73C991",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "http.status.redirect.tomcat",
+				"settings": {
+					"foreground": "#4FC1FF",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "http.status.client-error.tomcat",
+				"settings": {
+					"foreground": "#FFCC66",
+					"fontStyle": "bold",
+				},
+			},
+			{
+				"scope": "http.response.size.tomcat",
+				"settings": {
+					"foreground": "#B5CEA8",
+					"fontStyle": "",
+				},
+			},
+			{
+				"scope": "entity.name.user.admin.tomcat",
+				"settings": {
+					"foreground": "#FFA07A",
+					"fontStyle": "italic",
+				},
+			},
+		],
+	},
+}
