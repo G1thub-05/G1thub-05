@@ -48,7 +48,7 @@
 	"window.confirmBeforeClose": "always",
 	"window.density.editorTabHeight": "compact",
 	"window.dialogStyle": "custom",
-	"window.titleBarStyle": "native",
+	"window.titleBarStyle": "custom",
 	"window.commandCenter": false,
 
 	// 📁 File Related Setting
@@ -651,3 +651,4 @@
 		],
 	},
 }
+
