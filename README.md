@@ -79,18 +79,14 @@
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 
 <div align="center">
-
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10"/>
-
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=G1thub-05&theme=tokyonight&hide_border=true&border_radius=10"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=10"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=10"/>
 
 </div>
 
----
 
-# 🎯 Current Focus
+## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
 
 <div align="center">
 
