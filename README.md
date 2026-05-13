@@ -108,41 +108,49 @@
 
 
 
-
-## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
+## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 
 <div align="center">
 
 <picture>
   <source 
-    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&hide=contribs,issues,prs&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"
     media="(prefers-color-scheme: dark)"
   />
 
   <source 
-    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&hide=contribs,issues,prs&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github"
     media="(prefers-color-scheme: light)"
   />
 
-  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05"/>
 </picture>
+
+</div>
+
+
+
+## 🔥 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+
+<div align="center">
 
 <picture>
   <source 
-    srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=react-dark&hide_border=true&area=true"
     media="(prefers-color-scheme: dark)"
   />
 
   <source 
-    srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=github-light&hide_border=true&area=true"
     media="(prefers-color-scheme: light)"
   />
 
-  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05"/>
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05"/>
 </picture>
 
 </div>
 ```
+
 
 
 
