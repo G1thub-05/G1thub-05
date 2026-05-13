@@ -10,8 +10,16 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
 
+## 🔥 Professional + Modern
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=900&lines=Code.+Build.+Scale.+Repeat.;Java+Full+Stack+Developer;Building+Scalable+Backend+Systems;Spring+Boot+%7C+React+%7C+REST+APIs;Turning+Ideas+Into+Real+Applications"/>
+
+## ⚡ Backend Developer Vibe
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=900&lines=Backend+Architecture+Enthusiast;Designing+Secure+REST+APIs;Java+%7C+Spring+Boot+%7C+Microservices;Optimizing+Performance+and+Scalability;Learning+Something+New+Every+Day"/>
+
+## 🚀 Premium Portfolio Style
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=26&duration=2200&pause=900&color=F97316&center=true&vCenter=true&width=950&lines=Passionate+Java+Full+Stack+Developer;Building+Modern+and+Scalable+Applications;Clean+Code+%7C+Secure+Systems+%7C+Better+UX;Focused+on+Backend+Engineering;Always+Exploring+New+Technologies"/>
 
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
