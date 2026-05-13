@@ -1,12 +1,12 @@
 <div align="center">
 <!-- Light Mode Header -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝚂𝚝𝚊𝚌𝚔%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
 </a>
 
 <!-- Dark Mode Header -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝚂𝚝𝚊𝚌𝚔%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=58&descSize=18"/>
 </a>
 
    <div align="center">
