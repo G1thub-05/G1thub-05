@@ -5,7 +5,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,100:F7931E&height=220&section=header&text=𝐷𝑖𝑔𝑒𝑠ℎ𝑤𝑎𝑟&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=55"/>
 
 <div align="center">
-  <!-- <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  /> -->
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
   <img height="100"  src="https://camo.githubusercontent.com/7b8a26f801c46cfefce4d54a394f3341ac996b00ef83af284291d3758480138d/68747470733a2f2f7374617469632e7769787374617469632e636f6d2f6d656469612f6233313361395f38396562656330633566333834633635613935353166306331656331386361397e6d76322e676966"  />
 </div>
 
