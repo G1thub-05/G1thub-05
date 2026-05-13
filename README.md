@@ -39,8 +39,7 @@
 𝘗𝘢𝘴𝘴𝘪𝘰𝘯𝘢𝘵𝘦 𝘑𝘢𝘷𝘢 𝘍𝘶𝘭𝘭 𝘚𝘵𝘢𝘤𝘬 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 𝘸𝘪𝘵𝘩 𝘩𝘢𝘯𝘥𝘴-𝘰𝘯 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘪𝘯 𝘣𝘶𝘪𝘭𝘥𝘪𝘯𝘨 𝘴𝘤𝘢𝘭𝘢𝘣𝘭𝘦 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘴𝘺𝘴𝘵𝘦𝘮𝘴 𝘢𝘯𝘥 𝘳𝘦𝘴𝘱𝘰𝘯𝘴𝘪𝘷𝘦 𝘸𝘦𝘣 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘶𝘴𝘪𝘯𝘨 "𝘑𝘢𝘷𝘢, 𝘚𝘱𝘳𝘪𝘯𝘨 𝘉𝘰𝘰𝘵, 𝘙𝘦𝘢𝘤𝘵, 𝘢𝘯𝘥 𝘙𝘌𝘚𝘛 𝘈𝘗𝘐𝘴". 𝘚𝘬𝘪𝘭𝘭𝘦𝘥 𝘪𝘯 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘪𝘯𝘨 𝘦𝘧𝘧𝘪𝘤𝘪𝘦𝘯𝘵, 𝘶𝘴𝘦𝘳-𝘧𝘰𝘤𝘶𝘴𝘦𝘥 𝘴𝘰𝘭𝘶𝘵𝘪𝘰𝘯𝘴 𝘸𝘪𝘵𝘩 𝘢 𝘴𝘵𝘳𝘰𝘯𝘨 𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯 𝘪𝘯 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘢𝘯𝘥 𝘢 𝘴𝘰𝘭𝘪𝘥 𝘶𝘯𝘥𝘦𝘳𝘴𝘵𝘢𝘯𝘥𝘪𝘯𝘨 𝘰𝘧 𝘧𝘶𝘭𝘭-𝘴𝘵𝘢𝘤𝘬 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘢𝘳𝘤𝘩𝘪𝘵𝘦𝘤𝘵𝘶𝘳𝘦, 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘮𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵, 𝘈𝘗𝘐 𝘥𝘦𝘴𝘪𝘨𝘯, 𝘢𝘯𝘥 𝘮𝘰𝘥𝘦𝘳𝘯 𝘸𝘦𝘣 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘱𝘳𝘢𝘤𝘵𝘪𝘤𝘦𝘴.
 </div>
 
-<!-- <img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/> -->
-<img align="right" height="220" src="https://nationalcioreview.com/wp-content/uploads/2025/09/TNCR-graphics-KB-2.gif"/>
+<img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/>
 
 ✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
 
