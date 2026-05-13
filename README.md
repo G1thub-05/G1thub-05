@@ -56,6 +56,7 @@
 ## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒: 
 𝘗𝘢𝘴𝘴𝘪𝘰𝘯𝘢𝘵𝘦 **𝘑𝘢𝘷𝘢 𝘍𝘶𝘭𝘭 𝘚𝘵𝘢𝘤𝘬 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳** 𝘸𝘪𝘵𝘩 𝘩𝘢𝘯𝘥𝘴-𝘰𝘯 𝘦𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘪𝘯 𝘣𝘶𝘪𝘭𝘥𝘪𝘯𝘨 𝘴𝘤𝘢𝘭𝘢𝘣𝘭𝘦 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘴𝘺𝘴𝘵𝘦𝘮𝘴 𝘢𝘯𝘥 𝘳𝘦𝘴𝘱𝘰𝘯𝘴𝘪𝘷𝘦 𝘸𝘦𝘣 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘶𝘴𝘪𝘯𝘨 **𝘑𝘢𝘷𝘢, 𝘚𝘱𝘳𝘪𝘯𝘨 𝘉𝘰𝘰𝘵, 𝘙𝘦𝘢𝘤𝘵, 𝘢𝘯𝘥 𝘙𝘌𝘚𝘛 𝘈𝘗𝘐𝘴**. 𝘚𝘬𝘪𝘭𝘭𝘦𝘥 𝘪𝘯 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘪𝘯𝘨 𝘦𝘧𝘧𝘪𝘤𝘪𝘦𝘯𝘵, 𝘶𝘴𝘦𝘳-𝘧𝘰𝘤𝘶𝘴𝘦𝘥 𝘴𝘰𝘭𝘶𝘵𝘪𝘰𝘯𝘴 𝘸𝘪𝘵𝘩 𝘢 𝘴𝘵𝘳𝘰𝘯𝘨 𝘧𝘰𝘶𝘯𝘥𝘢𝘵𝘪𝘰𝘯 𝘪𝘯 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘢𝘯𝘥 𝘢 𝘴𝘰𝘭𝘪𝘥 𝘶𝘯𝘥𝘦𝘳𝘴𝘵𝘢𝘯𝘥𝘪𝘯𝘨 𝘰𝘧 𝘧𝘶𝘭𝘭-𝘴𝘵𝘢𝘤𝘬 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘢𝘳𝘤𝘩𝘪𝘵𝘦𝘤𝘵𝘶𝘳𝘦, 𝘥𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘮𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵, 𝘈𝘗𝘐 𝘥𝘦𝘴𝘪𝘨𝘯, 𝘢𝘯𝘥 𝘮𝘰𝘥𝘦𝘳𝘯 𝘸𝘦𝘣 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘱𝘳𝘢𝘤𝘵𝘪𝘤𝘦𝘴.
 
+<img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 💡 𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:
 
 - 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠
@@ -73,25 +74,9 @@
   
 𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠 𝑖𝑛 **𝑠𝑦𝑠𝑡𝑒𝑚 𝑑𝑒𝑠𝑖𝑔𝑛, 𝑚𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑎𝑛𝑑 𝑐𝑙𝑜𝑢𝑑 𝑑𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡**.
 
-<img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-💻 Passionate Java Full Stack Developer focused on building scalable backend systems and responsive web applications.
 
-🔥 𝑆𝑡𝑟𝑜𝑛𝑔 understanding of:
-- Spring Boot & REST APIs
-- JWT Authentication & Authorization
-- Database Design & Optimization
-- Frontend Integration
-- Cloud & Deployment
 
-📚 Currently learning:
-- Microservices Architecture
-- System Design
-- AWS & DevOps
-
-<br clear="both"/>
-
----
 
 
 # 🧰 Tech Stack
