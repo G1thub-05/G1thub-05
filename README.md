@@ -60,27 +60,6 @@
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
-<img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff6e96&icon_color=f8d866&text_color=ffffff&bg_color=0d1117"/>
-<img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96"/>
-</div>
-
-
-## ⚙️ Github Analytics
-<div align="center">
-<img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff4d4d&icon_color=ff6666&text_color=ffffff&bg_color=0d1117"/>
-<img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff4d4d&fire=ff4d4d&currStreakLabel=ff6666&sideLabels=ffffff&dates=cccccc"/>
-</div>
-
-
-## ⚙️ Github Analytics
-<div align="center">
-<img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=ffffff&bg_color=0d1117&ring_color=ff003c"/>
-<img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff003c&fire=ff1744&currStreakLabel=ff1744&sideNums=ffffff&sideLabels=ff4d6d&dates=9ca3af"/>
-</div>
-
-
-## ⚙️ Github Analytics
-<div align="center">
 <!-- Dark Mode -->
 <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=ffffff&bg_color=0d1117#gh-dark-mode-only"/>
 <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff003c&fire=ff1744&currStreakLabel=ff1744#gh-dark-mode-only"/>
@@ -88,6 +67,26 @@
 <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=24292f&bg_color=ffffff#gh-light-mode-only"/>
 <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=ff003c&fire=ff1744&currStreakLabel=ff1744#gh-light-mode-only"/>
 </div>
+
+
+
+## ⚙️ Github Analytics
+<div align="center">
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=ffffff&bg_color=0d1117" />
+</a>
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff003c&fire=ff1744&currStreakLabel=ff1744" />
+</a>
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=24292f&bg_color=ffffff" />
+</a>
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=ff003c&fire=ff1744&currStreakLabel=ff1744" />
+</a>
+</div>
+
+
 
 
 
