@@ -85,7 +85,8 @@
 
 
 <div align="center">
-## ⚡ Code • Build • Scale • Repeat
+##  
+⚡ Code • Build • Scale • Repeat
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EA580C,100:F97316&height=120&section=footer"/>
 </div>
 
