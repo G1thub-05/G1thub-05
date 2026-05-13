@@ -105,7 +105,7 @@
 
 
 
-## 📈 Contribution Graph
+## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 <div align="center">
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
@@ -116,7 +116,10 @@
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"/>
 </a>
+
 </div>
+```
+
 
 
 
