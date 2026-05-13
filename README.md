@@ -26,6 +26,34 @@
      <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=green" alt="Profile views" />
    </div>
 
+
+
+
+
+   <br/><br/>
+   
+<div align="center">
+
+<a href="https://github.com/G1thub-05" target="_blank">
+  <img src="https://skillicons.dev/icons?i=github" height="50" />
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05" target="_blank">
+  <img src="https://skillicons.dev/icons?i=linkedin" height="50" />
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" height="50" />
+</a>
+
+<a href="https://instagram.com/mr._.digeshwar05" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" height="50" />
+</a>
+
+</div>
+```
+
+
 </div>
 
 
