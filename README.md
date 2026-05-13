@@ -71,19 +71,20 @@
 <div align="center">
 <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true"/>
 <img width="49%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=tokyonight&hide_border=true"/>
-
-   <br><br>
-<img width="40%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true"/>
-
-   <br><br>
-<img width="35%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
-
-   <br><br>
-<img width="32%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
-
-
-
 </div>
+
+
+## 💻 Most Used Languages
+<div align="center">
+<img width="45%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
+</div>
+
+## 💻 Most Used Languages
+<div align="center">
+<img width="45%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+</div>
+
+
 
 
 
