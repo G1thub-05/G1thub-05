@@ -114,3 +114,81 @@ Docker • AWS • Jenkins • Render
 
 
 
+
+
+
+# 👋 Hey, I'm Digeshwar
+
+### Java Full Stack Developer 🚀
+Building scalable backend systems and modern web applications using Java, Spring Boot, React, and cloud-native tools.
+
+---
+
+## 🍔 Featured Project — Food Ordering System
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Project-Food%20Ordering%20System-orange?style=for-the-badge" />
+
+</div>
+
+### 🔥 Key Features
+- 🔐 Secure JWT Authentication & Role Management
+- 🛒 Cart & Order Management
+- 🍽 Restaurant & Menu Handling
+- 💳 Online Payment Integration
+- 📦 Real-Time Order Tracking
+- 📱 Responsive UI Design
+- ☁️ Cloud Deployment Ready
+
+---
+
+## 🛠 Tech Stack
+
+<div align="center">
+
+### ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,nodejs,express" />
+
+### 🎨 Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,javascript" />
+
+### ☁️ DevOps & Tools
+<img src="https://skillicons.dev/icons?i=docker,aws,jenkins,firebase,git,github" />
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=G1thub-05&theme=tokyonight&hide_border=true" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://github.com/G1thub-05">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
+
