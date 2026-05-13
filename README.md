@@ -54,6 +54,7 @@
 ## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,render,jira&perline=10" />
+     ⚡ Code • Build • Scale • Repeat
 </div>
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
@@ -89,7 +90,6 @@
 
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EA580C,100:F97316&height=120&section=footer"/>
-  ⚡ Code • Build • Scale • Repeat
 </div>
 
 
