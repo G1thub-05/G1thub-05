@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,100:F7931E&height=220&section=header&text=Digeshwar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=55"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,100:F7931E&height=220&section=header&text=𝐷𝑖𝑔𝑒𝑠ℎ𝑤𝑎𝑟&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=55"/>
 
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
@@ -53,13 +53,24 @@
 
 ---
 
-# 🚀 About Me
+
+## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒:
+𝐽𝑎𝑣𝑎 𝐹𝑢𝑙𝑙 𝑆𝑡𝑎𝑐𝑘 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟 𝑤𝑖𝑡ℎ ℎ𝑎𝑛𝑑𝑠-𝑜𝑛 𝑒𝑥𝑝𝑒𝑟𝑖𝑒𝑛𝑐𝑒 𝑏𝑢𝑖𝑙𝑑𝑖𝑛𝑔 𝑠𝑐𝑎𝑙𝑎𝑏𝑙𝑒 𝑤𝑒𝑏 𝑎𝑝𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠 𝑢𝑠𝑖𝑛𝑔 **𝐽𝑎𝑣𝑎, 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡, 𝑅𝑒𝑎𝑐𝑡, 𝑎𝑛𝑑 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠**.
+
+𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:
+
+- 𝐶𝑙𝑒𝑎𝑛 𝑏𝑎𝑐𝑘𝑒𝑛𝑑 𝑎𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒
+- 𝑆𝑒𝑐𝑢𝑟𝑒 𝑎𝑢𝑡ℎ𝑒𝑛𝑡𝑖𝑐𝑎𝑡𝑖𝑜𝑛 (𝐽𝑊𝑇/𝑜𝐴𝑢𝑡ℎ 2.0)
+- 𝐷𝑎𝑡𝑎𝑏𝑎𝑠𝑒-𝑑𝑟𝑖𝑣𝑒𝑛 𝑎𝑝𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠 (𝑀𝑦𝑆𝑄𝐿, 𝑀𝑜𝑛𝑔𝑜𝐷𝐵)
+- 𝑅𝑒𝑎𝑙-𝑤𝑜𝑟𝑙𝑑 𝑝𝑟𝑜𝑗𝑒𝑐𝑡 𝑑𝑒𝑙𝑖𝑣𝑒𝑟𝑦
+  
+𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠 𝑖𝑛 **𝑠𝑦𝑠𝑡𝑒𝑚 𝑑𝑒𝑠𝑖𝑔𝑛, 𝑚𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠, 𝑎𝑛𝑑 𝑐𝑙𝑜𝑢𝑑 𝑑𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡**.
 
 <img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 💻 Passionate Java Full Stack Developer focused on building scalable backend systems and responsive web applications.
 
-🔥 Strong understanding of:
+🔥 𝑆𝑡𝑟𝑜𝑛𝑔 understanding of:
 - Spring Boot & REST APIs
 - JWT Authentication & Authorization
 - Database Design & Optimization
