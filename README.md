@@ -59,7 +59,7 @@
 </div>
 
 <!-- <img align="right" height="220" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/> -->
-<img align="right" height="220" src="https://raw.githubusercontent.com/Potential17/Potential17/master/user%20(2).gif"/>
+<img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/>
 💡 **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
 
 - 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠
