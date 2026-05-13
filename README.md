@@ -69,20 +69,6 @@
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 </div>
 
-
-## 📊 𝐺𝑖𝑡𝐻𝑢𝑏 𝑆𝑡𝑎𝑡𝑠:
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=G1thub-05&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="170" alt="streak graph"  />
-  <img src="https://github-readme-stats.vercel.app/api?username=G1thub-05&theme=dark&hide_border=false&include_all_commits=true&count_private=false" height="170" alt="stats graph"/>
- 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=dark&hide_border=false" height="170" alt="languages graph" />
-  
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=G1thub-05&theme=dark&hide_border=false&locale=en&hide_title=false&langs_count=5" height="170" alt="languages graph"  />
-</div>
-
-
-
 ## 📊 GitHub Stats:
 
 <div align="center">
