@@ -38,6 +38,18 @@
        <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
      </a>
      <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=green" alt="Profile views" />
+
+
+  <!-- Light Mode -->
+  <a href="https://github.com/G1thub-05#gh-light-mode-only">
+    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=00c6ff" alt="Profile views" />
+  </a>
+  
+  <!-- Dark Mode -->
+  <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=ff512f" alt="Profile views" />
+  </a>
+
    </div>
 
 
