@@ -78,20 +78,14 @@
 ---
 
 <div align="center">
-
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15"/>
-
 </div>
 
 
 
 <div align="center">
-
 ### ⚡ Code • Build • Scale • Repeat
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7931E,100:FF6B35&height=120&section=footer"/>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EA580C,100:F97316&height=120&section=footer"/>
-
 </div>
 
 
