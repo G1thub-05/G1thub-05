@@ -21,6 +21,9 @@
 ## 🚀 Premium Portfolio Style
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=26&duration=2200&pause=900&color=F97316&center=true&vCenter=true&width=950&lines=Passionate+Java+Full+Stack+Developer;Building+Modern+and+Scalable+Applications;Clean+Code+%7C+Secure+Systems+%7C+Better+UX;Focused+on+Backend+Engineering;Always+Exploring+New+Technologies"/>
 
+## 💀 Minimal + Strong (Best Choice)
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=Code.+Build.+Scale.;Java+Full+Stack+Developer;Spring+Boot+%7C+React+Developer;Backend+Engineering+Enthusiast"/>
+
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
