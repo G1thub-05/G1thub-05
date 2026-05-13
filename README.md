@@ -106,6 +106,48 @@
 </a>
 </div>
 
+
+
+
+## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
+
+<div align="center">
+
+<picture>
+  <source 
+    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
+    media="(prefers-color-scheme: dark)"
+  />
+  
+  <source 
+    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+    media="(prefers-color-scheme: light)"
+  />
+
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05"/>
+</picture>
+
+<picture>
+  <source 
+    srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af"
+    media="(prefers-color-scheme: dark)"
+  />
+
+  <source 
+    srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280"
+    media="(prefers-color-scheme: light)"
+  />
+
+  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05"/>
+</picture>
+
+</div>
+```
+
+
+
+
+
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8"/>
@@ -149,27 +191,6 @@
 
 </div>
 
-
-
-
-## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
-
-<div align="center">
-
-<!-- Light Mode -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"/>
-</a>
-
-<!-- Dark Mode -->
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"/>
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"/>
-</a>
-
-</div>
-```
 
 
 
