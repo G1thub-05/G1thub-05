@@ -192,3 +192,120 @@ Building scalable backend systems and modern web applications using Java, Spring
 
 </div>
 
+
+
+
+
+
+
+<div align="center">
+
+# 🍔 Digeshwar's Food Ordering System
+
+### Java Full Stack Developer • Backend Enthusiast • System Design Learner 🚀
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=22&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=600&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;Clean+Backend+Architecture;JWT+Authentication+%26+REST+APIs" />
+
+<br/>
+
+<a href="https://github.com/G1thub-05">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<img src="https://komarev.com/ghpvc/?username=G1thub-05&style=for-the-badge&color=orange"/>
+
+</div>
+
+---
+
+# 🚀 About Me
+
+💻 Java Full Stack Developer passionate about building scalable and secure web applications.
+
+🔹 Strong focus on backend architecture, REST APIs, authentication systems, and database-driven applications.
+
+🔹 Currently improving skills in:
+- System Design
+- Microservices
+- Cloud Deployment
+- DevOps
+
+---
+
+# 🍕 Featured Project — Food Ordering System
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Backend-SpringBoot-green?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge"/>
+
+</div>
+
+## ✨ Features
+
+✅ Secure JWT Authentication  
+✅ Role-Based Access Control  
+✅ Restaurant & Menu Management  
+✅ Add to Cart & Checkout  
+✅ Online Payment Integration  
+✅ Responsive UI  
+✅ RESTful APIs  
+✅ Order Tracking System  
+
+---
+
+# 🛠 Tech Stack
+
+<div align="center">
+
+## ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb" />
+
+## 🎨 Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,javascript" />
+
+## ☁️ DevOps & Tools
+<img src="https://skillicons.dev/icons?i=docker,aws,jenkins,firebase,git,github" />
+
+</div>
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=G1thub-05&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🎯 Current Goals
+
+🚀 Master Spring Security & Microservices  
+🚀 Deploy scalable applications on AWS  
+🚀 Improve DSA & System Design  
+🚀 Build production-grade backend systems  
+
+---
+
+<div align="center">
+
+### ⚡ "Code. Build. Scale. Repeat."
+
+</div>
