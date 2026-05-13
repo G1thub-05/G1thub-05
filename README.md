@@ -13,7 +13,9 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
 
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=%E2%9A%A1+Eat+%E2%80%A2+Sleep+%E2%80%A2+Code+%E2%80%A2+Build+%E2%80%A2+Scale+%E2%80%A2+Repeat;%F0%9F%9A%80+Building+Scalable+Applications+with+Java;%F0%9F%92%A1+Clean+Code+%E2%80%A2+Secure+APIs+%E2%80%A2+Better+Systems;%F0%9F%94%A5+Developing+Solutions+for+Real+Problems;%E2%9A%A1+Simplicity+is+the+Ultimate+Sophistication"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
+
+
 
 
 
