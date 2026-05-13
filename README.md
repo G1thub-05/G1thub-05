@@ -78,7 +78,7 @@
 
 ---
 <br/> <br/><br/>
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,vercel,render,npm,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,jira,tailwind,bootstrap&perline=8" />
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,render,jira&perline=8" />
 </div>
 
 
