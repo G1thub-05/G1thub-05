@@ -83,4 +83,17 @@
 
 
 
+## 📊 GitHub Stats:
+
+<div align="center">
+
+  <img src="https://streak-stats.demolab.com?user=G1thub-05&theme=dark&hide_border=false" height="170" />
+
+  <img src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=dark&hide_border=false" height="170"/>
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=dark&hide_border=false" height="170"/>
+
+</div>
+
+
 
