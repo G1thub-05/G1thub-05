@@ -103,8 +103,38 @@
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8"/>
 </div>
 
-<div align="center">
 
+## 📈 Contribution Graph
+<div align="center">
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"/>
+</div>
+
+
+
+## 📊 3D Contribution Graph
+<div align="center">
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=8"/>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div align="center">
 <!-- Light Mode Footer -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"/>
