@@ -79,7 +79,7 @@
 
 
 
-# 🧰 Tech Stack
+## 🧰 𝙏𝙚𝙘𝙝 𝙎𝙩𝙖𝙘𝙠
 
 <div align="center">
 
