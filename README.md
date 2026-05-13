@@ -12,17 +12,10 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
 
-## 🔥 Professional + Modern
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=900&lines=Code.+Build.+Scale.+Repeat.;Java+Full+Stack+Developer;Building+Scalable+Backend+Systems;Spring+Boot+%7C+React+%7C+REST+APIs;Turning+Ideas+Into+Real+Applications"/>
 
-## ⚡ Backend Developer Vibe
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=900&lines=Backend+Architecture+Enthusiast;Designing+Secure+REST+APIs;Java+%7C+Spring+Boot+%7C+Microservices;Optimizing+Performance+and+Scalability;Learning+Something+New+Every+Day"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=%E2%9A%A1+Eat+%E2%80%A2+Sleep+%E2%80%A2+Code+%E2%80%A2+Build+%E2%80%A2+Scale+%E2%80%A2+Repeat;%F0%9F%9A%80+Building+Scalable+Applications+with+Java;%F0%9F%92%A1+Clean+Code+%E2%80%A2+Secure+APIs+%E2%80%A2+Better+Systems;%F0%9F%94%A5+Developing+Solutions+for+Real+Problems;%E2%9A%A1+Simplicity+is+the+Ultimate+Sophistication"/>
 
-## 🚀 Premium Portfolio Style
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=26&duration=2200&pause=900&color=F97316&center=true&vCenter=true&width=950&lines=Passionate+Java+Full+Stack+Developer;Building+Modern+and+Scalable+Applications;Clean+Code+%7C+Secure+Systems+%7C+Better+UX;Focused+on+Backend+Engineering;Always+Exploring+New+Technologies"/>
 
-## 💀 Minimal + Strong (Best Choice)
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=28&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=Code.+Build.+Scale.;Java+Full+Stack+Developer;Spring+Boot+%7C+React+Developer;Backend+Engineering+Enthusiast"/>
 
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
