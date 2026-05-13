@@ -62,20 +62,6 @@
 </div>
 
 
-## ⚙️ GitHub Analytics
-
-<div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=G1thub-05&theme=tokyonight&hide_border=true&border_radius=12"/>
-<br/><br/>
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=12"/>
-</div>
-
-
-
-
-
-
 
 
 ## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
@@ -90,11 +76,26 @@
 
 </div>
 
----
 
+## 🏆 GitHub Achievements
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15"/>
 </div>
+
+
+## 🏆 Achievements
+
+<div align="center">
+<img width="85%" src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=1&column=6"/>
+</div>
+
+
+## 🏆 GitHub Achievements
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&row=2&column=3"/>
+</div>
+
+
 
 
 
