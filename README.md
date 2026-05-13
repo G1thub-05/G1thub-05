@@ -4,14 +4,16 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,100:F7931E&height=220&section=header&text=Digeshwar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=55"/>
 
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
 
 <br/>
 
 
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
+
 <br/>
 <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
