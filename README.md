@@ -84,6 +84,19 @@
 </div>
 
 
+## 🏆 Achievements
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=2&column=4"/>
+</div>
+
+## 🏆 GitHub Achievements
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=onedark&no-frame=true&no-bg=true&margin-w=15&margin-h=15&row=2&column=4"/>
+</div>
+
+
+
+
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EA580C,100:F97316&height=120&section=footer"/>
 </div>
