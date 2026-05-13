@@ -86,60 +86,6 @@
 </a>
 </div>
 
-
-## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
-<div align="center">
-
-| Learning | Building | Improving |
-|---|---|---|
-| Microservices | Real-world Projects | System Design |
-| AWS Deployment | Secure APIs | DSA |
-| DevOps | Scalable Backend | Performance |
-
-</div>
-
-
-## 🎯 𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
-
-<div align="center">
-
-<table>
-<tr>
-
-<td width="33%" align="center">
-
-### 📚 Learning
-Microservices  
-AWS & DevOps  
-System Design  
-
-</td>
-
-<td width="33%" align="center">
-
-### 🚀 Building
-Real-world Projects  
-Secure APIs  
-Scalable Backend Systems  
-
-</td>
-
-<td width="33%" align="center">
-
-### ⚡ Improving
-DSA  
-Performance Optimization  
-Clean Architecture  
-
-</td>
-
-</tr>
-</table>
-
-</div>
-```
-
-
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8"/>
