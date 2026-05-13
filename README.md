@@ -110,13 +110,6 @@
 </div>
 
 
-## 📈 3D Contribution Graph
-<div align="center">
-<img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/main/profile-3d-contrib/profile-night-rainbow.svg"/>
-</div>
-```
-
-
 
 
 
