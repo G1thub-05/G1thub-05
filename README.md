@@ -73,10 +73,8 @@
 ## 🧰 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 
 <div align="center">
-<br/> <br/><br/>
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,render,jira&perline=10" />
 </div>
-
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 
