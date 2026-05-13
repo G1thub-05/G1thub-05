@@ -1,6 +1,19 @@
 <div align="center">
 
    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+
+
+<!-- Light Mode Header -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚱𝚎𝚛&descAlignY=58&descSize=18"/>
+</a>
+
+<!-- Dark Mode Header -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fc00ff,50:7928ca,100:00dbde&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+</a>
+
+
       
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
