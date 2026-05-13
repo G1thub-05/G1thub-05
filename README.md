@@ -73,21 +73,8 @@
 ## 🧰 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,nodejs,express,mysql,mongodb,docker,aws,jenkins,git,github,tailwind,bootstrap,firebase&perline=8"/>
-
----
 <br/> <br/><br/>
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,render,jira&perline=8" />
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel&perline=8" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
-</p>
 </div>
 
 
