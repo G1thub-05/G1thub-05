@@ -107,56 +107,6 @@
 </div>
 
 
-
-## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
-
-<div align="center">
-
-<picture>
-  <source 
-    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"
-    media="(prefers-color-scheme: dark)"
-  />
-
-  <source 
-    srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github"
-    media="(prefers-color-scheme: light)"
-  />
-
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05"/>
-</picture>
-
-</div>
-
-
-
-## 🔥 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
-
-<div align="center">
-
-<picture>
-  <source 
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=react-dark&hide_border=true&area=true"
-    media="(prefers-color-scheme: dark)"
-  />
-
-  <source 
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=github-light&hide_border=true&area=true"
-    media="(prefers-color-scheme: light)"
-  />
-
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05"/>
-</picture>
-
-</div>
-```
-
-
-
-
-
-
-
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8"/>
@@ -174,8 +124,6 @@
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"/>
 </a>
 </div>
-
-
 
 
 ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
