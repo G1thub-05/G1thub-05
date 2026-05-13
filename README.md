@@ -148,7 +148,29 @@
 </a>
 
 </div>
+
+
+
+
+## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
+
+<div align="center">
+
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"/>
+</a>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"/>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"/>
+</a>
+
+</div>
 ```
+
 
 
 
