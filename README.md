@@ -2,38 +2,29 @@
 
 
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝒥𝒶𝓋𝒶%20ℱ𝓊𝓁𝓁%20𝒮𝓉𝒶𝒸𝓀%20𝒟ℯ𝓋ℯ𝓁ℴ𝓅ℯ𝓇&descAlignY=58&descSize=18"/>
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝒥𝒶𝓋𝒶%20ℱ𝓊𝓁𝓁%20𝒮𝓉𝒶𝒸𝓀%20𝒟ℯ𝓋ℯ𝓁ℴ𝓅ℯ𝓇&descAlignY=58&descSize=18"/>
+      
+   <div align="center">
+     <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+   </div>
    
+   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
 
-<div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-</div>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
-
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
-
-
-
-
-
-<div align="center">
-  <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
-    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://linkedin.com/in/mr-digeshwar05" style="text-decoration:none; border:none;">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-    <a href="mailto:Mr.Digeshwar05@gmail.com" style="text-decoration:none; border:none;">
-    <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=green" alt="Profile views" />
-</div>
+   <div align="center">
+     <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
+       <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
+     </a>
+     <a href="https://linkedin.com/in/mr-digeshwar05" style="text-decoration:none; border:none;">
+       <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
+     </a>
+       <a href="mailto:Mr.Digeshwar05@gmail.com" style="text-decoration:none; border:none;">
+       <img src="https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white" alt="Email" />
+     </a>
+     <a href="https://instagram.com/mr._.digeshwar05" style="text-decoration:none; border:none;">
+       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
+     </a>
+     <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=green" alt="Profile views" />
+   </div>
 
 </div>
 
