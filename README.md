@@ -28,6 +28,8 @@
   <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=green" alt="Profile views" />
 </div>
 
+</div>
+
 
 ## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒: 
 <div align="justify">
