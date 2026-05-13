@@ -65,6 +65,15 @@
 </div>
 
 
+## ⚙️ Github Analytics
+<div align="center">
+<img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff6e96&icon_color=f8d866&text_color=ffffff&bg_color=0d1117"/>
+<img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff6e96&fire=ff6e96&currStreakLabel=ff6e96"/>
+</div>
+
+
+
+
 ## 💻 Most Used Languages
 <div align="center">
 <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
