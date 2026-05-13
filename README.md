@@ -60,6 +60,8 @@
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
+
+<!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=ffffff&bg_color=0d1117" />
 </a>
@@ -67,7 +69,8 @@
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff003c&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af" />
 </a>
-   
+
+<!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=ff003c&icon_color=ff1744&text_color=24292f&bg_color=ffffff" />
 </a>
@@ -93,16 +96,23 @@
 
 
 
+
 ## 💻 Most Used Languages
+
 <div align="center">
-<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=radical&hide_border=true&title_color=ff003c&text_color=ffffff&bg_color=0d1117" />
+</a>
+
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=default&hide_border=true&title_color=ff003c&text_color=24292f&bg_color=ffffff" />
+</a>
 </div>
 
 
-## 💻 Most Used Languages
-<div align="center">
-<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"/>
-</div>
 
 
 
