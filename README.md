@@ -38,7 +38,7 @@
 
 <img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/>
 
-💡 **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
+✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
 
 - 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠
 - 𝑆𝑒𝑐𝑢𝑟𝑒 𝐴𝑢𝑡ℎ𝑒𝑛𝑡𝑖𝑐𝑎𝑡𝑖𝑜𝑛 & 𝐴𝑢𝑡ℎ𝑜𝑟𝑖𝑧𝑎𝑡𝑖𝑜𝑛 (𝐽𝑊𝑇/𝑂𝐴𝑢𝑡ℎ 2.0)
@@ -48,7 +48,7 @@
 📌 **𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔** - 𝑀𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑦𝑠𝑡𝑒𝑚 𝐷𝑒𝑠𝑖𝑔𝑛, 𝐴𝑊𝑆 & 𝐷𝑒𝑣𝑂𝑝𝑠
 
 
-## 🧰 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
+## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,render,jira&perline=10" />
 </div>
