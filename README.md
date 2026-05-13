@@ -77,26 +77,11 @@
 </div>
 
 
-## 🏆 GitHub Achievements
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15"/>
-</div>
-
-
-## 🏆 Achievements
+## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 
 <div align="center">
 <img width="85%" src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=1&column=6"/>
 </div>
-
-
-## 🏆 GitHub Achievements
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&row=2&column=3"/>
-</div>
-
-
-
 
 
 <div align="center">
