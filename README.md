@@ -115,12 +115,12 @@
 
 <picture>
   <source 
-    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
+    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&hide=contribs,issues,prs&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
     media="(prefers-color-scheme: dark)"
   />
-  
+
   <source 
-    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+    srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&hide=contribs,issues,prs&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
     media="(prefers-color-scheme: light)"
   />
 
@@ -143,6 +143,7 @@
 
 </div>
 ```
+
 
 
 
