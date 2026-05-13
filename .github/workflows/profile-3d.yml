@@ -27,4 +27,3 @@ jobs:
           git add .
           git commit -m "generated" || echo "No changes"
           git push
-```
