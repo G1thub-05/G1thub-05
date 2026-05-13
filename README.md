@@ -64,6 +64,57 @@
 </div>
 
 
+
+
+## 🎯 Current Focus
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/Learning-FF6B35?style=for-the-badge&logo=bookstack&logoColor=white"/>
+
+### 📚 Exploring
+
+✨ Microservices  
+☁️ AWS Deployment  
+⚙️ DevOps  
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/Building-F97316?style=for-the-badge&logo=rocket&logoColor=white"/>
+
+### 🚀 Developing
+
+🔐 Secure APIs  
+🏗️ Scalable Backend  
+💻 Real-world Projects  
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/Improving-EA580C?style=for-the-badge&logo=target&logoColor=white"/>
+
+### 📈 Growing
+
+🧠 System Design  
+📊 Performance  
+💡 DSA & Problem Solving  
+
+</td>
+</tr>
+</table>
+
+</div>
+```
+
+
+
 ## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
 
 <div align="center">
