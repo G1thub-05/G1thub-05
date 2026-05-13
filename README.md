@@ -10,7 +10,7 @@
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Spring+Boot+%7C+React+%7C+MySQL;JWT+Authentication+%26+REST+APIs;Backend+Architecture+Enthusiast;Always+Learning+New+Technologies"/>
 
 
 <div align="center">
