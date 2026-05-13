@@ -67,13 +67,13 @@
 
 ## 💻 Most Used Languages
 <div align="center">
-<img width="45%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
+<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=tokyonight&hide_border=true"/>
 </div>
 
 
 ## 💻 Most Used Languages
 <div align="center">
-<img width="100%" height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"/>
+<img width="100%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&langs_count=10"/>
 </div>
 
 
