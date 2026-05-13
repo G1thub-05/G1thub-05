@@ -114,7 +114,7 @@
 
 
 
-<div align="center">
+<div align="left">
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="45%" height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=donut&theme=radical&hide_border=true&hide_title=true&title_color=ff003c&text_color=ffffff&bg_color=0d1117" />
