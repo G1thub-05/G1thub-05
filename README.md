@@ -32,22 +32,82 @@
 
    <br/><br/>
    
+## 1
+<div align="center">
+
+<a href="https://github.com/G1thub-05">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+##2
+<div align="center">
+
+<a href="https://github.com/G1thub-05">
+<img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF"/>
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+<img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=58A6FF"/>
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=F97316"/>
+</a>
+
+</div>
+
+##3
 
 <div align="center">
 
 <a href="https://github.com/G1thub-05">
-  <img src="https://skillicons.dev/icons?i=github" height="50"/>
+<img src="https://cdn.simpleicons.org/github/white" height="45"/>
 </a>
 
 <a href="https://linkedin.com/in/mr-digeshwar05">
-  <img src="https://skillicons.dev/icons?i=linkedin" height="50"/>
+<img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="45"/>
 </a>
 
 <a href="mailto:Mr.Digeshwar05@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" height="50"/>
+<img src="https://cdn.simpleicons.org/gmail/EA4335" height="45"/>
 </a>
 
 </div>
+
+## 4
+
+<div align="center">
+
+<a href="https://github.com/G1thub-05">
+<img src="https://img.shields.io/badge/GitHub-F97316?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/mr-digeshwar05">
+<img src="https://img.shields.io/badge/LinkedIn-F97316?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:Mr.Digeshwar05@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-F97316?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</div>
+
+
+
+
+
+
+
 
 
 
