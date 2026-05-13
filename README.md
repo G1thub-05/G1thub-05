@@ -4,15 +4,18 @@
 <div align="center">
    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
 
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
 
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fc00ff,100:00dbde&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0080,50:7928ca,100:2afadf&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
 
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
 
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0844,100:ff416c&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:43cea2,50:185a9d,100:6a11cb&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
 
-     
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:12c2e9,50:c471ed,100:f64f59&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fa709a,50:fee140,100:30cfd0&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+
+
       
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
