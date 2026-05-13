@@ -99,7 +99,9 @@
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"/>
 </a>
+
 
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af"/>
