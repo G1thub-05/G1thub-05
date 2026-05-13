@@ -2,7 +2,9 @@
 
 
 <div align="center">
-   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝒥𝒶𝓋𝒶%20ℱ𝓊𝓁𝓁%20𝒮𝓉𝒶𝒸𝓀%20𝒟ℯ𝓋ℯ𝓁ℴ𝓅ℯ𝓇&descAlignY=58&descSize=18"/>
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔𝓀%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
+
+     
       
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
@@ -43,7 +45,7 @@
 
 ✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
 
-- 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠
+- 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠, 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒
 - 𝑆𝑒𝑐𝑢𝑟𝑒 𝐴𝑢𝑡ℎ𝑒𝑛𝑡𝑖𝑐𝑎𝑡𝑖𝑜𝑛 & 𝐴𝑢𝑡ℎ𝑜𝑟𝑖𝑧𝑎𝑡𝑖𝑜𝑛 (𝐽𝑊𝑇/𝑂𝐴𝑢𝑡ℎ 2.0)
 - 𝐷𝑎𝑡𝑎𝑏𝑎𝑠𝑒-𝐷𝑟𝑖𝑣𝑒𝑛 𝐴𝑝𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠 (𝑀𝑦𝑆𝑄𝐿, 𝑀𝑜𝑛𝑔𝑜𝐷𝐵)
 - 𝐹𝑟𝑜𝑛𝑡𝑒𝑛𝑑 𝐼𝑛𝑡𝑒𝑔𝑟𝑎𝑡𝑖𝑜𝑛, 𝐶𝑙𝑜𝑢𝑑 & 𝐷𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡 𝐵𝑎𝑠𝑖𝑐𝑠
@@ -57,15 +59,11 @@
 </div>
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
-
 <div align="center">
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10"/>
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=G1thub-05&theme=tokyonight&hide_border=true&border_radius=10"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=10"/>
 </div>
-
-
-
 
 ## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
 
@@ -81,7 +79,6 @@
 
 
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
-
 <div align="center">
 <img width="85%" src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&row=1&column=6"/>
 </div>
