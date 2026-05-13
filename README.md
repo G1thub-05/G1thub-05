@@ -46,9 +46,9 @@
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=G1thub-05&style=for-the-badge&color=orange"/>
+<img src="https://komarev.com/ghpvc/?username=G1thub-05&style=for-the-badge&color=orange"/> -->
 
-</div> -->
+</div>
 
 
 
