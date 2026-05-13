@@ -37,8 +37,8 @@
 
 ## 🚀 Featured Projects
 
-### 🛒 E-Commerce Platform
-- Spring Boot + React based scalable ecommerce app
+### 🛒 Online Food Ordering System
+- Spring Boot + React based scalable Food Ordering app
 - JWT Authentication & Role-Based Access
 - Razorpay/Stripe Integration
 - REST APIs + MySQL
@@ -54,19 +54,6 @@
 - Responsive React frontend
 - MongoDB + Spring Boot backend
 
-## 🛠 Tech Stack
-
-### Backend
-Java • Spring Boot • Spring Security • JWT • REST APIs • Microservices
-
-### Frontend
-React • Next.js • Tailwind CSS
-
-### Database
-MySQL • MongoDB
-
-### DevOps & Cloud
-Docker • AWS • Jenkins • Render
   
 ## 🕸️ 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘:
 
