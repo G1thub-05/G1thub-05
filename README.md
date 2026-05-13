@@ -111,10 +111,12 @@
 
 
 
-## 📊 3D Contribution Graph
+## 📈 Contribution Activity
 <div align="center">
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=8"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=react-dark&hide_border=true&area=true"/>
 </div>
+
+
 
 
 
