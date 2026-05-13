@@ -65,8 +65,17 @@
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=10"/>
 </div>
 
-## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
 
+## ⚙️ Github Analytics
+<div align="center">
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=tokyonight&hide_border=true&border_radius=12"/>
+<br><br>
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&border_radius=12"/>
+</div>
+
+
+## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
 <div align="center">
 
 | Learning | Building | Improving |
