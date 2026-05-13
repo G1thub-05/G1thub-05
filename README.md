@@ -12,7 +12,7 @@
 
 <br/>
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
     <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
   </a>
@@ -26,7 +26,7 @@
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square" alt="Profile views" />
-</div>
+</div> -->
 
 
 
