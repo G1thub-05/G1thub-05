@@ -67,7 +67,6 @@
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
-
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"/>
@@ -85,46 +84,7 @@
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af"/>
 </a>
-
 </div>
-```
-
-
-
-## 🔥 𝑀𝑜𝑠𝑡 𝑈𝑠𝑒𝑑 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠
-
-<div align="left" width="100%">
-
-<!-- Light Mode -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="60%" height="140em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true&hide_title=true&title_color=00c6ff&text_color=24292f&bg_color=ffffff&langs_count=10"/>
-</a>
-
-<!-- Dark Mode -->
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="60%" height="140em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=radical&hide_border=true&hide_title=true&title_color=ff512f&text_color=ffffff&bg_color=0d1117&langs_count=10"/>
-</a>
-
-</div>
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## 🎯  𝐶𝑢𝑟𝑟𝑒𝑛𝑡 𝐹𝑜𝑐𝑢𝑠
