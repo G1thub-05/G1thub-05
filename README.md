@@ -99,6 +99,21 @@
 
 
 ## 🔥 𝑀𝑜𝑠𝑡 𝑈𝑠𝑒𝑑 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" height="180em" align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=radical&hide_border=true&hide_title=true&title_color=ff003c&text_color=ffffff&bg_color=0d1117&langs_count=10" />
+</a>
+
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" height="180em" align="left" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true&hide_title=true&title_color=ff003c&text_color=24292f&bg_color=ffffff&langs_count=10" />
+</a>
+
+
+
+
+
+
 <div align="center">
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
