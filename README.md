@@ -35,7 +35,38 @@
   
 𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔 𝑠𝑘𝑖𝑙𝑙𝑠 𝑖𝑛 **𝑠𝑦𝑠𝑡𝑒𝑚 𝑑𝑒𝑠𝑖𝑔𝑛, 𝑚𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠, 𝑎𝑛𝑑 𝑐𝑙𝑜𝑢𝑑 𝑑𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡**.
 
+## 🚀 Featured Projects
 
+### 🛒 E-Commerce Platform
+- Spring Boot + React based scalable ecommerce app
+- JWT Authentication & Role-Based Access
+- Razorpay/Stripe Integration
+- REST APIs + MySQL
+- Dockerized deployment
+
+🔗 Live Demo | 🔗 Backend Repo | 🔗 Frontend Repo
+
+---
+
+### 💬 Real-Time Chat Application
+- WebSocket based messaging system
+- Secure authentication using JWT
+- Responsive React frontend
+- MongoDB + Spring Boot backend
+
+## 🛠 Tech Stack
+
+### Backend
+Java • Spring Boot • Spring Security • JWT • REST APIs • Microservices
+
+### Frontend
+React • Next.js • Tailwind CSS
+
+### Database
+MySQL • MongoDB
+
+### DevOps & Cloud
+Docker • AWS • Jenkins • Render
   
 ## 🕸️ 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘:
 
