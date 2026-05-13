@@ -138,6 +138,8 @@ I enjoy developing efficient, secure, and user-focused applications with strong 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B35,100:F7931E&height=220&section=header&text=𝐷𝑖𝑔𝑒𝑠ℎ𝑤𝑎𝑟&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟&descAlignY=55"/>
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EA580C&height=260&section=header&text=Digeshwar&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20Full%20Stack%20Developer&descAlignY=58&descSize=18"/>
+
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
@@ -222,6 +224,7 @@ I enjoy developing efficient, secure, and user-focused applications with strong 
 ### ⚡ Code • Build • Scale • Repeat
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F7931E,100:FF6B35&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:EA580C,100:F97316&height=120&section=footer"/>
 
 </div>
 
