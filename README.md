@@ -1,18 +1,10 @@
-
-
-
 <div align="center">
 
    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝙹𝚊𝚟𝚊%20𝙵𝚞𝚕𝚕%20𝚂𝚝𝚊𝚌𝚔%20𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛&descAlignY=58&descSize=18"/>
-
-  
       
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
    </div>
-   
-   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=F97316&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
-
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
 
