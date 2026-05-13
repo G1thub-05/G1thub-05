@@ -88,48 +88,6 @@ Passionate 𝐽𝑎𝑣𝑎 𝐹𝑢𝑙𝑙 𝑆𝑡𝑎𝑐𝑘 𝐷𝑒𝑣�
 
 ---
 
-# 🍔 Featured Project — Food Ordering System
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Project-Food%20Ordering%20System-orange?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge"/>
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-### ⚡ Features
-
-✅ JWT Authentication  
-✅ Role-Based Access  
-✅ Restaurant Management  
-✅ Cart & Checkout  
-✅ Payment Integration  
-✅ Order Tracking  
-✅ Responsive UI  
-
-</td>
-
-<td align="center" width="50%">
-
-### 🛠 Built With
-
-☕ Spring Boot  
-⚛️ React.js  
-🗄️ MySQL  
-🔐 Spring Security  
-🐳 Docker  
-☁️ AWS  
-
-</td>
-</tr>
-</table>
-
----
 
 # 🧰 Tech Stack
 
