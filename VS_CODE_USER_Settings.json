@@ -1,8 +1,39 @@
 {
 	// "vscode_custom_css.imports": [
-	// 	"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+	//  "file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
 	//  "file:///C:/Users/devdigeshwar/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
 	// ],
+
+	// ✨ Animation Setting
+	// "animations.Install-Method": "Custom CSS and JS",
+	// "animations.Custom-CSS": true,
+	// "animations.Active": "Scale",
+	// "animations.CursorAnimation": true,
+	// "animations.Command-Palette": "Slide",
+	// "animations.Scrolling": "Slide",
+	// "animations.Enabled": true,
+	// "animations.UseCursorColorForCursorAnimation": true,
+	// "animations.Tabs": "Slide",
+	// "animations.CursorAnimationOptions": {
+	// 	"Color": "#00ffff",
+	// 	"CursorStyle": "line",
+	// 	"TrailLength": 50,
+	// },
+
+	// 🔏 Bakcground Realted Setting
+	// "background.enabled": true,
+	// "background.statusbar": {}, // Inside this paste same code as full screen
+	// "background.sidebar": {}, // Inside (Sidebar)this paste same code as full screen
+	// "background.panel": {}, // Inside (Terminal) this paste same code as full screen
+	// "background.fullscreen": {
+	// 	"images": [
+	// 		"https://img.freepik.com/premium-photo/laptop-cup-coffee-are-table-with-blue-background_337384-159390.jpg",
+	// 	],
+	// 	"opacity": 0.07,
+	// 	"size": "cover",
+	// 	"position": "center",
+	// 	"interval": 0,
+	// },
 
 	// 🪪 Workbench Related Setting
 	"workbench.iconTheme": "vscode-icons",
@@ -74,39 +105,19 @@
 	"code-runner.saveFileBeforeRun": true,
 	"code-runner.clearPreviousOutput": true,
 
-	// ✨ Animation Setting
-	// "animations.Install-Method": "Custom CSS and JS",
-	// "animations.Custom-CSS": true,
-	// "animations.Active": "Scale",
-	// "animations.CursorAnimation": true,
-	// "animations.Command-Palette": "Slide",
-	// "animations.Scrolling": "Slide",
-	// "animations.Enabled": true,
-	// "animations.UseCursorColorForCursorAnimation": true,
-	// "animations.Tabs": "Slide",
-	// "animations.CursorAnimationOptions": {
-	// 	"Color": "#00ffff",
-	// 	"CursorStyle": "line",
-	// 	"TrailLength": 50,
-	// },
-
-	// 🔏 Bakcground Realted Setting
-	// "background.enabled": true,
-	// "background.statusbar": {}, // Inside this paste same code as full screen
-	// "background.sidebar": {}, // Inside (Sidebar)this paste same code as full screen
-	// "background.panel": {}, // Inside (Terminal) this paste same code as full screen
-	// "background.fullscreen": {
-	// 	"images": ["https://img.freepik.com/premium-photo/laptop-cup-coffee-are-table-with-blue-background_337384-159390.jpg"],
-	// 	"opacity": 0.07,
-	// 	"size": "cover",
-	// 	"position": "center",
-	// 	"interval": 0,
-	// },
-
 	// Misclenious Related Setting
 	"fileTreeExtractor.showFileSize": true,
 	"fileTreeExtractor.useFileIcons": true,
 	"fileTreeExtractor.ignoredBy": "both",
+	"fileTreeExtractor.indent": 4,
+	"fileTreeExtractor.sortOrder": "type",
+	"fileTreeExtractor.ignoredItems": [
+		".git",
+		"node_modules",
+		"*.log",
+		".DS_Store",
+		"tmp",
+	],
 
 	"sqldeveloper.telemetry.enabled": true,
 	"sqldeveloper.sqlHistory.historyLimit": 500,
@@ -117,13 +128,10 @@
 
 	"notebook.defaultFormatter": "esbenp.prettier-vscode",
 	"notebook.formatOnSave.enabled": true,
-
 	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
-
 	"less.lint.unknownAtRules": "ignore",
 	"less.lint.unknownProperties": "ignore",
-
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
 
@@ -195,6 +203,9 @@
 	},
 
 	// ✏️ Editor Setting
+
+	"editor.cursorSurroundingLines": 3,
+	"editor.cursorSurroundingLinesStyle": "all",
 	"editor.wordWrap": "on",
 	"editor.columnSelection": false,
 	"editor.renderWhitespace": "boundary",
@@ -650,4 +661,5 @@
 			},
 		],
 	},
+	"workbench.settings.alwaysShowAdvancedSettings": true,
 }
