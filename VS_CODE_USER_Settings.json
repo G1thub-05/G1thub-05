@@ -35,6 +35,16 @@
 	// 	"interval": 0,
 	// },
 
+	// 🔥Power Mode Setting
+	// "powermode.enabled": false,
+	// "powermode.combo.counterEnabled": "hide",
+	// "powermode.combo.counterSize": 0,
+	// "powermode.combo.timerEnabled": "hide",
+	// "powermode.shake.intensity": 2,
+	// "powermode.shake.enabled": false,
+	// "powermode.presets": "flames",
+	// "powermode.explosions.backgroundMode": "image",
+
 	// 🪪 Workbench Related Setting
 	"workbench.iconTheme": "vscode-icons",
 	"workbench.startupEditor": "none",
@@ -62,16 +72,6 @@
 		"*.copilotmd": "vscode.markdown.preview.editor",
 		"*.svg": "default",
 	},
-
-	// 🔥Power Mode Setting
-	"powermode.enabled": false,
-	"powermode.combo.counterEnabled": "hide",
-	"powermode.combo.counterSize": 0,
-	"powermode.combo.timerEnabled": "hide",
-	"powermode.shake.intensity": 2,
-	"powermode.shake.enabled": false,
-	"powermode.presets": "flames",
-	"powermode.explosions.backgroundMode": "image",
 
 	// 🪟 Windows Related Setting
 	"window.newWindowProfile": "Default",
