@@ -4,6 +4,17 @@
 	//  "file:///C:/Users/devdigeshwar/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
 	// ],
 
+	// ✨ ScreenCast Setting
+	"workbench.settings.alwaysShowAdvancedSettings": true,
+	"window.newWindowProfile": "Default",
+	"editor.mouseWheelZoom": true,
+	"screencastMode.fontSize": 20,
+	"screencastMode.keyboardOptions": {
+		"showCommandGroups": true,
+		"showKeys": false,
+		"showCommands": false,
+	},
+
 	// ✨ Animation Setting
 	// "animations.Install-Method": "Custom CSS and JS",
 	// "animations.Custom-CSS": true,
