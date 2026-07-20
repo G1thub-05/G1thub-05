@@ -1,0 +1,66 @@
+🛡️ How to Push Your Folder in Github 🤔❓
+
+1. Prerequisites — Don’t skip these
+
+	You must have:
+
+		• Git installed locally (Linux/Windows/macOS) and accessible from your terminal
+		• A GitHub account
+		• A repository created on GitHub where you will push this folder
+______________________________________________________________________________________________________
+
+2. OPTION 1 (EASIEST – NO COMMANDS)
+
+	- Open your GitHub repo and click add file → Upload files
+	- Drag your folder and click commit changes
+	- This works, but this is not real Git usage. Fine for beginners
+
+3. OPTION 2 (BEST & CORRECT WAY)
+
+    Step 1: Create repository on GitHub
+
+        - Open https://github.com
+        - Click New repository
+        - Give repo name and click create repository
+        - Do NOT add README, .gitignore, license
+
+    Step 2: Open folder on your computer
+        - C:\Users\You\Desktop\MyFolder
+        - Right-click inside the folder → Open Terminal / Command Prompt
+______________________________________________________________________________________________________
+
+git remote -v                                             → Check connected remote repositories
+git remote remove origin                                  → Remove old remote
+git remote add origin YOUR_NEW_REPO_URL                   → Add new gitHub remote repository
+git remote add origin https://github.com/G1thub-05/Online-Food-Ordering-System.git
+
+git init                                                  → Initialize git repository (once per repository)
+git config --global user.email "mr.digeshwar05@gmail.com" → Set git email (commit author email)
+git config --global user.name "Digeshwar"                 → Set git username (commit author name)
+git status                                                → Check repository status (only changed files)
+git ls-files | findstr assets                             → Checking what Git is tracked/uploading
+git rm -r --cached "docs"                                 → Optional remove tracked docs folder from Git
+git add .                                                 → Prepare changes
+git commit -m "first commit"                              → Commit changes locally
+git branch -m main                                        → Rename current branch to main.
+git branch -M main                                        → Force rename current branch, Even if branch already exists
+git push -u origin main                                   → First push to GitHub (connect branch + upload)
+git push                                                  → Future pushes (upload)
+
+git reset --soft HEAD~1                                   → Only remove commit history entry.
+git checkout --orphan clean-main                          → Creates a brand new branch (files remain but git history empty)
+git log                                                   → Shows commit history (commits, commit IDs, author, )
+git branch -D main                                        → Deletes branch forcefully.
+
+git config --global --list                                → Verify current settings
+git config --global http.postBuffer 524288000             → Configure Large Upload Support (500 MB)
+git config --global --unset http.postBuffer               → Reset postBuffer
+git config --global core.compression 0                    → Disables compression
+git config --global --unset core.compression              → Reset compression
+git config --global http.lowSpeedLimit 0                  → Don't cancel for slow upload speed
+git config --global http.lowSpeedTime 999999              → Give very long timeout to Git before Git gives up
+git config --global --unset http.lowSpeedLimit            → Reset lowSpeedLimit
+git config --global --unset http.lowSpeedTime             → Reset lowSpeedTime
+
+git config --global --unset credential.helper             → Removes existing credential manager.
+git config --global credential.helper manager             → Restore Git Credential Manager
