@@ -175,6 +175,7 @@
   />
 </a>
 
+<!--
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 <div align="center">
 <img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8" alt="𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠"/>
@@ -183,6 +184,8 @@
 ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
 <div align="center">
 <!-- Light Mode -->
+
+<!--
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"
     alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
@@ -195,6 +198,7 @@
 </a>
 
 <!-- Dark Mode -->
+<!--
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"
     alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
@@ -207,35 +211,48 @@
 </a>
 </div>
 
-
+<!-- 
  ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
 <div align="center">
+
 <!-- Light -->
+<!--
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠"/>
 </a>
 
+
 <!-- Dark -->
+<!--
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠">
 </a>
 </div>
 
+
+<!-- 
 ## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 <div align="center">
 <!-- Light Mode -->
+
+<!-- 
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
 </a>
 
+
 <!-- Dark Mode -->
+<!-- 
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
 </a>
-</div>
+</div> 
 
+
+
+<!-- Footer -->
 <div align="center">
 <!-- Light Mode Footer -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
