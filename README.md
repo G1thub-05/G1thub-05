@@ -136,18 +136,26 @@
 <div align="center">
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"
+    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github"
+    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"
+    alt="𝑆𝑡𝑎𝑡𝑠"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"
+    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
 </a>
 
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github_dark"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"
+    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github_dark"
+    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"
+    alt="𝑆𝑡𝑎𝑡𝑠"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"
+    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
 </a>
 </div>
 
