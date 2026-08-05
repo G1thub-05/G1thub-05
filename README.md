@@ -114,11 +114,11 @@
 <div align="center">
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"/>
+  <img width="48%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠"/>
 </a>
 
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280"/>
+  <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠"/>
 </a>
 
 <!-- Dark Mode -->
@@ -151,20 +151,35 @@
 </a>
 </div>
 
-# Contribution Activity
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=tokyo-night"/>
-</p>
+# 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=github-light&hide_border=true"
+    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦"
+  />
+</a>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=tokyo-night&hide_border=true"
+    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦""
+  />
+</a>
 
 ## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 <div align="center">
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
 </a>
 
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark"/>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
 </a>
 </div>
