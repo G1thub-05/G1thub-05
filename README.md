@@ -130,10 +130,7 @@
   </picture>
 </p>
 
-## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8" alt="𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠"/>
-</div>
+
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
@@ -155,6 +152,32 @@
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="48%" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af"/>
 </a>
+</div>
+
+
+## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=github-light&hide_border=true"
+    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦"
+  />
+</a>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=tokyo-night&hide_border=true"
+    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦"
+  />
+</a>
+
+## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=G1thub-05&theme=algolia&no-frame=true&no-bg=true&margin-w=10&margin-h=10&row=1&column=8" alt="𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠"/>
 </div>
 
 ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
@@ -184,40 +207,21 @@
 </a>
 </div>
 
-<!--  ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
+
+ ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
 <div align="center">
 <!-- Light -->
-<!-- <a href="https://github.com/G1thub-05#gh-light-mode-only">
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠"/>
-</a> -->
+</a>
 
 <!-- Dark -->
-<!--  <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠">
 </a>
-</div> -->
-
-## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
-
-<!-- Light Mode -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=github-light&hide_border=true"
-    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦"
-  />
-</a>
-
-<!-- Dark Mode -->
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=G1thub-05&theme=tokyo-night&hide_border=true"
-    alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦"
-  />
-</a>
+</div>
 
 ## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 <div align="center">
