@@ -17,3 +17,6 @@ fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round" filter="ur
 <text x="40" y="35" font-size="24" fill="#0072ff" font-family="Segoe UI">⚡ Glowing Snake • Light</text>
 <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
 </svg>''')
+open('/mnt/data/glowing-snake-light.svg','w').write(light)
+open('/mnt/data/glowing-snake-dark.svg','w').write(dark)
+print("done")
