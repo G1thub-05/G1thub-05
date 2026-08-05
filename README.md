@@ -27,6 +27,9 @@
    <div align="center">
      <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
        <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
+     </a> 
+     <a href="https://gitlab.com/G1tlab-05" style="text-decoration:none; border:none;">
+       <img src="https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=white" alt="GitLab" />
      </a>
      <a href="https://linkedin.com/in/mr-digeshwar05" style="text-decoration:none; border:none;">
        <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -203,5 +206,17 @@
 <!-- Dark Mode -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
+</a>
+</div>
+
+<div align="center">
+<!-- Light Mode Footer -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"/>
+</a>
+
+<!-- Dark Mode Footer -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"/>
 </a>
 </div>
