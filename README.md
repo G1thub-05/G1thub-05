@@ -158,6 +158,21 @@
 </a>
 </div>
 
+## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
+<div align="center">
+<!-- Light -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠"/>
+</a>
+
+<!-- Dark -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true" alt="𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑠𝑡𝑖𝑐𝑠"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true" alt="𝑇𝑜𝑝 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒𝑠">
+</a>
+</div>
+
 # 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
 
 <!-- Light Mode -->
