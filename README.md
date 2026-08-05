@@ -130,6 +130,14 @@
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/glowing-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/glowing-snake-light.svg">
+    <img src="./assets/glowing-snake-light.svg" alt="Glowing Snake"/>
+  </picture>
+</p>
+
 
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
