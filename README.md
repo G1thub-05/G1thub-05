@@ -173,7 +173,7 @@
 </a>
 </div>
 
-# 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
 
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
