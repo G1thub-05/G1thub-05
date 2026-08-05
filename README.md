@@ -85,7 +85,7 @@
 
 ## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 <div align="center">
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,gitlab,html,css,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,vscode,linux,postman,swagger,jira,render&perline=20" />
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,mongodb,firebase,aws,git,github,gitlab,html,css,javascript,react,angular,nextjs,nodejs,express,docker,kubernetes,jenkins,tailwind,bootstrap,vercel,vscode,linux,postman,swagger,jira,render&perline=13" />
 </div>
 
 
