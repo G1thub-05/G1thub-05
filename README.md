@@ -86,8 +86,7 @@
 </div>
 
 
-## 🐍 Contribution Snake :+1:
-
+## 🐍 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝑆𝑛𝑎𝑘𝑒
 <p align="center">
   <picture>
     <source
