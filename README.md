@@ -131,6 +131,30 @@
 </a>
 </div>
 
+
+
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"
+    />
+  </picture>
+</p>
+
+
+
 ## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 <div align="center">
 <!-- Light Mode -->
