@@ -13,12 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@master
         with:
           github_user_name: G1thub-05
-          # outputs: |
-          #   dist/github-snake.svg
-          #   dist/github-snake-dark.svg?palette=github-dark
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%2300c6ff
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
