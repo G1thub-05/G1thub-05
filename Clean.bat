@@ -124,10 +124,31 @@ echo.
 color 0B
 
 REM =========================================================
-REM 5. RECYCLE BIN
+REM 5. DNS CACHE
 REM =========================================================
 
-echo  [5/6]  RECYCLE BIN: Emptying deleted files...
+echo  [5/6]  DNS CACHE: Flushing DNS resolver cache...
+echo.
+
+ipconfig /flushdns >nul 2>&1
+
+if not errorlevel 1 (
+    color 0A
+    echo         [OK] DNS Cache flushed.
+    set "DNS_STATUS=FLUSHED [OK]"
+) else (
+    color 0C
+    echo         [!] DNS Cache could not be flushed.
+    set "DNS_STATUS=FAILED [!]"
+)
+
+echo.
+
+REM =========================================================
+REM 6. RECYCLE BIN
+REM =========================================================
+
+echo  [6/6]  RECYCLE BIN: Emptying deleted files...
 echo.
 
 powershell -NoProfile -Command ^
@@ -154,26 +175,7 @@ echo.
 color 0B
 
 
-REM =========================================================
-REM 6. DNS CACHE
-REM =========================================================
 
-echo  [6/6]  DNS CACHE: Flushing DNS resolver cache...
-echo.
-
-ipconfig /flushdns >nul 2>&1
-
-if not errorlevel 1 (
-    color 0A
-    echo         [OK] DNS Cache flushed.
-    set "DNS_STATUS=FLUSHED [OK]"
-) else (
-    color 0C
-    echo         [!] DNS Cache could not be flushed.
-    set "DNS_STATUS=FAILED [!]"
-)
-
-echo.
 
 
 REM =========================================================
@@ -191,8 +193,9 @@ echo  [1] User TEMP              : %TEMP_STATUS%
 echo  [2] Windows TEMP           : %WINDOWS_TEMP_STATUS%
 echo  [3] Windows Error Reports  : %WER_STATUS%
 echo  [4] Thumbnail Cache        : %THUMBNAIL_STATUS%
-echo  [5] Recycle Bin            : %RECYCLE_STATUS%
-echo  [6] DNS Cache              : %DNS_STATUS%
+echo  [5] DNS Cache              : %DNS_STATUS%
+echo  [6] Recycle Bin            : %RECYCLE_STATUS%
+
 echo.
 echo  ────────────────────────────────────────────────────────────────────────────────
 echo          Some files may remain because Windows is currently using them.
