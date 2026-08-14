@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal EnableDelayedExpansion
 title Windows Cleaner Pro
 color 0B
-
+mode con: cols=120 lines=100
 cls
 
 REM =========================================================
