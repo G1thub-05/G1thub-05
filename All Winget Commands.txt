@@ -34,6 +34,7 @@ Here is the complete list of all WinGet commands you can use in the Windows Comm
 | winget upgrade --all --silent             | Updates all apps silently in the background.                 |
 | winget install <app> --interactive        | Shows the normal setup wizard window during install.         |
 | winget pin add <app>                      | Locks an app to its current version so it won't auto-update. |
+| winget upgrade --id Microsoft.PowerShell  | Direct update command                                        |
 +-------------------------------------------+--------------------------------------------------------------+
 
 Would you like to know how to create a one-click desktop shortcut to update all your apps, or do you need help fixing an error with a specific WinGet command...? 
