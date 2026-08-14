@@ -1,8 +1,22 @@
 {
-	// "vscode_custom_css.imports": [
-	//  "file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
-	//  "file:///C:/Users/devdigeshwar/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css",
-	// ],
+	"vscode_custom_css.imports": [
+		"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+	],
+
+	"java.codeGeneration.useBlocks": true,
+	"java.import.maven.enabled": true,
+	"java.configuration.updateBuildConfiguration": "automatic",
+
+	"[java]": {
+		"editor.codeActionsOnSave": {
+			"source.addMissingImports": "always", // Add missing imports on save
+			"source.organizeImports": "explicit", // Organize imports on save
+		},
+		"editor.defaultFormatter": "redhat.java", // Use Red Hat Java extension for formatting
+		"editor.formatOnSave": true, // Enable format on save for Java files
+	},
+
+	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" }, // Use built-in HTML formatter
 
 	// ✨ ScreenCast Setting
 	"workbench.settings.alwaysShowAdvancedSettings": true,
@@ -12,24 +26,24 @@
 	"screencastMode.keyboardOptions": {
 		"showCommandGroups": true,
 		"showKeys": false,
-		"showCommands": false,
+		"showCommands": true,
 	},
 
 	// ✨ Animation Setting
-	// "animations.Install-Method": "Custom CSS and JS",
-	// "animations.Custom-CSS": true,
-	// "animations.Active": "Scale",
-	// "animations.CursorAnimation": true,
-	// "animations.Command-Palette": "Slide",
-	// "animations.Scrolling": "Slide",
-	// "animations.Enabled": true,
+	"animations.Install-Method": "Custom CSS and JS",
+	"animations.Custom-CSS": true,
+	"animations.Active": "Scale",
+	"animations.CursorAnimation": true,
+	"animations.Command-Palette": "Slide",
+	"animations.Scrolling": "Slide",
+	"animations.Enabled": true,
 	// "animations.UseCursorColorForCursorAnimation": true,
-	// "animations.Tabs": "Slide",
-	// "animations.CursorAnimationOptions": {
-	// 	"Color": "#00ffff",
-	// 	"CursorStyle": "line",
-	// 	"TrailLength": 30,
-	// },
+	"animations.Tabs": "Slide",
+	"animations.CursorAnimationOptions": {
+		"Color": "#ffffff",
+		"CursorStyle": "line",
+		"TrailLength": 30,
+	},
 
 	// 🔏 Bakcground Realted Setting
 	// "background.enabled": true,
@@ -57,23 +71,68 @@
 	// "powermode.explosions.backgroundMode": "image",
 
 	// 🪪 Workbench Related Setting
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.iconTheme": "mishu-icons",
 	"workbench.startupEditor": "none",
-	"workbench.statusBar.visible": true,
 	"workbench.editor.highlightModifiedTabs": true,
-	"workbench.activityBar.location": "top",
 	"workbench.list.smoothScrolling": true,
 	"workbench.preferredDarkColorTheme": "Visual Studio Dark",
 	"workbench.preferredHighContrastLightColorTheme": "Tinacious Design (High Contrast)",
 	"workbench.colorTheme": "Tinacious Design (High Contrast)",
 	"workbench.colorCustomizations": {
-		"terminal.background": "#0f0f1f", // for transparent  use"#00000000",
+		"terminal.background": "#0f0f1f",
 		"statusBar.background": "#0f0f1f",
 		"statusBar.foreground": "#ffffff",
 		"editor.selectionForeground": "#ffffff",
 		"editor.inactiveSelectionBackground": "#264f7840",
 		"editor.selectionBackground": "#fdfdfd41",
 		"editor.selectionHighlightBackground": "#0078d440",
+		"activityBar.activeBorder": "#1776b6",
+		"activityBar.activeFocusBorder": "#1776b6",
+		"activityBarBadge.background": "#1776b6",
+		"badge.background": "#1776b6",
+		"breadcrumb.focusForeground": "#1776b6",
+		"button.background": "#1776b6",
+		"button.hoverBackground": "#1776b6",
+		// "checkbox.background": "#1776b6",
+		"editorCursor.foreground": "#1776b6",
+		"editor.findMatchBackground": "#1776b640",
+		"editor.findMatchBorder": "#1776b6",
+		"editor.findMatchHighlightBackground": "#1776b620",
+		"editor.findMatchHighlightBorder": "#1776b640",
+		"editorSuggestWidget.selectedBackground": "#1776b633",
+		"editorWidget.focusBorder": "#1776b6",
+		"extensionButton.prominentBackground": "#1776b6",
+		"focusBorder": "#1776b660",
+		"input.activeBorder": "#1776b6",
+		"inputOption.activeBorder": "#1776b660",
+
+		// "list.activeSelectionBackground": "#1776b633",
+		"list.highlightForeground": "#1776b6",
+		"list.activeSelectionBackground": "#1776b6",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.inactiveSelectionBackground": "#3A3D41",
+		"list.inactiveSelectionForeground": "#FFFFFF",
+
+		"menu.selectionBackground": "#1776b633",
+		"minimap.findMatchHighlight": "#1776b660",
+		"notificationLink.foreground": "#1776b6",
+		"panel.activeBorder": "#1776b6",
+		"panelTitle.activeBorder": "#1776b6",
+		"peekView.border": "#1776b660",
+		"peekViewEditor.matchHighlightBackground": "#1776b630",
+		"progressBar.background": "#1776b6",
+		"scrollbarSlider.activeBackground": "#1776b666",
+		"settings.modifiedItemIndicator": "#1776b6",
+		"sideBar.activeSelectionBackground": "#1776b633",
+		"sideBar.activeSelectionForeground": "#1776b6",
+		"sideBarSectionHeader.border": "#1776b630",
+		"statusBarItem.remoteBackground": "#1776b6",
+		"statusBarItem.remoteForeground": "#12141a",
+		"tab.activeBorderTop": "#1776b6",
+		"tab.activeModifiedBorder": "#1776b6",
+		"textLink.activeForeground": "#1776b6",
+		"textLink.foreground": "#1776b6",
+		"widget.border": "#1776b630",
 	},
 
 	"workbench.settings.applyToAllProfiles": [
@@ -83,10 +142,6 @@
 		"*.copilotmd": "vscode.markdown.preview.editor",
 		"*.svg": "default",
 	},
-
-	// 🪟 Windows Related Setting
-	"window.newWindowProfile": "Default",
-	"window.menuBarVisibility": "toggle",
 	"window.confirmBeforeClose": "always",
 	"window.density.editorTabHeight": "compact",
 	"window.dialogStyle": "custom",
@@ -97,7 +152,6 @@
 	"files.trimTrailingWhitespace": true,
 	"files.autoSaveWhenNoErrors": true,
 	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 0,
 
 	// 🪪 Terminal Related Setting
 	"terminal.integrated.fontFamily": "monospace",
@@ -115,6 +169,7 @@
 	"code-runner.saveAllFilesBeforeRun": true,
 	"code-runner.saveFileBeforeRun": true,
 	"code-runner.clearPreviousOutput": true,
+	"code-runner.runInTerminal": true,
 
 	// Misclenious Related Setting
 	"fileTreeExtractor.showFileSize": true,
@@ -143,12 +198,8 @@
 	"explorer.confirmDelete": false,
 	"less.lint.unknownAtRules": "ignore",
 	"less.lint.unknownProperties": "ignore",
-	"gitlens.ai.model": "vscode",
-	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
 
 	"gradle.javaDebug.cleanOutput": true,
-	"vsicons.dontShowNewVersionMessage": true,
-	"java.codeGeneration.useBlocks": true,
 	"liveServer.settings.donotShowInfoMsg": true,
 
 	"redhat.telemetry.enabled": true,
@@ -214,7 +265,9 @@
 	},
 
 	// ✏️ Editor Setting
-
+	"editor.suggest.insertMode": "insert",
+	"editor.acceptSuggestionOnCommitCharacter": false,
+	"editor.acceptSuggestionOnEnter": "off",
 	"editor.cursorSurroundingLines": 3,
 	"editor.cursorSurroundingLinesStyle": "all",
 	"editor.wordWrap": "on",
@@ -225,7 +278,9 @@
 	"editor.fontLigatures": " 'calt', 'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
 	"editor.formatOnSave": true,
 	"editor.cursorSmoothCaretAnimation": "on",
-	"editor.codeActionsOnSave": {},
+	"editor.codeActionsOnSave": {
+		"source.addMissingImports": "always",
+	},
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.dropIntoEditor.preferences": [],
 	"editor.minimap.maxColumn": 0,
@@ -241,11 +296,7 @@
 	"editor.minimap.enabled": false,
 	"editor.minimap.scale": 1,
 	"editor.formatOnPaste": true,
-	"editor.formatOnType": true,
 	"editor.smoothScrolling": true,
-	"editor.cursorSurroundingLinesStyle": "all",
-	"[java]": { "editor.defaultFormatter": "redhat.java" },
-	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
 
 	"editor.tokenColorCustomizations": {
 		"[*Light*]": {
@@ -307,7 +358,7 @@
 			{
 				"scope": "storage.modifier.java",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -356,7 +407,7 @@
 			{
 				"scope": "storage.type.annotation.java",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -407,7 +458,7 @@
 			{
 				"scope": "keyword.control.import.java",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -517,7 +568,7 @@
 			{
 				"scope": "storage.modifier.java.tomcat",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -566,7 +617,7 @@
 			{
 				"scope": "storage.type.annotation.java.tomcat",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -617,7 +668,7 @@
 			{
 				"scope": "keyword.control.import.java.tomcat",
 				"settings": {
-					"foreground": "#569CD6",
+					"foreground": "#1776b6",
 					"fontStyle": "",
 				},
 			},
@@ -670,7 +721,42 @@
 					"fontStyle": "italic",
 				},
 			},
+			{
+				"scope": ["comment", "punctuation.definition.comment"],
+				"settings": {
+					"fontStyle": "",
+				},
+			},
 		],
 	},
-	"workbench.settings.alwaysShowAdvancedSettings": true,
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"rsp-ui.enableStartServerOnActivation": [
+		{
+			"id": "redhat.vscode-community-server-connector",
+			"name": "Community Server Connector",
+			"startOnActivation": true,
+		},
+	],
+	"terminal.integrated.profiles.windows": {
+		"PowerShell": {
+			"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+		},
+		"Command Prompt": {
+			"path": [
+				"${env:windir}\\Sysnative\\cmd.exe",
+				"${env:windir}\\System32\\cmd.exe",
+			],
+			"args": [],
+			"icon": "terminal-cmd",
+		},
+		"Git Bash": {
+			"source": "Git Bash",
+			"icon": "terminal-git-bash",
+		},
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"dbcode.connections": [],
+	"workbench.activityBar.location": "top",
+	"code-runner.showExecutionMessage": false,
+	"workbench.statusBar.visible": false,
 }
