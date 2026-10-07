@@ -46,3 +46,8 @@ That's it for sharing.
 Terminal Tab 3: npm run dev       → 👉 You'll get: http://localhost:5173
 Terminal Tab 4: npx cloudflared tunnel --url http://localhost:5173
 👉 You'll get frontend public URL: https://yyyyy.trycloudflare.com
+
+
+
+
+
