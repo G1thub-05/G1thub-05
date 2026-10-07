@@ -1,0 +1,48 @@
+Go to vite.config.js
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+// https://vite.dev/config/
+export default defineConfig({
+	plugins: [react()],
+	server: {
+		host: true,
+		allowedHosts: true,
+	},
+});
+
+
+## Using ngrok
+_____________________________________________________________________________________________________________
+
+Run your Spring Boot application normally from IntelliJ/Eclipse, or: 
+Terminal Tab 1: ./mvnw spring-boot:run → 👉 You'll get: http://localhost:8080
+Terminal Tab 2: ngrok http 8080        → 👉 You'll get: https://yyyyy.ngrok-free.app
+
+If React currently has: http://localhost:8080
+Change it to your backend ngrok URL: https://yyyyy.ngrok-free.app
+For example: axios.get("https://yyyyy.ngrok-free.app/api/users")
+
+That's it for React-only sharing.
+Terminal Tab 3: npm run dev       → 👉 You'll get: http://localhost:5173
+Terminal Tab 4: ngrok http 5173   → 👉 You'll get frontend public URL: https://....ngrok-free.app
+
+
+
+## Using cloudflared 
+_____________________________________________________________________________________________________________
+
+Run your Spring Boot application normally from IntelliJ/Eclipse, or: 
+Terminal Tab 1: ./mvnw spring-boot:run → 👉 You'll get: http://localhost:8080
+Terminal Tab 2: npx cloudflared tunnel --url http://localhost:8080
+👉 You'll get: https://xxxxx.trycloudflare.com
+
+If React currently has: http://localhost:8080
+Change it to your backend Cloudflare URL: https://xxxxx.trycloudflare.com
+For example: axios.get("https://xxxxx.trycloudflare.com/api/users")
+
+That's it for sharing.
+Terminal Tab 3: npm run dev       → 👉 You'll get: http://localhost:5173
+Terminal Tab 4: npx cloudflared tunnel --url http://localhost:5173
+👉 You'll get frontend public URL: https://yyyyy.trycloudflare.com
