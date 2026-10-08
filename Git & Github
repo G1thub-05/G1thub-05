@@ -103,31 +103,6 @@
 		git show --stat                                             → Shows the commit information plus a summary of changed files, without the full diff.
 		git show --name-only                                        → Shows the names of files changed by the commit.
 
-		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		git reset <mode> HEAD~1										→ This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
-																	Before: A ── B ── C         After: A ── B
-																	     		      ↑                     ↑
-																	                 HEAD                  HEAD 
-
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-		|         Command              Commit C removed?       Changes of C kept?       Changes from C remain in staging area      Changes from C remain in Working files  |
-		|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-		| git reset --soft HEAD~1   |   ✅ Removed       |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                |
-		| git reset --mixed HEAD~1  |   ✅ Removed       |   ✅ Kept                 |   ❌ Changes from C are removed        |   ✅ Kept                                |
-		| git reset --hard HEAD~1   |   ✅ Removed       |   ❌ Discarded            |   ❌ Changes from C are removed        |   ❌ Discarded                           |
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+	
-
-		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		
-
-		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
-		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
-		git add User.java                                           → Stages a specific file for the next commit.
-		git add User.java UserController.java                       → Stages both file for the next commit.
-		git add .                                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
-		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 	
 	 🌿 Branch Management 
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
@@ -140,6 +115,14 @@
 		git branch --show-current                                   → Shows only the name of the current branch.
 		git branch -m main                                          → Rename current branch to main.
 		git branch -M main                                          → Force-renames the current branch to main, the -M option allows the rename even if a branch named main already exists.
+	
+
+		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
+		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
+		git add User.java                                           → Stages a specific file for the next commit.
+		git add User.java UserController.java                       → Stages both file for the next commit.
+		git add .                                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
+		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 
@@ -157,6 +140,25 @@
 		git checkout --orphan clean-main                            → Creates a brand new branch (files remain but git history empty)
 		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
 		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged.).
+
+
+		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		git reset <mode> HEAD~1										→ This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
+																	Before: A ── B ── C         After: A ── B
+																	     		      ↑                     ↑
+																	                 HEAD                  HEAD 
+
+		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+		|         Command              Commit C removed?       Changes of C kept?       Changes from C remain in staging area      Changes from C remain in Working files  |
+		|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+		| git reset --soft HEAD~1   |   ✅ Removed       |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                |
+		| git reset --mixed HEAD~1  |   ✅ Removed       |   ✅ Kept                 |   ❌ Changes from C are removed        |   ✅ Kept                                |
+		| git reset --hard HEAD~1   |   ✅ Removed       |   ❌ Discarded            |   ❌ Changes from C are removed        |   ❌ Discarded                           |
+		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+	
+
+		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 	
