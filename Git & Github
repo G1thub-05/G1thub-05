@@ -248,6 +248,14 @@
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
 				git stash  → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 
+
+git stash          → Temporarily save uncommitted changes
+git stash list     → Show saved stashes
+git stash apply    → Restore changes, keep stash
+git stash pop      → Restore changes, remove stash
+git stash drop     → Delete one stash
+git stash clear    → Delete all stashes
+
 		✨ For merging in team collaboration, do I need to be on main?
 			1. Merging on GitHub — you DON'T need to switch to main  
 			2. Merging from the command line — YES, switch to main
