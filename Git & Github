@@ -129,6 +129,10 @@
 		git show --name-only                                        → Shows the names of files changed by the commit.
 
 
+		git log --graph                                             → Shows the commit history with a visual graph of branches and merges for the current branch's reachable history (Draws an ASCII graph showing branches and merges).
+		git log --graph --all                                       → Shows the commit history with a visual graph of branches and merges for the all local branches, not just the current branch.
+		git log --oneline --graph --all                             → Shows the commit history in a compact format with a visual graph of branches and merges for the all local branches, not just the current branch.
+
 
 		git checkout -- User.java                                   → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
 		git restore User.java                                       → Modern Git prefers
