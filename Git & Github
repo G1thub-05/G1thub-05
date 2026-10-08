@@ -159,11 +159,99 @@
 		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged.).
 
 
-
-	  
-
 	
+	6️⃣ COMMON STEPS FOR TEAM COLLABORATION
+	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+		1. Team Leader creates the GitHub repository        	   → Create the main repository with the initial project files.
+		2. Team Leader adds all teammates as Collaborators  	   → Give team members access to the repository.
+
+		3. All teammates clone the repository                      → Each teammate gets a local copy of the project.
+		4. [VERY IMPORTANT] Create your own branch           	   → NEVER do your feature development directly on `main`.
+		5. Work only on your own branch                      	   → Write and modify code related to your assigned task.
+		6. Complete your work and check the changes          	   → Use git status and test your code.
+		7. Stage and commit your changes                     	   → git add . and git commit -m "Add login functionality"
+		8. Push your branch to GitHub                        	   → git push -u origin <your-branch-name>
+		9. Inform your teammates                             	   → Tell the team that your work is complete and your branch is pushed.
+
+		10. Team reviews the changes                         	   → Review the code before merging it into `main`.
+		11. Merge the branch into `main`                     	   → Merge only after the changes are reviewed and approved.
+		12. Push the updated `main`                          	   → The merged changes are pushed to GitHub.
+		13. Other teammates update their local `main`       	   → `git pull origin main`
+		14. Continue working on your own branch             	   → Create new commits for your next task.
+
+		10. Team reviews the changes                               → Review the Pull Request before merging it into `main`.
+																   # No Git command is required.
+																   # Review is normally done on GitHub through the Pull Request.
+
+
+11. Merge the branch into `main` → Merge the approved feature branch into `main`.
+
+    # On GitHub:
+    → Open Pull Request
+    → Review
+    → Click "Merge pull request"
+
+    # Or from command line:
+    git switch main
+    git pull origin main
+    git merge feature-login
+
+
+12. Push the updated `main`
+    → Push the merged `main` branch to GitHub.
+
+    git push origin main
+
+
+13. Other teammates update their local `main`
+    → Get the latest merged changes from GitHub.
+
+    git switch main
+    git pull origin main
+
+
+14. Continue working on your own branch
+    → Switch back to your feature branch and continue your work.
+
+    git switch feature-login
+
+    # Make changes
+    git add .
+    git commit -m "Update login validation"
+    git push
+
+
+                    GitHub Repository
+                           │
+                           │ clone
+                           ↓
+                    Local Repository
+                           │
+                  ┌────────┴────────┐
+                  ↓                 ↓
+             main branch       your branch
+                                    │
+                                    │ code
+                                    ↓
+                                  commit
+                                    │
+                                    ↓
+                                  push
+                                    │
+                                    ↓
+                               GitHub branch
+                                    │
+                               Pull Request
+                                    │
+                                    ↓
+                               Code Review
+                                    │
+                                    ↓
+                                  Merge
+                                    │
+                                    ↓
+                                  main
 
 
 
