@@ -64,7 +64,7 @@
 		git config --global --unset http.lowSpeedTime               → Removes the custom lowSpeedTime setting and returns to the default.
 
 
-5️⃣  Work Management
+5️⃣ Work Management
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 	# Working Directory
@@ -105,8 +105,10 @@
 
 		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
 		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
-		git add .                                                   → Stages changes in the current directory and its subdirectories.
-		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area (The commit is stored locally, it does not upload anything to GitHub)
+		git add User.java                                           → Stages a specific file for the next commit.
+		git add User.java UserController.java                       → Stages both file for the next commit.
+		git add .                                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
+		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 	
 	# Branch Management 🌿
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
@@ -122,7 +124,6 @@
 		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 
-		
 		git checkout -- User.java                                   → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
 		git restore User.java                                       → Modern Git prefers
 		git checkout a82f91d                                        → Checkout a specific commit (Moves HEAD to that commit)
@@ -133,20 +134,16 @@
 																	            ↑             ↑
 																	          branch         HEAD  👉 You're viewing/working from commit B, but you're not on a branch.
 	 
-
 		git checkout --orphan clean-main                            → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
 		git checkout --orphan clean-main                            → Creates a brand new branch (files remain but git history empty)
 		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
 		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged.).
 		git reset --soft HEAD~1                                     → Moves HEAD back by one commit while keeping the changes staged:
 
-																	Before: A ── B 
-																	     		 ↑
-																	           HEAD
-																	After: A
-																	       ↑
-																	      HEAD → Changes from B → remain staged
-																		  So the commit disappears from the current branch history, but its changes are not lost.
+																	Before: A ── B        After: A
+																	     		 ↑               ↑
+																	            HEAD            HEAD → Changes from B → remain staged
+																								So the commit disappears from the current branch history, but its changes are not lost.
 
 
 	  
