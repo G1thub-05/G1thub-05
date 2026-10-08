@@ -1,20 +1,20 @@
 
 
 1️⃣ Prerequisites — Don’t skip these
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 	🔥 You must have:
 		• Git installed locally (Linux/Windows/macOS) and accessible from your terminal
 		• A GitHub account
 		• A repository created on GitHub where you will push this folder
 
 2️⃣ OPTION 1 (EASIEST – NO COMMANDS)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 	- Open your GitHub repo and click add file → Upload files
 	- Drag your folder and click commit changes
 	- This works, but this is not real Git usage. Fine for beginners
 
 3️⃣ OPTION 2 (RECOMMENDED WAY)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
     Step 1: Create repository on GitHub
         - Open https://github.com
         - Click New repository
@@ -26,7 +26,7 @@
         - Right-click inside the folder → Open Terminal / Command Prompt
 
 4️⃣ Git Global Configuration (~/.gitconfig)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 	🔥 SET CONFIGURATION
 		git config --global user.email "mr.digeshwar05@gmail.com"   → Sets the email address recorded in your commits globally (commit author email)
@@ -65,8 +65,7 @@
 
 
 5️⃣ Work Management
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 	🔥 Working Directory
 	       │
 	       │ git add     → Staging Area
@@ -154,14 +153,13 @@
 																	Before: A ── B ── C         After: A ── B
 																	     		      ↑                     ↑
 																	                 HEAD                  HEAD 
-
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+		+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
 		|         Command              Commit C removed?       Changes of C kept?       Changes from C remain in staging area      Changes from C remain in Working files  |
 		|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 		| git reset --soft HEAD~1   |   ✅ Removed       |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                |
 		| git reset --mixed HEAD~1  |   ✅ Removed       |   ✅ Kept                 |   ❌ Changes from C are removed        |   ✅ Kept                                |
 		| git reset --hard HEAD~1   |   ✅ Removed       |   ❌ Discarded            |   ❌ Changes from C are removed        |   ❌ Discarded                           |
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+	
+		+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+	
 
 
 		git reset <mode> <commit-id>                                → This moves HEAD to the specified commit (from B → C), whether it is older or newer than the current HEAD, but what happens to the changes depends on the reset mode.
@@ -170,13 +168,13 @@
 																	     		 ↑                               ↑
 																	            HEAD                            HEAD 
 
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+		+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
 		|         Command              Commit C added?         Changes of C kept?      Changes from C remain in staging area      Changes from C remain in Working files   |
 		|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 		| git reset --soft C       |   ✅ Added         |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                 |
 		| git reset --mixed C      |   ✅ Added         |   ✅ Kept                 |   ❌ Unstaged                          |   ✅ Kept                                 |
 		| git reset --hard C       |   ✅ Added         |   ❌ Discarded            |   ❌ Reset                             |   ❌ Discarded                            |
-		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+		+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
 
 		- But ⚠️ this table needs an important correction: if C is a descendant/newer commit and you're moving from B → C, 
 		- git reset --soft C doesn't "add commit C" in the sense of creating it. 
@@ -208,7 +206,8 @@
 
 	
 	6️⃣ COMMON STEPS FOR TEAM COLLABORATION
-	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+	
 
 		1. Team Leader creates the GitHub repository        	   → Create the main repository with the initial project files.
 		2. Team Leader adds all teammates as Collaborators  	   → Give team members access to the repository.
@@ -224,7 +223,8 @@
 		10. Team reviews the changes                               → Review the code/Pull Request before merging it into `main`.
 		11. Merge the branch into `main`                     	   → Merge the feature branch into `main` only after the changes are reviewed and approved.
 
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 		# 1️⃣ On GitHub: Open Pull Request → Review → Approve → Click "Merge pull request"
 		# 2️⃣ From command line using `pull`:
 				git switch main           → Switch to the `main` branch.
@@ -252,15 +252,12 @@
 			2. Merging from the command line — YES, switch to main
 			3. So yes, when manually merging a feature branch into main, you need to be on main first. On GitHub, the Pull Request interface handles that for you.
 	
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		12. Push the updated `main`                                → git push origin main (Push the merged `main` branch to GitHub)
 		13. Other teammates update their local `main`              → git switch main → git pull origin main (Get the latest merged changes from GitHub)
 		14. Continue working on your own branch                    → git switch feature-login (Switch back to your feature branch and continue your work & Create new commits for your next task)
    	                                                               # Make change git add . → git commit -m "Update login validation" → git push or git push -u origin feature-login
 
-		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 			                                                 GitHub Repository
 			                                                         │
@@ -299,10 +296,42 @@
 			                                                                 ↓
 			                                                         Updated local main
 
-		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	🔥 Merge-conflict states shown by git status --short
+
+	🔥 Git Merge Strategy - A merge strategy that determines how Git combines two or more branch histories during a merge.
+	─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+		1️⃣ ort        (git merge feature)                         → Modern Git uses ort as the default strategy for normal two-branch merges. If both branches changed the same part of a file, Git may report a merge conflict that you must resolve manually.
+		2️⃣ recursive  (git merge -s recursive feature)            → Older default strategy for two-head merges used in older Git versions. In modern Git, ort replaced it as the default. 
+		3️⃣ octopus    (git merge feature1 feature2 feature3)      → Merges 3 or more branches at once; generally for merges that can be completed without conflicts. If conflicts are required, Git generally stops rather than performing an octopus merge.  
+		4️⃣ ours       (git merge -s ours feature)                 → This creates a merge commit that records that feature was merged, but keeps the current branch's tree/content and ignores the other branch's content.
+		5️⃣ subtree    (git merge -s subtree feature)              → Useful when the other repository/tree is related as a subtree, allowing Git to adjust the trees before merging.
+
+
+
+									   MERGE STRATEGIES
+		                                       │
+		        ┌──────────────────────────────┼──────────────────────────────┐
+		       ort                          octopus                          ours
+		        │                              │                              │
+	  2 branches (default)         3+ branches non-conflicting         Keep ours content
+		        │
+		        ├──────────────────────┐
+		     recursive              subtree
+		        │                      │
+    Older 2-branch strategy      Merge as subtree
+		        │
+		        └─────────────────────────────────────────────────────────────┐
+		                                                                  resolve
+		                                                  ┌───────────────────┴───────────────────────┐
+		                                                 ours                                       theirs
+		                                                  │                                           │
+		                                         Prefer current branch                      Prefer incoming branch
+                                                                
+
+
+	🔥 Merge-conflict states shown by git status --short 
+	─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 		UU - Both sides modified        (Modified  ↔ Modified)      → The file was modified on both the current branch (ours) and the branch being merged (theirs).
 		AA - Both sides added           (Added     ↔ Added)         → The file was added on both the current branch (ours) and the branch being merged (theirs).
 		DD - Both sides deleted         (Deleted   ↔ Deleted)       → The file was deleted on both the current branch (ours) and the branch being merged (theirs).
@@ -317,8 +346,9 @@
 		git merge --abort   → Cancel an ongoing merge, even if some conflicts have already been resolved/staged and return to the pre-merge state → Restores the repository to the state before the merge started.
 		git add             → ✅ Conflict marked as resolved → Can still use git merge --abort
 		git commit          → ✅ Merge completed             → git merge --abort no longer applies
-		
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
                       git merge feature                                       Merge in progress
                              ↓                                                       │
                       Conflict occurs                                                ├── git add ──────────→ Can still use git merge --abort
@@ -330,6 +360,20 @@
            git commit               Merge cancelled ❌
                ↓
         Merge completed ✅
-		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
