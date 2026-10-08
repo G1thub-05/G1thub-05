@@ -246,6 +246,11 @@
 				git fetch  → "Download the latest information from the remote repository, but do not change my current branch."
 				git merge  → "merge (integrate) the specified changes into my current branch."
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
+
+		✨ For merging in team collaboration, do I need to be on main?
+			1. Merging on GitHub — you DON'T need to switch to main  
+			2. Merging from the command line — YES, switch to main
+			3. So yes, when manually merging a feature branch into main, you need to be on main first. On GitHub, the Pull Request interface handles that for you.
 	
 		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
