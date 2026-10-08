@@ -2,7 +2,7 @@
 
 1️⃣ Prerequisites — Don’t skip these
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	# You must have:
+	🔥 You must have:
 		• Git installed locally (Linux/Windows/macOS) and accessible from your terminal
 		• A GitHub account
 		• A repository created on GitHub where you will push this folder
@@ -28,36 +28,36 @@
 4️⃣ Git Global Configuration (~/.gitconfig)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	# SET CONFIGURATION
+	🔥 SET CONFIGURATION
 		git config --global user.email "mr.digeshwar05@gmail.com"   → Sets the email address recorded in your commits globally (commit author email)
 		git config --global user.name "Digeshwar"                   → Sets the name recorded as the commit author globally (commit author name)
 		git config --global core.editor "code --wait"               → Makes VS Code Git's default editor. --wait makes Git wait until you close the editor before continuing.
 		git config --global core.autocrlf "true"                    → Converts CRLF → LF when committing, but does not convert LF → CRLF when checking files out. Commonly used on Linux/macOS; on Windows, true is often used instead.
 		git config --global --list                                  → Displays and Verify your current global Git configuration
 	
-	# VERIFY CONFIGURATION	
+	🔥 VERIFY CONFIGURATION	
 		git config --global user.name                               → Check Git username used as the commit author
 		git config --global user.email                  		    → Check Git email used as the commit author
 		git config --global core.editor                  		    → Check Git default editor
 		git config --global core.autocrlf                		    → Check line-ending configuration/conversion setting
 		git config --global --get-regexp "user|core"     		    → Check all configured settings whose keys match user or core
 	
-	# EDIT CONFIGURATION
+	🔥 EDIT CONFIGURATION
 		git config --global -e                                      → Opens the global Git configuration file in your configured editor.
 	
-	# Credential Management
+	🔥 Credential Management
 		git config --global --unset credential.helper               → Removes the globally configured/existing credential helper.
 		git config --global credential.helper manager               → Configures Git Credential Manager to manage Git credentials.
 	
-	# HTTP POST Buffer
+	🔥 HTTP POST Buffer
 		git config --global http.postBuffer 524288000               → Sets Git's HTTP POST buffer size to 500 MiB (Large Upload Support).
 		git config --global --unset http.postBuffer                 → Removes the custom http.postBuffer setting and returns to Git's default behavior.
 	
-	# Git Compression/Git large push fix (Don't blindly keep them in your global configuration)
+	🔥 Git Compression/Git large push fix (Don't blindly keep them in your global configuration)
 		git config --global core.compression 0                      → Disables Git compression.
 		git config --global --unset core.compression                → Removes the custom compression setting and returns to Git's default behavior.
 	
-	# Slow HTTP Transfer Detection/Git large push fix (Don't blindly keep them in your global configuration)
+	🔥 Slow HTTP Transfer Detection/Git large push fix (Don't blindly keep them in your global configuration)
 		git config --global http.lowSpeedLimit 0                    → Sets the minimum transfer speed threshold to 0 bytes/sec (Don't cancel upload for slow upload speed).
 		git config --global --unset http.lowSpeedLimit              → Removes the custom lowSpeedLimit setting and returns to the default.
 		git config --global http.lowSpeedTime 999999                → Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
@@ -67,14 +67,14 @@
 5️⃣ Work Management
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
-	# Working Directory
+	🔥 Working Directory
 	       │
 	       │ git add     → Staging Area
 	       │ git commit  → Local Repository (Commits)
 	       │ git push    → Remote Repository (GitHub)
 
 
-	# Git File Stages
+	🔥 Git File Stages
 		U - Untracked                                               → File exists in your working directory but Git is not tracking/managing it yet.
 		M - Modified												→ A tracked file has been changed after the last commit.
 		D - Deleted 												→ A tracked file has been deleted from the working directory.
@@ -83,7 +83,7 @@
 		C - Committed                                               → Changes have been saved in a commit in the local Git repository.
 
 
-	# Command You Need to Know
+	🔥 Command You Need to Know
 		git init                                                    → Initializes a new Git repository in the current directory (once per repository).
 		git remote -v                                               → Shows the remote repositories configured for the local repository.
 		git remote remove origin                                    → Removes the remote named origin from the local repository.
@@ -129,7 +129,7 @@
 		git add .                                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
 		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 	
-	# Branch Management 🌿
+	 🌿 Branch Management 
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
 		git checkout develop                                        → Switches your working directory to another existing branch (Now you're working on the develop branch).
 		git switch develop                                          → Modern Git prefers 👉 Switches your working directory to another existing branch (Now you're working on the develop branch).
@@ -197,7 +197,7 @@
 				git fetch origin          → Fetch only → Updates origin/main → Does NOT change your current branch
 				git merge origin/main     → Integrates the fetched remote main into your current branch
 
-		# So remember:
+		🔥 So remember:
 				git fetch  → "Download the latest information from the remote repository, but do not change my current branch."
 				git merge  → "merge (integrate) the specified changes into my current branch."
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
