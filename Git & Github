@@ -100,7 +100,15 @@
 		git branch --show-current                                   → Shows only the name of the current branch.
 		git branch -m main                                          → Rename current branch to main.
 		git branch -M main                                          → Force-renames the current branch to main, the -M option allows the rename even if a branch named main already exists.
+		
+		git branch -r            									→ See remote-tracking branches available locally (Only remote branches).
+		git branch -a     											→ See all local and remote-tracking branches.
+		git fetch          											→ Download updates from the configured remote(s) without changing the current branch.
+		git fetch origin   											→ Download the latest updates and commit information specifically from the `origin` remote without changing the current branch.
 	
+		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
+		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged).
+
 
 		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
 		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
@@ -145,8 +153,6 @@
 	 
 		git checkout --orphan clean-main                            → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
 		git checkout --orphan clean-main                            → Creates a brand new branch (files remain but git history empty)
-		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
-		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged.).
 
 		git reset <mode> HEAD~1										→ This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
         															🔥 Example:
@@ -248,20 +254,20 @@
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
 				git stash  → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 
+				git stash          → Temporarily save uncommitted changes.
+				git stash list     → Show all saved stash entries.
+				git stash apply    → Restore stashed changes without removing the stash entry.
+				git stash pop      → Restore stashed changes and remove the stash entry if the apply succeeds.
+				git stash drop     → Delete a specific stash entry.
+				git stash clear    → Delete all stash entries.
+				
+				git stash push -m "message"   → Stash changes with a descriptive message.
+				git stash apply stash@{1}     → Apply a specific stash without removing it.
+				git stash pop stash@{1}       → Apply a specific stash and remove it if the apply succeeds.
+				git stash -u                  → Stash both tracked and untracked files.
 
-git stash          → Temporarily save uncommitted changes
-git stash list     → Show saved stashes
-git stash apply    → Restore changes, keep stash
-git stash pop      → Restore changes, remove stash
-git stash drop     → Delete one stash
-git stash clear    → Delete all stashes
-
-git branch -r → See remote branches:
-git branch -a
-
-
-Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
-Untracked files are not normally included; use git stash -u / git stash --include-untracked when you also want to stash untracked files.
+		Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
+		Untracked files are not normally included; use git stash -u / git stash --include-untracked when you also want to stash untracked files.
 
 		✨ For merging in team collaboration, do I need to be on main?
 			1. Merging on GitHub — you DON'T need to switch to main  
