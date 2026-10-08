@@ -257,6 +257,7 @@ git stash drop     → Delete one stash
 git stash clear    → Delete all stashes
 
 git branch -r → See remote branches:
+git branch -a
 
 
 Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
