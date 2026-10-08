@@ -314,7 +314,7 @@
 		Merge started       → ❌ Merge not completed
 		Conflict occurs     → ❌ Merge not completed
 		Resolve conflict    → ❌ Still not completed
-		git merge --abort   → Cancel the ongoing merge and return to the pre-merge state → Restores the repository to the state before the merge started.
+		git merge --abort   → Cancel an ongoing merge, even if some conflicts have already been resolved/staged and return to the pre-merge state → Restores the repository to the state before the merge started.
 		git add             → ✅ Conflict marked as resolved → Can still use git merge --abort
 		git commit          → ✅ Merge completed             → git merge --abort no longer applies
 		
