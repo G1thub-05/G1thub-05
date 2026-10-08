@@ -246,6 +246,7 @@
 				git fetch  → "Download the latest information from the remote repository, but do not change my current branch."
 				git merge  → "merge (integrate) the specified changes into my current branch."
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
+				git stash  → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 
 		✨ For merging in team collaboration, do I need to be on main?
 			1. Merging on GitHub — you DON'T need to switch to main  
