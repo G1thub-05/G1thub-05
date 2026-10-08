@@ -89,20 +89,6 @@
 		git remote remove origin                                    → Removes the remote named origin from the local repository.
 		git remote add origin YOUR_NEW_REPO_URL.git                 → Adds a remote repository and gives it the name origin.
 
-		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C
-		git status --short                                          → Shows the same status in a compact two-column format using two-character XY codes:
-																	XY file
-																	││
-																	│└── Working tree status
-																	└─── Staging area (index) status
-
-		git log                                                     → What commits exist 👉 Shows detailed commit history/Saved Point, including Commit ID (SHA), Author, Date, Commit message).
-		git show                                                    → What did this particular commit change 👉 Shows the details of a specific commit. By default, it shows the latest commit (HEAD), including: Commit ID (SHA), Author, Date, Commit message, Changes introduced by that commit (diff)
-		git log --oneline                                           → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
-		git show a82f91d                                            → Show a specific commit (Shows the details and changes of that particular commit).
-		git show --stat                                             → Shows the commit information plus a summary of changed files, without the full diff.
-		git show --name-only                                        → Shows the names of files changed by the commit.
-
 	
 	 🌿 Branch Management 
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
@@ -125,6 +111,24 @@
 		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
+
+
+
+		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C
+		git status --short                                          → Shows the same status in a compact two-column format using two-character XY codes:
+																	XY file
+																	││
+																	│└── Working tree status
+																	└─── Staging area (index) status
+
+		git log                                                     → What commits exist 👉 Shows detailed commit history/Saved Point, including Commit ID (SHA), Author, Date, Commit message).
+		git show                                                    → What did this particular commit change 👉 Shows the details of a specific commit. By default, it shows the latest commit (HEAD), including: Commit ID (SHA), Author, Date, Commit message, Changes introduced by that commit (diff)
+		git log --oneline                                           → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
+		git show a82f91d                                            → Show a specific commit (Shows the details and changes of that particular commit).
+		git show --stat                                             → Shows the commit information plus a summary of changed files, without the full diff.
+		git show --name-only                                        → Shows the names of files changed by the commit.
+
+
 
 		git checkout -- User.java                                   → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
 		git restore User.java                                       → Modern Git prefers
