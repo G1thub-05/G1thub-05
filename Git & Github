@@ -174,84 +174,75 @@
 		8. Push your branch to GitHub                        	   → git push -u origin <your-branch-name>
 		9. Inform your teammates                             	   → Tell the team that your work is complete and your branch is pushed.
 
-		10. Team reviews the changes                         	   → Review the code before merging it into `main`.
-		11. Merge the branch into `main`                     	   → Merge only after the changes are reviewed and approved.
-		12. Push the updated `main`                          	   → The merged changes are pushed to GitHub.
-		13. Other teammates update their local `main`       	   → `git pull origin main`
-		14. Continue working on your own branch             	   → Create new commits for your next task.
-
-		10. Team reviews the changes                               → Review the Pull Request before merging it into `main`.
-																   # No Git command is required.
-																   # Review is normally done on GitHub through the Pull Request.
+		10. Team reviews the changes                               → Review the code/Pull Request before merging it into `main`.
+		11. Merge the branch into `main`                     	   → Merge the feature branch into `main` only after the changes are reviewed and approved.
 
 
-11. Merge the branch into `main` → Merge the approved feature branch into `main`.
+		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		# 1️⃣ On GitHub: Open Pull Request → Review → Approve → Click "Merge pull request"
+		# 2️⃣ From command line using `pull`:
+				git switch main           → Switch to the `main` branch.
+				git pull origin main      → Fetch the latest changes from the remote repository `origin/main` branch and merge (integrate) them into the local `main` branch.
+				git merge feature-login   → merge (integrate) the `feature-login` branch into the current `main` branch.
+																	
+		# 3️⃣ From command line using `fetch`:
+				git switch main           → Switch to the `main` branch.
+				git fetch origin          → Download the latest commits and remote-tracking information from the remote repository `origin/main`. It does NOT modify the current branch or working files.
+				git merge origin/main     → merge (integrate) the latest fetched `origin/main` into the local `main` branch.
+				git merge feature-login   → merge (integrate) the `feature-login` branch into the current `main` branch.
 
-    # On GitHub:
-    → Open Pull Request
-    → Review
-    → Click "Merge pull request"
+		# The key difference between pull and fetch
+				git pull origin main      → Fetch + integrate remote main
+				git fetch origin          → Fetch only → Updates origin/main → Does NOT change your current branch
+				git merge origin/main     → Integrates the fetched remote main into your current branch
 
-    # Or from command line:
-    git switch main
-    git pull origin main
-    git merge feature-login
+		# So remember:
+				git fetch  → "Download the latest information from the remote repository, but do not change my current branch."
+				git merge  → "merge (integrate) the specified changes into my current branch."
+				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
+		_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+		-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-12. Push the updated `main`
-    → Push the merged `main` branch to GitHub.
-
-    git push origin main
-
-
-13. Other teammates update their local `main`
-    → Get the latest merged changes from GitHub.
-
-    git switch main
-    git pull origin main
-
-
-14. Continue working on your own branch
-    → Switch back to your feature branch and continue your work.
-
-    git switch feature-login
-
-    # Make changes
-    git add .
-    git commit -m "Update login validation"
-    git push
+		12. Push the updated `main`                                → git push origin main (Push the merged `main` branch to GitHub)
+		13. Other teammates update their local `main`              → git switch main → git pull origin main (Get the latest merged changes from GitHub)
+		14. Continue working on your own branch                    → git switch feature-login (Switch back to your feature branch and continue your work & Create new commits for your next task)
+   	                                                               # Make change git add . → git commit -m "Update login validation" → git push or git push -u origin feature-login
 
 
-                    GitHub Repository
-                           │
-                           │ clone
-                           ↓
-                    Local Repository
-                           │
-                  ┌────────┴────────┐
-                  ↓                 ↓
-             main branch       your branch
-                                    │
-                                    │ code
-                                    ↓
-                                  commit
-                                    │
-                                    ↓
-                                  push
-                                    │
-                                    ↓
-                               GitHub branch
-                                    │
-                               Pull Request
-                                    │
-                                    ↓
-                               Code Review
-                                    │
-                                    ↓
-                                  Merge
-                                    │
-                                    ↓
-                                  main
+			                         GitHub Repository
+			                                │
+			                clone using git clone <repository-url>.git
+			                                ↓
+			                         Local Repository
+			                                │
+			                    ┌───────────┴───────────┐
+			                    ↓                       ↓
+			               main branch         your feature branch
+			                    │                       │
+			                    │                   Write Code
+			                    │                       │
+			                    │                   git add .
+			                    │                       │
+			                    │              git commit -m "..."
+			                    │                       │
+			                    │              git push -u origin feature
+			                    │                       ↓
+			                    │                GitHub feature
+			                    │                       │
+			                    │                 Pull Request
+			                    │                       │
+			                    │                  Code Review
+			                    │                       │
+			                    │                     Merge
+			                    │                       ↓
+			                    └──────────────────→ main
+			                                            │
+			                                    git pull origin main
+			                                            ↓
+			                                      Updated main
+
+    
 
 
 
