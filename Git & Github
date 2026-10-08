@@ -92,14 +92,14 @@
 		Normal Branch (`<branch>`)                   		        → Local branch on your computer where you actually work, make changes, commit, merge, etc.
 		Remote-Tracking Branch (`origin/<branch>`)        			→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
 
-														  Local Repository (Computer)                     Remote Repository (GitHub)
-														  ───────────────────────────                     ──────────────────────────
-																      main                                             main
-																       │                                                │
-																       │                                                │
-																       └────────────────── origin/main ◄────────────────┘
-																                               │
-																                   Remote-tracking reference
+		Local Repository (Computer)                     Remote Repository (GitHub)
+		───────────────────────────                     ──────────────────────────
+				  main                                             main
+					│                                                │
+					│                                                │
+					└────────────────── origin/main ◄────────────────┘
+											 │
+								Remote-tracking reference
 		─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
 		git checkout develop                                        → Switches your working directory to another existing branch (Now you're working on the develop branch).
