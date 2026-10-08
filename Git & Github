@@ -88,6 +88,19 @@
 		git remote remove origin                                    → Removes the remote named origin from the local repository.
 	
 	 🌿 Branch Management 
+		─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+		Normal Branch (`<branch>`)                   		        → Local branch on your computer where you actually work, make changes, commit, merge, etc.
+		Remote-Tracking Branch (`origin/<branch>`)        			→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
+
+														  Local Repository (Computer)                     Remote Repository (GitHub)
+														  ───────────────────────────                     ──────────────────────────
+																      main                                             main
+																       │                                                │
+																       │                                                │
+																       └────────────────── origin/main ◄────────────────┘
+																                               │
+																                   Remote-tracking reference
+		─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
 		git checkout develop                                        → Switches your working directory to another existing branch (Now you're working on the develop branch).
 		git switch develop                                          → Modern Git prefers 👉 Switches your working directory to another existing branch (Now you're working on the develop branch).
@@ -107,8 +120,6 @@
 		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
 		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged).
 
-		Normal Branch (`<branch>`)                   		        → Local branch on your computer where you actually work, make changes, commit, merge, etc.
-		Remote-Tracking Branch (`origin/<branch>`)        			→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
 
 		git push origin --delete Diges                              → Delete the `Diges` branch from the remote repository (GitHub).
 		git branch -d Diges                                         → Delete the local `Diges` branch safely. Git deletes it only if its changes have been merged.
