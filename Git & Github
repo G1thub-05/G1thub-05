@@ -171,7 +171,7 @@
 																	            HEAD                            HEAD 
 
 		+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-		|         Command              Commit C added?       Changes of C kept?       Changes from C remain in staging area      Changes from C remain in Working files    |
+		|         Command              Commit C added?         Changes of C kept?      Changes from C remain in staging area      Changes from C remain in Working files   |
 		|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 		| git reset --soft C       |   ✅ Added         |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                 |
 		| git reset --mixed C      |   ✅ Added         |   ✅ Kept                 |   ❌ Unstaged                          |   ✅ Kept                                 |
