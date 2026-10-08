@@ -256,6 +256,10 @@ git stash pop      → Restore changes, remove stash
 git stash drop     → Delete one stash
 git stash clear    → Delete all stashes
 
+
+Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
+Untracked files are not normally included; use git stash -u / git stash --include-untracked when you also want to stash untracked files.
+
 		✨ For merging in team collaboration, do I need to be on main?
 			1. Merging on GitHub — you DON'T need to switch to main  
 			2. Merging from the command line — YES, switch to main
