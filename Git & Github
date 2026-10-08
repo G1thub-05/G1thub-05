@@ -1,18 +1,20 @@
+
+
 1️⃣ Prerequisites — Don’t skip these
-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	# You must have:
 		• Git installed locally (Linux/Windows/macOS) and accessible from your terminal
 		• A GitHub account
 		• A repository created on GitHub where you will push this folder
 
 2️⃣ OPTION 1 (EASIEST – NO COMMANDS)
-------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	- Open your GitHub repo and click add file → Upload files
 	- Drag your folder and click commit changes
 	- This works, but this is not real Git usage. Fine for beginners
 
 3️⃣ OPTION 2 (RECOMMENDED WAY)
-------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     Step 1: Create repository on GitHub
         - Open https://github.com
         - Click New repository
@@ -23,62 +25,132 @@
         - C:\Users\You\Desktop\MyFolder
         - Right-click inside the folder → Open Terminal / Command Prompt
 
-4️⃣ Git Global Configuration
-------------------------------------------------------------------------------------------------------
+4️⃣ Git Global Configuration (~/.gitconfig)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	git config --global user.email "mr.digeshwar05@gmail.com" → Set git email (commit author email)
-	git config --global user.name "Digeshwar"                 → Set git username (commit author name)
-	git config --global core.editor "code --wait"             → Edit current settings in VS CODE
-	git config --global core.autocrlf "input"                 → 
-	git config --global --list                                → Verify current settings
-	git config --global -e                                    → Edit current settings
+	# SET CONFIGURATION
+		git config --global user.email "mr.digeshwar05@gmail.com"   → Sets the email address recorded in your commits globally (commit author email)
+		git config --global user.name "Digeshwar"                   → Sets the name recorded as the commit author globally (commit author name)
+		git config --global core.editor "code --wait"               → Makes VS Code Git's default editor. --wait makes Git wait until you close the editor before continuing.
+		git config --global core.autocrlf "true"                    → Converts CRLF → LF when committing, but does not convert LF → CRLF when checking files out. Commonly used on Linux/macOS; on Windows, true is often used instead.
+		git config --global --list                                  → Displays and Verify your current global Git configuration
+	
+	# VERIFY CONFIGURATION	
+		git config --global user.name                               → Check Git username used as the commit author
+		git config --global user.email                  		    → Check Git email used as the commit author
+		git config --global core.editor                  		    → Check Git default editor
+		git config --global core.autocrlf                		    → Check line-ending configuration/conversion setting
+		git config --global --get-regexp "user|core"     		    → Check all configured settings whose keys match user or core
+	
+	# EDIT CONFIGURATION
+		git config --global -e                                      → Opens the global Git configuration file in your configured editor.
+	
+	# Credential Management
+		git config --global --unset credential.helper               → Removes the globally configured/existing credential helper.
+		git config --global credential.helper manager               → Configures Git Credential Manager to manage Git credentials.
+	
+	# HTTP POST Buffer
+		git config --global http.postBuffer 524288000               → Sets Git's HTTP POST buffer size to 500 MiB (Large Upload Support).
+		git config --global --unset http.postBuffer                 → Removes the custom http.postBuffer setting and returns to Git's default behavior.
+	
+	# Git Compression/Git large push fix (Don't blindly keep them in your global configuration)
+		git config --global core.compression 0                      → Disables Git compression.
+		git config --global --unset core.compression                → Removes the custom compression setting and returns to Git's default behavior.
+	
+	# Slow HTTP Transfer Detection/Git large push fix (Don't blindly keep them in your global configuration)
+		git config --global http.lowSpeedLimit 0                    → Sets the minimum transfer speed threshold to 0 bytes/sec (Don't cancel upload for slow upload speed).
+		git config --global --unset http.lowSpeedLimit              → Removes the custom lowSpeedLimit setting and returns to the default.
+		git config --global http.lowSpeedTime 999999                → Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
+		git config --global --unset http.lowSpeedTime               → Removes the custom lowSpeedTime setting and returns to the default.
 
-	git config --global --unset credential.helper             → Removes existing credential manager.
-	git config --global credential.helper manager             → Restore Git Credential Manager
 
-	git config --global http.postBuffer 524288000             → Configure Large Upload Support (500 MB)
-	git config --global --unset http.postBuffer               → Reset postBuffer
+5️⃣  Work Management
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	# Working Directory
+	       │
+	       │ git add     → Staging Area
+	       │ git commit  → Local Repository (Commits)
+	       │ git push    → Remote Repository (GitHub)
 
-	git config --global core.compression 0                    → Disables compression
-	git config --global --unset core.compression              → Reset compression
 
-	git config --global http.lowSpeedLimit 0                  → Don't cancel for slow upload speed
-	git config --global --unset http.lowSpeedLimit            → Reset lowSpeedLimit
+	# Git File Stages
+		U - Untracked                                               → File exists in your working directory but Git is not tracking/managing it yet.
+		M - Modified												→ A tracked file has been changed after the last commit.
+		D - Deleted 												→ A tracked file has been deleted from the working directory.
+		A - Added to staging                                        → File has been added to the staging area using `git add`.
+		S - Staged 													→ Changes are currently in the staging area and ready to be committed.
+		C - Committed                                               → Changes have been saved in a commit in the local Git repository.
 
-	git config --global http.lowSpeedTime 999999              → Give very long timeout to Git before Git gives up
-	git config --global --unset http.lowSpeedTime             → Reset lowSpeedTime
 
-🛡️ 5. Self Work Management
-
-	# Stages                                                  → 
-		U - Untracked                                         → 
-		A - Added or Staged                                   → 
-		C - Commited                                          → 
-
--------------------------------------------------------------------------------------------------------------------------------------------
 	# Command You Need to Know
-		git remote -v                                             → Check connected remote repositories
-		git remote remove origin                                  → Remove old remote
-		git remote add origin YOUR_NEW_REPO_URL                   → Add new gitHub remote repository
-		git remote add origin https://github.com/G1thub-05/Online-Food-Ordering-System.git
+		git init                                                    → Initializes a new Git repository in the current directory (once per repository).
+		git remote -v                                               → Shows the remote repositories configured for the local repository.
+		git remote remove origin                                    → Removes the remote named origin from the local repository.
+		git remote add origin YOUR_NEW_REPO_URL.git                 → Adds a remote repository and gives it the name origin.
+
+		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C
+		git status --short                                          → Shows the same status in a compact two-column format using two-character XY codes:
+																	XY file
+																	││
+																	│└── Working tree status
+																	└─── Staging area (index) status
+
+		git log                                                     → What commits exist 👉 Shows detailed commit history/Saved Point, including Commit ID (SHA), Author, Date, Commit message).
+		git show                                                    → What did this particular commit change 👉 Shows the details of a specific commit. By default, it shows the latest commit (HEAD), including: Commit ID (SHA), Author, Date, Commit message, Changes introduced by that commit (diff)
+		git log --oneline                                           → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
+		git show a82f91d                                            → Show a specific commit (Shows the details and changes of that particular commit).
+		git show --stat                                             → Shows the commit information plus a summary of changed files, without the full diff.
+		git show --name-only                                        → Shows the names of files changed by the commit.
+
+		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
+		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
+		git add .                                                   → Stages changes in the current directory and its subdirectories.
+		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area (The commit is stored locally, it does not upload anything to GitHub)
+	
+	# Branch Management 🌿
+		git branch feature-login                                    → Creates a new branch called feature-login, but you remain on your current branch.
+		git checkout develop                                        → Switches your working directory to another existing branch (Now you're working on the develop branch).
+		git switch develop                                          → Modern Git prefers 👉 Switches your working directory to another existing branch (Now you're working on the develop branch).
+		git checkout -b feature-login                               → Creates a new branch called feature-login and immediately switches to it.
+		git switch -c feature-login                                 → Equivalent modern command (Creates a new branch called feature-login and immediately switches to it)
 		
-		git init                                                  → Initialize git repository (once per repository)
+		git branch                                                  → Shows all local branches and marks the current branch with `*` that tells you which branch you're currently on.
+		git branch --show-current                                   → Shows only the name of the current branch.
+		git branch -m main                                          → Rename current branch to main.
+		git branch -M main                                          → Force-renames the current branch to main, the -M option allows the rename even if a branch named main already exists.
+		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
+		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
+
 		
-		git status                                                → To Know Current Status of Staged or Unstaged File (only changed files)
-		git log --oneline                                         → To Know Current Status of Your Saved Point.
-		git ls-files | findstr assets                             → Checking what Git is tracked/uploading
-		git rm -r --cached "docs"                                 → Optional remove tracked docs folder from Git
-		git add .                                                 → Prepare changes
-		git commit -m "first commit"                              → Commit changes locally
-		git branch -m main                                        → Rename current branch to main.
-		git branch -M main                                        → Force rename current branch, Even if branch already exists
-		git push -u origin main                                   → First push to GitHub (connect branch + upload)
-		git push                                                  → Future pushes (upload)
-		
-		git reset --soft HEAD~1                                   → Only remove commit history entry.
-		git checkout --orphan clean-main                          → Creates a brand new branch (files remain but git history empty)
-		git log                                                   → Shows commit history (commits, commit IDs, author, )
-		git branch -D main                                        → Deletes branch forcefully.
+		git checkout -- User.java                                   → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
+		git restore User.java                                       → Modern Git prefers
+		git checkout a82f91d                                        → Checkout a specific commit (Moves HEAD to that commit)
+
+																	main                 git checkout B
+																	  │
+																	  A ── B ── C        A ── B ── C
+																	            ↑             ↑
+																	          branch         HEAD  👉 You're viewing/working from commit B, but you're not on a branch.
+	 
+
+		git checkout --orphan clean-main                            → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
+		git checkout --orphan clean-main                            → Creates a brand new branch (files remain but git history empty)
+		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
+		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged.).
+		git reset --soft HEAD~1                                     → Moves HEAD back by one commit while keeping the changes staged:
+
+																	Before: A ── B 
+																	     		 ↑
+																	           HEAD
+																	After: A
+																	       ↑
+																	      HEAD → Changes from B → remain staged
+																		  So the commit disappears from the current branch history, but its changes are not lost.
+
+
+	  
+
 	
 
 
