@@ -89,6 +89,7 @@
 	
 	 🌿 Branch Management 
 		─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+		origin                                                      → The local name (nickname) Git uses for the remote repository, usually GitHub.		
 		Normal Branch (`<branch>`)                   		        → Local branch on your computer where you actually work, make changes, commit, merge, etc.
 		Remote-Tracking Branch (`origin/<branch>`)        			→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
 
