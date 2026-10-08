@@ -113,9 +113,9 @@
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 
 
-
 		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C
-		git status --short                                          → Shows the same status in a compact two-column format using two-character XY codes:
+		git status --short                       					→ Shows the same status in a compact two-column format using two-character XY codes:
+		git status -s                         						→ Shows the same status in a compact two-column format using two-character XY codes:
 																	XY file
 																	││
 																	│└── Working tree status
