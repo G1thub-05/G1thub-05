@@ -155,62 +155,61 @@ Step 2: Open folder on your computer
 	git checkout -- User.java            → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
 	git restore User.java                → Modern Git prefers
 	git checkout a82f91d			     → Checkout a specific commit (Moves HEAD to that commit)
-	git checkout --orphan clean-main     → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
-	git checkout --orphan clean-main     → Creates a brand new branch (files remain but git history empty)
 
 	main                 git checkout B
 	│
 	A ── B ── C        A ── B ── C
 	          ↑             ↑
 	        branch         HEAD  👉 You're viewing/working from commit B, but you're not on a branch.
+
+	git checkout --orphan clean-main    → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
+	git checkout --orphan clean-main    → Creates a brand new branch (files remain but git history empty)
 	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
-	git reset <mode> HEAD~1		   → This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
-    git reset <mode> <commit-id>   → This moves HEAD to the specified commit (from B → C), whether it is older or newer than the current HEAD, but what happens to the changes depends on the reset mode.
-	
-🔥 Example 1:                                                🔥 Example 2:
-	Before: A ── B ── C         After: A ── B                     Before: A ── B ── C             After: A ── B ── C
-	                  ↑                     ↑                                  ↑                                   ↑
-	                 HEAD                  HEAD                              HEAD                                HEAD 
-	+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
-	|         Command              Commit C removed?       Changes of C kept?       Changes from C remain in staging area      Changes from C remain in Working files  |
-	|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-	| git reset --soft HEAD~1   |   ✅ Removed       |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                |
-	| git reset --mixed HEAD~1  |   ✅ Removed       |   ✅ Kept                 |   ❌ Changes from C are removed        |   ✅ Kept                                |
-	| git reset --hard HEAD~1   |   ✅ Removed       |   ❌ Discarded            |   ❌ Changes from C are removed        |   ❌ Discarded                           |
-	+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+	
+	git reset <mode> HEAD~1		        → This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
+    git reset <mode> <commit-id>        → This moves HEAD to the specified commit (from B → C), whether it is older or newer than the current HEAD, but what happens to the changes depends on the reset mode.
 
-	
-        															🔥 Example 2:
-																	Before: A ── B ── C         After: A ── B ── C
-																	     		 ↑                               ↑
-																	            HEAD                            HEAD 
+	┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐                                                        
+	|												   Before: A ── B ── C         After: A ── B                                                                       |
+	|												                     ↑                     ↑               														   |
+	|												                    HEAD                  HEAD            														   |              
+	├───────────────────────────┬─────────────────────┬───────────────────────────┬─────────────────────────────────────────┬──────────────────────────────────────────┤
+	|         Command           |   Commit C removed? |     Changes of C kept?    |  Changes from C remain in staging area  |  Changes from C remain in Working files  |
+	├───────────────────────────┼─────────────────────┼───────────────────────────┼─────────────────────────────────────────┼──────────────────────────────────────────┤
+	| git reset --soft  HEAD~1  |  ✅✅ Removed      |   ✅✅ Kept              |  ✅✅ Staged                           |   ✅✅ Kept                             |
+	| git reset --mixed HEAD~1  |  ✅✅ Removed      |   ✅✅ Kept              |   ❌❌ Changes from C are removed      |   ✅✅ Kept                             |
+	| git reset --hard  HEAD~1  |  ✅✅ Removed      |   ❌❌ Discarded         |   ❌❌ Changes from C are removed      |   ❌❌ Discarded                        |
+	└───────────────────────────┴─────────────────────┴───────────────────────────┴─────────────────────────────────────────┴──────────────────────────────────────────┘	
 
-	+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
-	|         Command              Commit C added?         Changes of C kept?      Changes from C remain in staging area      Changes from C remain in Working files   |
-	|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-	| git reset --soft C       |   ✅ Added         |   ✅ Kept                 |   ✅ Staged                            |   ✅ Kept                                 |
-	| git reset --mixed C      |   ✅ Added         |   ✅ Kept                 |   ❌ Unstaged                          |   ✅ Kept                                 |
-	| git reset --hard C       |   ✅ Added         |   ❌ Discarded            |   ❌ Reset                             |   ❌ Discarded                            |
-	+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────+
+	┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐                                                        
+	|												   Before: A ── B ── C         After: A ── B ── C                                                                  |
+	|												                ↑                               ↑               											       |
+	|												               HEAD                            HEAD            													   |              
+	├──────────────────────────┬─────────────────────┬─────────────────────────┬─────────────────────────────────────────┬─────────────────────────────────────────────┤
+	|         Command          |    Commit C added?  |    Changes of C kept?   |  Changes from C remain in staging area  |    Changes from C remain in Working files   |
+	├──────────────────────────┼─────────────────────┼─────────────────────────┼─────────────────────────────────────────┼─────────────────────────────────────────────┤
+	|   git reset --soft  C    |   ✅✅ Added       |   ✅✅ Kept            |   ✅✅ Staged                          |   ✅✅ Kept                                |
+	|   git reset --mixed C    |   ✅✅ Added       |   ✅✅ Kept            |   ❌❌ Unstaged                        |   ✅✅ Kept                                |
+	|   git reset --hard  C    |   ✅✅ Added       |   ❌❌ Discarded       |   ❌❌ Reset                           |   ❌❌ Discarded                           |
+	└──────────────────────────┴─────────────────────┴─────────────────────────┴─────────────────────────────────────────┴─────────────────────────────────────────────┘
 
-		- But ⚠️ this table needs an important correction: if C is a descendant/newer commit and you're moving from B → C, 
-		- git reset --soft C doesn't "add commit C" in the sense of creating it. 
-		- Commit C already exists; reset simply moves your branch pointer/HEAD to C. 
-		- Also, the staged/working-file effects depend on what differences exist between B and C.
+	- But ⚠️ this table needs an important correction: if C is a descendant/newer commit and you're moving from B → C, 
+	- git reset --soft C doesn't "add commit C" in the sense of creating it. 
+	- Commit C already exists; reset simply moves your branch pointer/HEAD to C. 
+	- Also, the staged/working-file effects depend on what differences exist between B and C.
 
-		And if your specific goal is "I accidentally did git reset ... HEAD~1 and want to go back to where I was", use:
+	And if your specific goal is "I accidentally did git reset ... HEAD~1 and want to go back to where I was", use:
 
-		git reflog                  → Shows the history of previous HEAD positions and reference updates, including actions such as commits, resets, checkouts, merges, and rebases 
-                                    → Which can be used to find commits that are no longer reachable from the current branch.
-									→ Important: git reflog is primarily a local recovery mechanism. Reflog entries are not normally shared with GitHub or other teammates.
+	git reflog                  → Shows the history of previous HEAD positions and reference updates, including actions such as commits, resets, checkouts, merges, and rebases 
+                                → Which can be used to find commits that are no longer reachable from the current branch.
+							    → Important: git reflog is primarily a local recovery mechanism. Reflog entries are not normally shared with GitHub or other teammates.
 
-                                   🔥 Example:
-										a82f91d HEAD@{0}: reset: moving to HEAD~1       → current position
-										7c21e44 HEAD@{1}: commit: Add login feature     → previous HEAD position
-										91ab234 HEAD@{2}: commit: Add user API          → position before that
+	✨ After git reflog you will see like this:
+		a82f91d HEAD@{0}: reset: moving to HEAD~1       → current position
+		7c21e44 HEAD@{1}: commit: Add login feature     → previous HEAD position
+		91ab234 HEAD@{2}: commit: Add user API          → position before that
 
-		git reset --<mode> <previous-HEAD-commit>                 → Moves HEAD back to the previously recorded commit using the selected reset mode.
-		git reset --soft 7c21e44 OR git reset --soft HEAD@{1}     → That is the proper way to recover from a reset.
+	git reset --<mode> <previous-HEAD-commit>                 → Moves HEAD back to the previously recorded commit using the selected reset mode.
+	git reset --soft 7c21e44 OR git reset --soft HEAD@{1}     → That is the proper way to recover from a reset.
 
 	✨ git reflog can help recover commits after soft, mixed, or hard resets, as long as the relevant commit is still present/reachable through the local reflog and hasn't been garbage-collected.
 			 → For --soft and --mixed, your changes are still present in the working/staging area, so recovery is generally straightforward.
