@@ -283,6 +283,7 @@
 				git pull   → "Fetch the latest changes and merge (integrate) them into my current branch.
 				git stash  → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 
+		✨ Stashing:
 				git stash          → Temporarily save uncommitted changes.
 				git stash list     → Show all saved stash entries.
 				git stash apply    → Restore stashed changes without removing the stash entry.
