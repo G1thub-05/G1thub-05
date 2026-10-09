@@ -29,32 +29,32 @@ Step 2: Open folder on your computer
 	git config --global core.editor "code --wait"               → Makes VS Code Git's default editor. --wait makes Git wait until you close the editor before continuing.
 	git config --global core.autocrlf "true"                    → Converts CRLF → LF when committing, but does not convert LF → CRLF when checking files out. Commonly used on Linux/macOS; on Windows, true is often used instead.
 	git config --global --list                                  → Displays and Verify your current global Git configuration
-	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 ⚙️ VERIFY CONFIGURATION	
-	git config --global user.name                      → Check Git username used as the commit author
-	git config --global user.email                     → Check Git email used as the commit author
-	git config --global core.editor                    → Check Git default editor
-	git config --global core.autocrlf                  → Check line-ending configuration/conversion setting
-	git config --global --get-regexp "user|core"       → Check all configured settings whose keys match user or core
-	git config --global -e                             → Opens the global Git configuration file in your configured editor.
-	
+	git config --global user.name                      			→ Check Git username used as the commit author
+	git config --global user.email                     			→ Check Git email used as the commit author
+	git config --global core.editor                   			→ Check Git default editor
+	git config --global core.autocrlf                 			→ Check line-ending configuration/conversion setting
+	git config --global --get-regexp "user|core"       			→ Check all configured settings whose keys match user or core
+	git config --global -e                             			→ Opens the global Git configuration file in your configured editor.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 ⚙️ Credential Management
-	git config --global --unset credential.helper      → Removes the globally configured/existing credential helper.
-	git config --global credential.helper manager      → Configures Git Credential Manager to manage Git credentials.
-	
+	git config --global --unset credential.helper      			→ Removes the globally configured/existing credential helper.
+	git config --global credential.helper manager      			→ Configures Git Credential Manager to manage Git credentials.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 ⚙️ HTTP POST Buffer
-	git config --global http.postBuffer 524288000      → Sets Git's HTTP POST buffer size to 500 MiB (Large Upload Support).
-	git config --global --unset http.postBuffer        → Removes the custom http.postBuffer setting and returns to Git's default behavior.
-	
+	git config --global http.postBuffer 524288000      			→ Sets Git's HTTP POST buffer size to 500 MiB (Large Upload Support).
+	git config --global --unset http.postBuffer        			→ Removes the custom http.postBuffer setting and returns to Git's default behavior.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 ⚙️ Git Compression/Git large push fix 
-	git config --global core.compression 0             → Disables Git compression (Don't blindly keep them in your global configuration).
-	git config --global --unset core.compression       → Removes the custom compression setting and returns to Git's default behavior.
-	
+	git config --global core.compression 0             			→ Disables Git compression (Don't blindly keep them in your global configuration).
+	git config --global --unset core.compression       			→ Removes the custom compression setting and returns to Git's default behavior.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 ⚙️ Slow HTTP Transfer Detection
-	git config --global http.lowSpeedLimit 0           → Sets the minimum transfer speed threshold to 0 bytes/sec (Don't cancel upload for slow upload speed).
-	git config --global --unset http.lowSpeedLimit     → Removes the custom lowSpeedLimit setting and returns to the default.
-	git config --global http.lowSpeedTime 999999       → Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
-	git config --global --unset http.lowSpeedTime      → Removes the custom lowSpeedTime setting and returns to the default.
+	git config --global http.lowSpeedLimit 0           			→ Sets the minimum transfer speed threshold to 0 bytes/sec (Don't cancel upload for slow upload speed).
+	git config --global --unset http.lowSpeedLimit     			→ Removes the custom lowSpeedLimit setting and returns to the default.
+	git config --global http.lowSpeedTime 999999       			→ Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
+	git config --global --unset http.lowSpeedTime     			 → Removes the custom lowSpeedTime setting and returns to the default.
 
 
 ✨ Work Management
@@ -64,7 +64,7 @@ Step 2: Open folder on your computer
 	│ git add     → Staging Area
 	│ git commit  → Local Repository (Commits)
 	│ git push    → Remote Repository (GitHub)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Git File Stages
 	U - Untracked			→ File exists in your working directory but Git is not tracking/managing it yet.
 	M - Modified			→ A tracked file has been changed after the last commit.
@@ -72,17 +72,17 @@ Step 2: Open folder on your computer
 	A - Added to staging	→ File has been added to the staging area using `git add`.
 	S - Staged				→ Changes are currently in the staging area and ready to be committed.
 	C - Committed			→ Changes have been saved in a commit in the local Git repository.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Command You Need to Know
 	git init					→ Initializes a new Git repository in the current directory (once per repository).
 	git remote -v				→ Shows the remote repositories configured for the local repository.
 	git remote remove origin	→ Removes the remote named origin from the local repository.
-	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 🌿 Branch Management 
 	origin                                          → The local name (nickname) Git uses for the remote repository, usually GitHub.		
 	Normal Branch (`<branch>`)                      → Local branch on your computer where you actually work, make changes, commit, merge, etc.
 	Remote-Tracking Branch (`origin/<branch>`)    	→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
-	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	Local Repository (Computer)                     Remote Repository (GitHub)
 	───────────────────────────                     ──────────────────────────
 			  main                                             main
@@ -91,12 +91,12 @@ Step 2: Open folder on your computer
 				└────────────────── origin/main ◄────────────────┘
 									     │
 							Remote-tracking reference
-	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git branch                                  → Shows all local branches and marks the current branch with `*` that tells you which branch you're currently on.
 	git branch --show-current                   → Shows only the name of the current branch.
 	git branch -r            			        → See remote-tracking branches available locally (Only remote branches).
 	git branch -a     					        → See all local and remote-tracking branches.
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git branch <branch-name>                    → Creates a new branch, but you remain on your current branch.
 	git checkout <branch-name>                  → Switches your working directory to another existing branch (Now you're working on the <branch-name> branch).
 	git switch <branch-name>                    → Modern Git prefers 👉 Switches your working directory to another existing branch (Now you're working on the <branch-name> branch).
@@ -104,20 +104,20 @@ Step 2: Open folder on your computer
 	git switch -c feature-login                 → Equivalent modern command (Creates a new branch called <branch-name> and immediately switches to it)
 	git branch -m <branch-name>                 → Rename current branch to <branch-name>.
 	git branch -M <branch-name>                 → Force-renames the current branch to <branch-name>, the -M option allows the rename even if a branch named <branch-name> already exists.
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git fetch          						    → Download updates/changes from the configured remote(s) without changing the current branch.
 	git fetch origin   						    → Download the latest updates and commit information specifically from the `origin` remote without changing the current branch.
 	git switch --track origin/<branch-name>     → Creates a local branch that tracks an existing remote branch and switches you to it.
 	git branch -d <branch-name>                 → Delete the local `<branch-name>` branch safely. Git deletes it only if its changes have been merged (Git refuses if the branch contains unmerged commits, helping prevent accidental loss of work).
 	git branch -D <branch-name>                 → Force-delete the local `<branch-name>` branch. Deletes it even if its changes have not been merged (-D can delete the branch even if it contains commits that haven't been merged).
 	git push origin --delete <branch-name>      → Delete the `<branch-name>` branch from the remote repository named origin (GitHub).
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git add User.java                           → Stages a specific file for the next commit.
 	git add User.java UserController.java       → Stages multi file for the next commit.
 	git add .                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
 	git ls-files | findstr src                  → Get the Lists of Git-tracked file whose paths contain src (already tracked files by Git).
 	git rm -r --cached "docs"                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     git restore --staged <file-name>                   → Unstages only the specified file without deleting its changes.
 	git restore --staged .                 	           → Unstages all staged files without deleting their changes.
 	git reset HEAD .                                   → Older alternative to unstage all staged files.
@@ -125,7 +125,7 @@ Step 2: Open folder on your computer
 	git restore .                                      → Discards all unstaged changes in tracked files.
 	git restore --source=HEAD --staged --worktree .    → Permanently discards staged and unstaged changes to tracked files. 
 	git clean -fd                                      → Deletes all untracked files and directories.
-	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git status                       → Shows the current state of the working directory and staging area, including: U M D A S C and other changes before and after a commit.
 	git status --short               → Shows the same status in a compact two-column format using two-character XY codes:
 	git status -s                    → The -s is simply the short form of --short.
@@ -133,14 +133,14 @@ Step 2: Open folder on your computer
 									 ││
 									 │└── Working tree status
 									 └─── Staging area (index) status	
-	-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 	git commit -m "first commit"                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 	git push -u origin <branch-name>            → Firstly pushes the local <branch-name> branch to the remote repository named origin and establishes an upstream tracking relationship.
 	git push  								    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 	git rebase -i HEAD~3                        → Interactively edit the last 3 commits; select `Drop` to remove the unwanted commit from history.
 	git reset --hard <commit-hash>              → Resets the current branch to the specified commit and discards changes in the working directory.
 	git push --force-with-lease origin main     → Updates the remote `main` branch with the rewritten local history, provided the remote has not changed unexpectedly.
-	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git log                          → What commits exist 👉 Shows detailed commit history/Saved Point, including Commit ID (SHA), Author, Date, Commit message).
 	git log --oneline                → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
 	git log --graph                  → Shows the commit history with a visual graph of branches and merges for the current branch's reachable history (Draws an ASCII graph showing branches and merges).
@@ -151,7 +151,7 @@ Step 2: Open folder on your computer
 	git show a82f91d                 → Show a specific commit (Shows the details and changes of that particular commit).
 	git show --stat                  → Shows the commit information plus a summary of changed files, without the full diff.
 	git show --name-only             → Shows the names of files changed by the commit.
-	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git checkout -- User.java            → Restore a file from another state 👉 Discards the unstaged changes in User.java and restores it from the current commit (HEAD): 👉 This can permanently discard your uncommitted changes.
 	git restore User.java                → Modern Git prefers
 	git checkout a82f91d			     → Checkout a specific commit (Moves HEAD to that commit)
@@ -164,7 +164,7 @@ Step 2: Open folder on your computer
 
 	git checkout --orphan clean-main    → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
 	git checkout --orphan clean-main    → Creates a brand new branch (files remain but git history empty)
-	---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 	git reset <mode> HEAD~1		        → This moves HEAD back by one commit (from C → B), but what happens to the changes from C depends on the reset mode.
     git reset <mode> <commit-id>        → This moves HEAD to the specified commit (from B → C), whether it is older or newer than the current HEAD, but what happens to the changes depends on the reset mode.
 
