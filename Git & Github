@@ -117,7 +117,8 @@
 		git branch -a     											→ See all local and remote-tracking branches.
 		git fetch          											→ Download updates from the configured remote(s) without changing the current branch.
 		git fetch origin   											→ Download the latest updates and commit information specifically from the `origin` remote without changing the current branch.
-	
+		git switch --track origin/<branch-name>                     → Creates a local branch that tracks an existing remote branch and switches you to it.
+
 		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
 		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged).
 
