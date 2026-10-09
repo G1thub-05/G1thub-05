@@ -426,21 +426,19 @@ git merge --abort   → Cancel an ongoing merge, even if some conflicts have alr
 git add             → ✅ Conflict marked as resolved → Can still use git merge --abort
 git commit          → ✅ Merge completed             → git merge --abort no longer applies
 
+1️⃣ git merge feature (Conflict occurs)
+            │
+ 			├── want to Resolve conflict ──────────→ git add <file> ──────────→ git commit  ──────────→ ✅ Merge completed   
+			│
+			└── Don't want merge ────────→ git merge --abort ──────────→ Merge cancelled ❌ 
 
-                      git merge feature                                       Merge in progress
-                             ↓                                                       │
-                      Conflict occurs                                                ├── git add ──────────→ Can still use git merge --abort
-               ┌─────────────┴─────────────┐                                         │
-        Resolve conflict             Don't want merge                                └── git commit ────────→ Merge completed
-               │                           │                                                                        ↓
-          git add <file>           git merge --abort                                               git merge --abort no longer applies
-               ↓                           ↓
-           git commit               Merge cancelled ❌
-               ↓
-        Merge completed ✅
-
-
-
+2️⃣ Merge in progress
+		│
+		├── git add ──────────→ Can still use git merge --abort
+		│
+		└── git commit ────────→ Merge completed
+		                               ↓
+		                git merge --abort no longer applies
 
 
 
