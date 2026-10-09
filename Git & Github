@@ -128,10 +128,23 @@
 		git add User.java                                           → Stages a specific file for the next commit.
 		git add User.java UserController.java                       → Stages both file for the next commit.
 		git add .                                                   → Stages all changes under the current directory and its subdirectories including: New files, Modified files and Deleted files that are not excluded by .gitignore.
+
+		git restore --staged .                 						→ Unstages all staged files without deleting their changes.
+		git restore --staged <file-name>                            → Unstages only the specified file without deleting its changes.
+		git reset HEAD .                                            → Older alternative to unstage all staged files.
+
+		git restore .                                              → Discards all unstaged changes in tracked files.
+		git restore <file-name>                                    → Discards unstaged changes in the specified file.
+		git restore --source=HEAD --staged --worktree .            → Unstages all files and discards all their changes.
+		git clean -fd                                              → Deletes all untracked files and directories.
+
+		⚠️ Warning: 		
+		git restore --source=HEAD --staged --worktree . permanently discards staged and unstaged changes to tracked files. 
+		git clean -fd deletes untracked files and directories. Review carefully before running these commands.
+
 		git commit -m "first commit"                                → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
 		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
-
 
 		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C and other changes before and after a commit.
 		git status --short                       					→ Shows the same status in a compact two-column format using two-character XY codes:
