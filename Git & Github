@@ -119,13 +119,9 @@
 		git fetch origin   											→ Download the latest updates and commit information specifically from the `origin` remote without changing the current branch.
 		git switch --track origin/<branch-name>                     → Creates a local branch that tracks an existing remote branch and switches you to it.
 
-		git branch -d main                                          → Git refuses if deleting the branch would cause you to lose unmerged commits.
-		git branch -D main                                          → Force-deletes the local main branch (-D can delete the branch even if it contains commits that haven't been merged).
-
-
-		git push origin --delete Diges                              → Delete the `Diges` branch from the remote repository (GitHub).
-		git branch -d Diges                                         → Delete the local `Diges` branch safely. Git deletes it only if its changes have been merged.
-		git branch -D Diges                                         → Force-delete the local `Diges` branch. Deletes it even if its changes have not been merged.
+		git push origin --delete Digesh                             → Delete the `Digesh` branch from the remote repository named origin (GitHub).
+		git branch -d Digesh                                        → Delete the local `Digesh` branch safely. Git deletes it only if its changes have been merged (Git refuses if the branch contains unmerged commits, helping prevent accidental loss of work.).
+		git branch -D Digesh                                        → Force-delete the local `Digesh` branch. Deletes it even if its changes have not been merged (-D can delete the branch even if it contains commits that haven't been merged).
 
 		git ls-files | findstr assets                               → Lists Git-tracked file whose paths contain assets (already tracked files by Git).
 		git rm -r --cached "docs"                                   → Optional: Removes the docs folder from Git's index (tracking) while keeping the files in your working directory (Usually you'd then add it to .gitignore: docs/).		
