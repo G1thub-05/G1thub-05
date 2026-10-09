@@ -407,26 +407,24 @@ Untracked files are not normally included; use git stash -u / git stash --includ
 		                                         Prefer current branch                      Prefer incoming branch
                                                                 
 
-
 🔥 Merge-conflict states shown by git status --short 
-✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-		UU - Both sides modified        (Modified  ↔ Modified)      → The file was modified on both the current branch (ours) and the branch being merged (theirs).
-		AA - Both sides added           (Added     ↔ Added)         → The file was added on both the current branch (ours) and the branch being merged (theirs).
-		DD - Both sides deleted         (Deleted   ↔ Deleted)       → The file was deleted on both the current branch (ours) and the branch being merged (theirs).
-		UD - Us modified, them deleted  (Modified  ↔ Deleted)       → The file was modified on the current branch (ours), but deleted on the branch being merged (theirs).
-		DU - Us deleted, them modified  (Deleted   ↔ Modified)      → The file was deleted on the current branch (ours), but modified on the branch being merged (theirs).
-		AU - Us added, them modified    (Added     ↔ Modified)      → The file was added on the current branch (ours), but modified on the branch being merged (theirs).
-		UA - Us modified, them added    (Modified  ↔ Added)         → The file was modified on the current branch (ours), but added on the branch being merged (theirs).
+UU - Both sides modified        (Modified  ↔ Modified)      → The file was modified on both the current branch (ours) and the branch being merged (theirs).
+AA - Both sides added           (Added     ↔ Added)         → The file was added on both the current branch (ours) and the branch being merged (theirs).
+DD - Both sides deleted         (Deleted   ↔ Deleted)       → The file was deleted on both the current branch (ours) and the branch being merged (theirs).
+UD - Us modified, them deleted  (Modified  ↔ Deleted)       → The file was modified on the current branch (ours), but deleted on the branch being merged (theirs).
+DU - Us deleted, them modified  (Deleted   ↔ Modified)      → The file was deleted on the current branch (ours), but modified on the branch being merged (theirs).
+AU - Us added, them modified    (Added     ↔ Modified)      → The file was added on the current branch (ours), but modified on the branch being merged (theirs).
+UA - Us modified, them added    (Modified  ↔ Added)         → The file was modified on the current branch (ours), but added on the branch being merged (theirs).
 
-		Merge started       → ❌ Merge not completed
-		Conflict occurs     → ❌ Merge not completed
-		Resolve conflict    → ❌ Still not completed
-		git merge --abort   → Cancel an ongoing merge, even if some conflicts have already been resolved/staged and return to the pre-merge state → Restores the repository to the state before the merge started.
-		git add             → ✅ Conflict marked as resolved → Can still use git merge --abort
-		git commit          → ✅ Merge completed             → git merge --abort no longer applies
-
+Merge started       → ❌ Merge not completed
+Conflict occurs     → ❌ Merge not completed
+Resolve conflict    → ❌ Still not completed
+git merge --abort   → Cancel an ongoing merge, even if some conflicts have already been resolved/staged and return to the pre-merge state → Restores the repository to the state before the merge started.
+git add             → ✅ Conflict marked as resolved → Can still use git merge --abort
+git commit          → ✅ Merge completed             → git merge --abort no longer applies
 
 
                       git merge feature                                       Merge in progress
