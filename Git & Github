@@ -146,6 +146,9 @@
 		git push -u origin main                                     → Firstly pushes the local main branch to the remote repository named origin and establishes an upstream tracking relationship.
 		git push  												    → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 
+		git rebase -i HEAD~3                                        → Interactively edit the last 3 commits; select `Drop` to remove the unwanted commit from history.
+		git push --force-with-lease origin main                     → Update the remote `main` branch with the rewritten local history, provided the remote has not changed unexpectedly.
+
 		git status                                                  → Shows the current state of the working directory and staging area, including: U M D A S C and other changes before and after a commit.
 		git status --short                       					→ Shows the same status in a compact two-column format using two-character XY codes:
 		git status -s                         						→ The -s is simply the short form of --short.
