@@ -118,6 +118,8 @@ Step 2: Open folder on your computer
 	git branch --show-current                   	   → Shows only the name of the current branch.
 	git branch -r            			        	   → See remote-tracking branches available locally (Only remote branches).
 	git branch -a     					        	   → See all local and remote-tracking branches.
+	git branch -vv                                     → Check upstream tracking information, if configured and Lists local branches with their latest commit. 
+	git branch -v                                      → Lists local branches with their latest commit hash and commit message. Does not show upstream tracking information.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git branch <branch-name>                    	   → Creates a new branch, but you remain on your current branch.
 	git checkout <branch-name>                  	   → Switches your working directory to another existing branch (Now you're working on the <branch-name> branch).
@@ -164,7 +166,8 @@ Step 2: Open folder on your computer
 	git push -u origin <branch-name>                   → Firstly Pushes the local branch <branch-name> to the remote branch origin/<branch-name> and sets origin/<branch-name> as the upstream tracking branch for the local branch.
 	git push origin <local-branch>:<remote-branch>     → Pushes the specified local branch to the specified remote branch.
 	git push -u origin <local-branch>:<remote-branch>  → Firstly Pushes the specified local branch to the specified remote branch and sets the remote destination as the upstream tracking branch for the local source branch.
-	git branch -vv                                     → Check the upstream of the current branch
+	git branch -vv                                     → Check upstream tracking information, if configured and Lists local branches with their latest commit. 
+	git branch -v                                      → Lists local branches with their latest commit hash and commit message. Does not show upstream tracking information.
 														
 	✨ Important Notes
 		The -u is short for --set-upstream and uou usually use -u when pushing a branch for the first time.
