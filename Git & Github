@@ -232,10 +232,8 @@ Step 2: Open folder on your computer
   |	  You are on A		  -	  origin/A	           -   Integrates remote A into local A.	     -   No	                      -  Usually fails because Git cannot determine which remote branch to integrate. |
   |	  You are on A		  -	  origin/main	       -   Integrates remote main into local A.	     -   No	                      -  Usually fails because Git cannot determine which remote branch to integrate. |
   └───────────────────────┴────────────────────────┴─────────────────────────────────────────────┴────────────────────────────┴───────────────────────────────────────────────────────────────────────────────┘
-
+	Note: If no upstream is configured, you can explicitly specify the remote branch:
 	git pull origin main                               → Fetch the latest changes from the remote `main` branch from `origin` and integrates its changes into the current local branch (fetch + merge/rebase, depending on configuration).
-	git stash  										   → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
-
 
 ⚙️ Current Branch vs. Pull Source
 
@@ -282,7 +280,7 @@ Step 2: Open folder on your computer
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Git Stash Commands — Temporarily Save and Restore Changes
-	git stash         								   → Temporarily save uncommitted changes.
+	git stash  										   → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 	git stash list     								   → Show all saved stash entries.
 	git stash apply    								   → Restore stashed changes without removing the stash entry.
 	git stash pop     								   → Restore stashed changes and remove the stash entry if the apply succeeds.
