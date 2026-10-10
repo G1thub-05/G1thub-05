@@ -295,7 +295,42 @@ Step 2: Open folder on your computer
 Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
 Untracked files are not normally included; use git stash -u / git stash --include-untracked when you also want to stash untracked files.	
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+⚙️ Git Rebase vs. Reset
+	git rebase changes how commits are based on another commit, usually by replaying commits onto a new base.
+	git reset moves the current branch pointer to a specified commit and can also change the staging area and working directory, depending on the option used.
+	Use rebase to reposition your commits on a newer base. Use reset to move your current branch backward or change the staging state. Avoid rebasing shared commits unless your team agrees, because rebasing rewrites history.
 
+✨ Quick Comparison (git rebase vs git reset)
+
+	Main purpose	     					Reapply commits onto a new base						Move the current branch to another commit
+	Rewrites commit history					Yes, for the commits being replayed					Can remove commits from the current branch's visible history
+	Changes current branch pointer			Yes													Yes
+	Can change staged files					During conflict resolution or replay				Yes, depending on the option
+	Can change working files				During replay/conflict resolution					Yes, depending on the option
+	Common use								Update a feature branch with latest main			Undo local commits or unstage changes
+	Risk									Rewriting shared history							Losing access to commits or discarding changes
+
+✨ 1. git rebase — Suppose you are working on branch A, and main has received new commits.
+
+	Before rebase:                                                              After rebase:
+	main:  C1 ── C2 ── C3                                                       main:  C1 ── C2 ── C3                   
+	        \                      git switch A —————————→ git rebase main                            \
+	A:       C1 ── A1 ── A2                                                     A:                     A1' ── A2'
+	Your commits are replayed on top of the latest main. The rebased commits have new commit identities.
+
+✨ 2. git reset — Three Main Options
+	git reset --soft HEAD~1	           → Removes the latest commit from the current branch's history but keeps its changes staged.
+	git reset --mixed HEAD~1	       → Removes the latest commit and keeps its changes in the working directory, unstaged. This is the default reset mode.
+	git reset --hard HEAD~1	           → Removes the latest commit from the current branch's history and resets staged and working files to match the previous commit. Uncommitted changes can be lost.
+	These commands move the current branch back by one commit. Be careful with --hard, especially if you have uncommitted work.
+
+✨ Which One Should You Use?
+	Update branch A with the latest main commits while keeping linear history	       → git rebase main
+	Undo the last commit but keep changes staged	                                   → git reset --soft HEAD~1
+	Undo the last commit but keep changes unstaged	                                   → git reset HEAD~1
+	Undo the last commit and discard its file changes	                               → git reset --hard HEAD~1
+	Safely undo a commit already shared with teammates	                               → git revert <commit-hash>
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Interactive Rebase Options & Remote History Rewriting Commands
 	git rebase -i HEAD~3                           	   → Interactively edit the last 3 commits; select `Drop` to remove the unwanted commit from history.
 	git rebase --continue                              → Continue the rebase after resolving conflicts or completing an edit.
