@@ -125,6 +125,7 @@ Step 2: Open folder on your computer
 	git switch --track origin/<branch-name>     	   → Creates a local branch that tracks an existing remote branch and switches you to it.
 	git branch -d <branch-name>                 	   → Delete the local `<branch-name>` branch safely. Git deletes it only if its changes have been merged (Git refuses if the branch contains unmerged commits, helping prevent accidental loss of work).
 	git branch -D <branch-name>                 	   → Force-delete the local `<branch-name>` branch. Deletes it even if its changes have not been merged (-D can delete the branch even if it contains commits that haven't been merged).
+	git branch -dr origin/dev						   → Deletes the local remote-tracking reference origin/dev. It does not delete the actual dev branch from the remote repository.	
 	git push origin --delete <branch-name>      	   → Delete the `<branch-name>` branch from the remote repository named origin (GitHub).
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git add User.java                           	   → Stages a specific file for the next commit.
