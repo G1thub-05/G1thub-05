@@ -86,9 +86,14 @@ Step 2: Open folder on your computer
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Command You Need to Know
-	git init					                    → Initializes a new Git repository in the current directory (once per repository).
-	git remote -v				                    → Shows the remote repositories configured for the local repository.
-	git remote remove origin	                    → Removes the remote named origin from the local repository.
+	git init					                                               → Initializes a new Git repository in the current directory (once per repository).
+	git remote -v				                                               → Shows the remote repositories configured for the local repository.
+	git remote add <remote-name> <repository-url>.git                          → Adds a remote repository with the specified name and URL
+	git remote add origin https://github.com/username/repository-name.git      → Adds a GitHub repository as a remote named `origin`
+	git remote show origin                                                     → Shows details about the remote repository `origin`, including tracked branches and push/pull configuration
+	git remote set-url <remote-name> <repository-url>.git                      → Changes the URL of the existing remote repository with specified name and URL
+	git remote set-url origin https://github.com/username/new-repository.git   → Changes the URL of the existing remote repository `origin` to the new GitHub repository URL.
+	git remote remove origin	                                               → Removes the remote named origin from the local repository.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
 
 🌿 Branch Management 
