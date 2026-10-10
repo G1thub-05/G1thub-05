@@ -259,7 +259,10 @@ Step 2: Open folder on your computer
 	git log --oneline                	               → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
 	git log --graph                  				   → Shows the commit history with a visual graph of branches and merges for the current branch's reachable history (Draws an ASCII graph showing branches and merges).
 	git log --graph --all            				   → Shows the commit history with a visual graph of branches and merges for the all local branches, not just the current branch.
-	git log --oneline --graph --all  				   → Shows the commit history in a compact format with a visual graph of branches and merges for the all local branches, not just the current branch.
+	git log --oneline --graph --all  				   → Shows the commit history in a compact format with a visual graph of all reachable branches and merges for the all local branches, not just the current branch.
+	git log --oneline --graph --decorate --all	       → Displays the same graph, including reference labels such as branch names, tags, and HEAD.
+	git reflog show --all --date=local	               → Displays available local reflog entries for reference movements, with dates and times in local time.
+
 
 	git show                         				   → What did this particular commit change 👉 Shows the details of a specific commit. By default, it shows the latest commit (HEAD), including: Commit ID (SHA), Author, Date, Commit message, Changes introduced by that commit (diff)
 	git show a82f91d                 				   → Show a specific commit (Shows the details and changes of that particular commit).
