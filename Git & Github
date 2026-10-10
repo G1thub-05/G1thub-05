@@ -27,13 +27,16 @@ Step 2: Open folder on your computer
 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ⚙️ SET CONFIGURATION
+
 	git config --global user.email "mr.digeshwar05@gmail.com"   → Sets the email address recorded in your commits globally (commit author email)
 	git config --global user.name "Digeshwar"                   → Sets the name recorded as the commit author globally (commit author name)
 	git config --global core.editor "code --wait"               → Makes VS Code Git's default editor. --wait makes Git wait until you close the editor before continuing.
 	git config --global core.autocrlf "true"                    → Converts CRLF → LF when committing, but does not convert LF → CRLF when checking files out. Commonly used on Linux/macOS; on Windows, true is often used instead.
 	git config --global --list                                  → Displays and Verify your current global Git configuration
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 ⚙️ VERIFY CONFIGURATION	
+
 	git config --global user.name                      			→ Check Git username used as the commit author
 	git config --global user.email                     			→ Check Git email used as the commit author
 	git config --global core.editor                   			→ Check Git default editor
@@ -41,19 +44,27 @@ Step 2: Open folder on your computer
 	git config --global --get-regexp "user|core"       			→ Check all configured settings whose keys match user or core
 	git config --global -e                             			→ Opens the global Git configuration file in your configured editor.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 ⚙️ Credential Management
+
 	git config --global --unset credential.helper      			→ Removes the globally configured/existing credential helper.
 	git config --global credential.helper manager      			→ Configures Git Credential Manager to manage Git credentials.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 ⚙️ HTTP POST Buffer
+
 	git config --global http.postBuffer 524288000      			→ Sets Git's HTTP POST buffer size to 500 MiB (Large Upload Support).
 	git config --global --unset http.postBuffer        			→ Removes the custom http.postBuffer setting and returns to Git's default behavior.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 ⚙️ Git Compression/Git large push fix 
+
 	git config --global core.compression 0             			→ Disables Git compression (Don't blindly keep them in your global configuration).
 	git config --global --unset core.compression       			→ Removes the custom compression setting and returns to Git's default behavior.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 ⚙️ Slow HTTP Transfer Detection
+
 	git config --global http.lowSpeedLimit 0           			→ Sets the minimum transfer speed threshold to 0 bytes/sec (Don't cancel upload for slow upload speed).
 	git config --global --unset http.lowSpeedLimit     			→ Removes the custom lowSpeedLimit setting and returns to the default.
 	git config --global http.lowSpeedTime 999999       			→ Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
@@ -63,13 +74,16 @@ Step 2: Open folder on your computer
 ✨ Work Management
 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
 ⚙️ Working Directory
 	│
 	│ git add     → Staging Area
 	│ git commit  → Local Repository (Commits)
 	│ git push    → Remote Repository (GitHub)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Git File Stages
+
 	U - Untracked									→ File exists in your working directory but Git is not tracking/managing it yet.
 	M - Modified									→ A tracked file has been changed after the last commit.
 	D - Deleted										→ A tracked file has been deleted from the working directory.
@@ -77,13 +91,17 @@ Step 2: Open folder on your computer
 	S - Staged				                        → Changes are currently in the staging area and ready to be committed.
 	C - Committed			                        → Changes have been saved in a commit in the local Git repository.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Command You Need to Know
+
 	git init					                    → Initializes a new Git repository in the current directory (once per repository).
 	git remote -v				                    → Shows the remote repositories configured for the local repository.
 	git remote remove origin	                    → Removes the remote named origin from the local repository.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
+
 🌿 Branch Management 
-	origin                                          → The local name (nickname) Git uses for the remote repository, usually GitHub.		
+
+	origin                                          → The nickname Git uses for the remote repository, usually GitHub.		
 	Normal Branch (`<branch>`)                      → Local branch on your computer where you actually work, make changes, commit, merge, etc.
 	Remote-Tracking Branch (`origin/<branch>`)    	→ A local reference to the remote `<branch>` that represents the state of that branch on the remote repository as of the last fetch.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -139,9 +157,59 @@ Step 2: Open folder on your computer
 									 				   └─── Staging area (index) status	
 
 	git commit -m "first commit"                	   → Creates a new commit from the changes currently in the staging area and -m Provide the commit message (The commit is stored locally, it does not upload anything to GitHub)
-	git push -u origin <branch-name>            	   → Firstly pushes the local <branch-name> branch to the remote repository named origin and establishes an upstream tracking relationship.
-	git push  								    	   → The -u is important for the first push because afterward you can usually simply use: git push (Future pushes)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+⚙️ Basic Git Push Commands
+
+	git push origin <branch-name>	                   → Pushes the local branch <branch-name> to the remote branch origin/<branch-name>.
+	git push -u origin <branch-name>                   → Firstly Pushes the local branch <branch-name> to the remote branch origin/<branch-name> and sets origin/<branch-name> as the upstream tracking branch for the local branch.
+	git push origin <local-branch>:<remote-branch>     → Pushes the specified local branch to the specified remote branch.
+	git push -u origin <local-branch>:<remote-branch>  → Firstly Pushes the specified local branch to the specified remote branch and sets the remote destination as the upstream tracking branch for the local source branch.
+	git branch -vv                                     → Check the upstream of the current branch
+														
+	✨ Important Notes
+		The -u is short for --set-upstream and uou usually use -u when pushing a branch for the first time.
+		The -u sets the upstream tracking relationship branch for local branch. Each can have its own upstream tracking configuration branch.
+		The -u is important for the first push because afterward once the upstream is configured you can usually simply use `git push` instead of specifying the remote and branch each time (git push origin <branch-name>).
+		The current branch does not determine which branch is pushed when you explicitly specify a local branch in the command.
+
+
+⚙️ Current Branch vs. Push Destination
+
+	Situation (Current branch / Upstream)	           -    Command (Branch detected here)	     			  -   Result
+	You are on A, no upstream configured	           -    git push origin A            (A specified)	      -   Local A → Remote A
+	You are on A, no upstream configured	           -    git push origin B            (B specified)	      -   Local B → Remote B
+	You are on A, no upstream configured	           -    git push	                 (A specified)        -   Git may show an error
+	You are on A, no upstream configured	           -    git push -u origin A	     (A specified)        -   Local A → Remote A; sets origin/A as the upstream for local A
+	You are on A, and no upstream is configured for B  -    git push -u origin B	     (B specified)	      -   Local B → Remote B; sets origin/B as the upstream for local B.
+	
+	You are on A, upstream is origin/A	               -    git push	                                      -   Pushes local A to its configured upstream, normally remote A
+	You are on A, upstream is origin/A	               -    git push origin A:main       (A:main specified)   -   Local A → Remote main
+	You are on A, upstream is origin/A	               -    git push origin B:main       (B:main specified)   -   Local B → Remote main
+	You are on A, upstream is origin/A                 -    git branch --unset-upstream  (A specified)        -   Remove the upstream tracking branch from your current local branch
+	
+	You are on A, and no upstream is configured        -    git branch --set-upstream-to=origin/main A        -   Only Sets origin/main as the upstream tracking branch for local branch A. Does not push or merge any changes.
+	You are on A, and no upstream is configured        -    git branch --set-upstream-to=origin/main B        -   Only Sets origin/main as the upstream tracking branch for local branch B. Does not push or merge any changes.
+	You are on A, and no upstream is configured        -    git branch -vv                                    -   Check the upstream of the current branch 
+
+	You are on A, and no upstream is configured        -    git push -u origin A:main    (A:main specified)   -   Local A → Remote main; sets origin/main as the upstream for local A, if the push succeeds.
+	You are on A, and upstream is origin/main          -    git push                     (A specified)        -   Push destination depends on push.default. With the default simple setting, it usually fails because local A and upstream main have different names.
+
+
+⚙️ If local branch A tracks origin/main, the result of git push depends on push.default:
+
+	You are on A, and no upstream configured           -    git config --global --get push.default            -   Displays the global push.default value (simple, upstream, or current). If no value is set or displayed, Git may use a repository-level or system-level setting; otherwise, the default is simple.
+	You are on A, and no upstream configured           -    git config --get push.default                     -   Displays the effective push.default value(simple, upstream, or current), considering configuration precedence. If no value is set anywhere, Git defaults to simple.
+	You are on A, and upstream is origin/main          -    git push                                          -   Pushes local A → remote main if git config --get push.default Displays upstream
+	You are on A, and upstream is origin/main          -    git push                                          -   Pushes local A → remote A    if git config --get push.default Displays (push.default=current)
+	You are on A, and upstream is origin/main          -    git push                                          -   Pushes fails                 if git config --get push.default Displays (push.default=simple) because A and main have different names.
+
+	You are on A, and no upstream configured           -	git config --global push.default simple           -   Sets simple as the default push behavior for all your repositories.         It does not configure an upstream for branch A.
+	You are on A, and no upstream configured           -	git config push.default simple                    -   Sets simple as the default push behavior for current repository only.       It does not configure an upstream for branch A.
+	You are on A, and no upstream configured           -	git config push.default upstream                  -   Sets upstream as the default push behavior for the current repository only. It does not configure an upstream for branch A.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+⚙️ Git logging
+
 	git log                          				   → What commits exist 👉 Shows detailed commit history/Saved Point, including Commit ID (SHA), Author, Date, Commit message).
 	git log --oneline                	               → Shows the commit history/Saved Point in a compact, one-line-per-commit format.
 	git log --graph                  				   → Shows the commit history with a visual graph of branches and merges for the current branch's reachable history (Draws an ASCII graph showing branches and merges).
@@ -166,7 +234,9 @@ Step 2: Open folder on your computer
 	git checkout --orphan clean-main    			   → Creates a new branch with no parent commit/history, while keeping the files from the current working tree (starts with a completely new history).
 	git checkout --orphan clean-main   				   → Creates a brand new branch (files remain but git history empty)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Git Stash Commands — Temporarily Save and Restore Changes
+
 	git stash         								   → Temporarily save uncommitted changes.
 	git stash list     								   → Show all saved stash entries.
 	git stash apply    								   → Restore stashed changes without removing the stash entry.
@@ -182,14 +252,18 @@ Step 2: Open folder on your computer
 Important: By default, git stash saves changes to tracked files (both staged and unstaged). 
 Untracked files are not normally included; use git stash -u / git stash --include-untracked when you also want to stash untracked files.	
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
 ⚙️ Interactive Rebase Options & Remote History Rewriting Commands
+
 	git rebase -i HEAD~3                           	   → Interactively edit the last 3 commits; select `Drop` to remove the unwanted commit from history.
 	git rebase --continue                              → Continue the rebase after resolving conflicts or completing an edit.
 	git rebase --abort                                 → Cancel the rebase and restore the original branch state.
 	git rebase --skip                                  → Skip the current commit and continue the rebase.
 	git push --force-with-lease origin main            → Updates the remote `main` branch with the rewritten local history, provided the remote branch has not changed unexpectedly since your last fetch.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Rebase Control Commands
+
 	- pick <commit>                                    → Select `pick` to keep the commit unchanged during rebase.
 	- drop <commit>                                    → Select `drop` to remove the unwanted commit from the rebased history.
     - reword <commit>                                  → Select `reword` to keep the commit but edit its commit message.
@@ -203,7 +277,9 @@ Untracked files are not normally included; use git stash -u / git stash --includ
 	- merge <label>                                    → Select `merge` to recreate a merge commit using the specified label; used when preserving merge structure.
 	- update-ref <ref>                                 → Select `update-ref` to update a reference such as a branch or tag at the end of the rebase.	
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Git Reset and Remote History Rewriting Commands
+
 	git reset <mode> HEAD~1                            → Moves HEAD and the current branch pointer back by one commit (C → B); the effect on changes from C depends on the reset mode.
 	git reset <mode> <commit-id/hash>                  → Moves HEAD and the current branch pointer to the specified commit, whether it is older or newer than the current HEAD; the effect on changes depends on the reset mode.
 	git push --force-with-lease origin main            → Updates the remote `main` branch with the rewritten local history, provided the remote branch has not changed unexpectedly since your last fetch.
@@ -250,6 +326,7 @@ Untracked files are not normally included; use git stash -u / git stash --includ
 	  - Untracked files are generally not removed by git reset --hard, unless they obstruct writing tracked files.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⚙️ Git Reflog — Recover Previous HEAD Positions After Reset
 
 	git reflog                                             → I accidentally did git reset ... HEAD~1 and want to go back to where I was.
