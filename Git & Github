@@ -120,8 +120,8 @@ Step 2: Open folder on your computer
 	git branch -m <branch-name>                 	   → Rename current branch to <branch-name>.
 	git branch -M <branch-name>                	       → Force-renames the current branch to <branch-name>, the -M option allows the rename even if a branch named <branch-name> already exists.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-	git fetch          						    	   → Download updates/changes from the configured remote(s) without changing the current branch.
-	git fetch origin   						   	       → Download the latest updates and commit information specifically from the `origin` remote without changing the current branch.
+	git fetch  										   → Download the latest information from configured upstream remote branch, but do not change my current branch or working files.
+	git fetch origin  								   → Download the latest information from remote origin, but do not change my current branch or working files.
 	git switch --track origin/<branch-name>     	   → Creates a local branch that tracks an existing remote branch and switches you to it.
 	git branch -d <branch-name>                 	   → Delete the local `<branch-name>` branch safely. Git deletes it only if its changes have been merged (Git refuses if the branch contains unmerged commits, helping prevent accidental loss of work).
 	git branch -D <branch-name>                 	   → Force-delete the local `<branch-name>` branch. Deletes it even if its changes have not been merged (-D can delete the branch even if it contains commits that haven't been merged).
