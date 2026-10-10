@@ -224,6 +224,15 @@ Step 2: Open folder on your computer
 
 	git pull   										   → Fetch the latest changes from configured upstream remote branch and merge (integrate) them into local current branch or working files.
 	git pull origin                                    → Fetch the latest changes from the remote `origin` and integrates changes according to the current branch's configured upstream.
+
+  ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+  |	Current local branch  |   Configured upstream  |   Result (git pull origin)	                 |   No upstream configured   |  Result (git pull origin)                                                     |
+  ├───────────────────────┬────────────────────────┬─────────────────────────────────────────────┬────────────────────────────┬───────────────────────────────────────────────────────────────────────────────┤
+  |   You are on main	  -	  origin/main	       -   Integrates remote main into local main.	 -   No	                      -  Usually fails because Git cannot determine which remote branch to integrate. |
+  |	  You are on A		  -	  origin/A	           -   Integrates remote A into local A.	     -   No	                      -  Usually fails because Git cannot determine which remote branch to integrate. |
+  |	  You are on A		  -	  origin/main	       -   Integrates remote main into local A.	     -   No	                      -  Usually fails because Git cannot determine which remote branch to integrate. |
+  └───────────────────────┴────────────────────────┴─────────────────────────────────────────────┴────────────────────────────┴───────────────────────────────────────────────────────────────────────────────┘
+
 	git pull origin main                               → Fetch the latest changes from the remote `main` branch from `origin` and integrates its changes into the current local branch (fetch + merge/rebase, depending on configuration).
 	git stash  										   → Used to temporarily save your uncommitted changes so that you can get a clean working directory without committing those changes.
 
