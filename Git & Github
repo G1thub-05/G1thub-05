@@ -219,7 +219,9 @@ Step 2: Open folder on your computer
 	git merge                                          → Integrates the fetched changes into your current branch or working filesfrom configured upstream remote branch; does NOT fetch new changes automatically.
 	git merge origin                                   → Integrates the fetched `origin` changes into your current branch or working files; does NOT fetch new changes automatically.
 	git merge origin main                              → Integrates the fetched information from remote `main` branch from `origin` and changes into your current branch or working files; does NOT fetch new changes automatically.
-	 
+	git fetch origin then git merge origin/A	       → Downloads remote updates, then merges remote-tracking branch origin/A into the current local branch.
+	git fetch origin then git merge origin/A	       → Downloads remote updates, then merges local branch A into the current local branch.
+
 	git pull   										   → Fetch the latest changes from configured upstream remote branch and merge (integrate) them into local current branch or working files.
 	git pull origin                                    → Fetch the latest changes from the remote `origin` and integrates changes according to the current branch's configured upstream.
 	git pull origin main                               → Fetch the latest changes from the remote `main` branch from `origin` and integrates its changes into the current local branch (fetch + merge/rebase, depending on configuration).
@@ -419,7 +421,9 @@ Untracked files are not normally included; use git stash -u / git stash --includ
 	  git merge                                                → Integrates the fetched changes into your current branch or working filesfrom configured upstream remote branch; does NOT fetch new changes automatically.
 	  git merge origin                                         → Integrates the fetched `origin` changes into your current branch or working files; does NOT fetch new changes automatically.
 	  git merge origin main                                    → Integrates the fetched information from remote `main` branch from `origin` and changes into your current branch or working files; does NOT fetch new changes automatically.
-	 
+	  git fetch origin then git merge origin/A	               → Downloads remote updates, then merges remote-tracking branch origin/A into the current local branch.
+	  git fetch origin then git merge origin/A	               → Downloads remote updates, then merges local branch A into the current local branch.
+
 	  git pull   											   → Fetch the latest changes from configured upstream remote branch and merge (integrate) them into local current branch or working files.
 	  git pull origin                                          → Fetch the latest changes from the remote `origin` and integrates changes according to the current branch's configured upstream.
 	  git pull origin main                                     → Fetch the latest changes from the remote `main` branch from `origin` and integrates its changes into the current local branch (fetch + merge/rebase, depending on configuration).
