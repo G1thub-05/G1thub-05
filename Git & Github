@@ -248,9 +248,9 @@ Step 2: Open folder on your computer
 
 ⚙️ Pull Integration Options
 
-	git pull 	-	--ff-only		-	   Integrates changes only if a fast-forward is possible; otherwise, fails.
-	git pull 	-	--no-rebase		-	   Uses merge-based integration.
-	git pull 	-	--rebase		-      Rebases local commits on top of the fetched commits.
+	git pull --ff-only		-	   Integrates changes only if a fast-forward is possible; otherwise, fails.
+	git pull --no-rebase	-	   Uses merge-based integration.
+	git pull --rebase		-      Rebases local commits on top of the fetched commits.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Git logging
