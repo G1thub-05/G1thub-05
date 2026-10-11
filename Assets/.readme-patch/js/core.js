@@ -555,30 +555,32 @@
 
   
 
+
 function projectCards(m, o) {
   var top = pickProjects(m, o);
   if (!top.length) return [];
 
-  var out = ["## Projects", ""];
-
+  var out = ["## Projects", "", '<table width="100%">'];
   for (var i = 0; i < top.length; i += 3) {
     var row = top.slice(i, i + 3);
+    out.push("<tr>");
+    row.forEach(function (r) {
+      var index = top.indexOf(r) + 1;
+      out.push('<td width="33.33%" align="center" valign="top">' + '<a href="' + esc(r.url) + '">' +
+        pic(o, "cards/project-" + index + ".svg", 'alt="' + esc(r.name) + '" width="100%"') + "</a>" + "</td>"
+      );
+    });
 
-    out.push("| " + row.map(function (r) {
-      return '<a href="' + esc(r.url) + '">' +
-        pic(o, "cards/project-" + (top.indexOf(r) + 1) + ".svg",
-          'alt="' + esc(r.name) + '" width="100%") +
-        "</a>";
-    }).join(" | ") + " |");
-
-    out.push("| " + row.map(function () {
-      return ":---:";
-    }).join(" | ") + " |");
-    out.push("");
+    // Keep three columns even in the final, incomplete row.
+    for (var j = row.length; j < 3; j++) {
+      out.push('<td width="33.33%"></td>');
+    }
+    out.push("</tr>");
   }
-
+  out.push("</table>", "");
   return out;
 }
+
 
 
 
