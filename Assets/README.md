@@ -42,6 +42,9 @@ BUILD • OBSERVE • SECURE • AUTOMATE • DEPLOY • SCALE
 <div align="center">
 
 <a href="https://github.com/G1thub-05/G1thub-05"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/project-1.svg"><img src="./cards/project-1-light.svg" alt="G1thub-05" width="412"></picture></a>
+<a href="https://github.com/G1thub-05/PortFolio"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/project-2.svg"><img src="./cards/project-2-light.svg" alt="PortFolio" width="412"></picture></a>
+<a href="https://github.com/G1thub-05/Online-Food-Ordering-System"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/project-3.svg"><img src="./cards/project-3-light.svg" alt="Online-Food-Ordering-System" width="412"></picture></a>
+<a href="https://github.com/G1thub-05/E-Commerce-App"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/project-4.svg"><img src="./cards/project-4-light.svg" alt="E-Commerce-App" width="412"></picture></a>
 
 </div>
 
