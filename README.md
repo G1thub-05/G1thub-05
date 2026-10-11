@@ -142,18 +142,18 @@
 
 <div align="center">
 
-<!-- GitHub Stats  - Light & Dark Mode -->
+<!-- GitHub Stats: Light/Dark mode, generated and stored in this repository -->
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117" />
-  <img width="48%" height="300" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=radical&hide_border=true&card_width=495&card_height=195" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-stats-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-stats-dark.svg">
+  <img width="48%" src="./profile/github-stats-dark.svg" alt="GitHub Stats">
 </picture>
 
-<!-- GitHub Streak - Light & Dark Mode -->
+<!-- GitHub Streak: Light/Dark mode, generated and stored in this repository -->
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280" />
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af" />
-  <img width="48%" height="300" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=G1thub-05&theme=radical&hide_border=true&card_width=495&card_height=195" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/github-streak-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/github-streak-dark.svg">
+  <img width="48%" src="./profile/github-streak-dark.svg" alt="GitHub Streak">
 </picture>
 
 </div>
