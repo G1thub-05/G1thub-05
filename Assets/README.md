@@ -1,6 +1,12 @@
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="./banner.svg"><img src="./banner-light.svg" alt="Mr. Digeshwar, Java Full Stack Developer" width="100%"></picture>
+# Mr. Digeshwar
+
+**Java Full Stack Developer**
+
+BUILD • OBSERVE • SECURE • AUTOMATE • DEPLOY • SCALE
+
+`Java` `Spring Boot` `Docker` `Git` `GitHub Actions` `JavaScript` `CSS`
 
 </div>
 
@@ -47,19 +53,5 @@
 
 </div>
 
-## Connect
-
-<div align="center">
-
-<a href="https://github.com/G1thub-05"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/connect-github.svg"><img src="./cards/connect-github-light.svg" alt="GitHub" width="270"></picture></a>
-<a href="mailto:mr.digeshwar05@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./cards/connect-email.svg"><img src="./cards/connect-email-light.svg" alt="Email" width="270"></picture></a>
-
-</div>
-
-<div align="center">
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="./cards/footer.svg"><img src="./cards/footer-light.svg" alt="" width="100%"></picture>
-
+---
 <sub>Patched together from public GitHub data · made with <a href="https://readme-glassfolio.in/">Patch your profile</a></sub>
-
-</div>
