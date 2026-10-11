@@ -75,7 +75,7 @@
 <img
   align="right"
   width="300"
-  src="./assets/github-developer-animated.svg"
+  src="./assets/Neon-G1thub-05-Developer.png"
   alt="Animated Rainbow ASCII Portrait"
 />
 
