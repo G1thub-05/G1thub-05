@@ -1,26 +1,32 @@
+
 {
   "style": "showcase",
   "theme": "auto",
   "order": "",
   "featured": "G1thub-05, AeroSaga",
-  "adaptive": true,
-  "animate": true,
-  "heatmap": true,
-  "credit": true,
+
   "siteUrl": "https://readme-glassfolio.in/",
   "tagline": "BUILD • OBSERVE • SECURE • AUTOMATE • DEPLOY • SCALE",
   "role": "Java Full Stack Developer",
   "stack": "Java, Spring Boot, Docker, Git, GitHub Actions",
   "linkedin": "",
+
+  "adaptive": true,
+  "animate": true,
+  "credit": true,
+
+  "heatmap": true,
+  "universe": true,
+  "universeStyle": "neon",
+
   "banner": true,
+  "wave": true,
+
   "cards": true,
   "bars": true,
   "pie": true,
   "timeline": true,
   "proj": true,
   "recent": true,
-  "links": true,
-  "universe": true,
-  "universeStyle": "neon",
-  "wave": true
+  "links": false
 }
