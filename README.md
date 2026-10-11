@@ -82,7 +82,7 @@
 <img
   align="right"
   width="300"
-  src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/main/assets/animated-rainbow-ascii.gif"
+  src="https://github.com/G1thub-05/G1thub-05/blob/main/assets/animated-rainbow-ascii.svg"
   alt="Animated Rainbow ASCII Portrait"
 />
 ✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
