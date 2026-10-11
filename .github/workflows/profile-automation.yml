@@ -2,8 +2,12 @@ name: Update GitHub Profile
 
 on:
   schedule:
-    # Daily at 03:30 UTC = 09:00 AM India Standard Time
-    - cron: "30 3 * * *"
+    # Every 12 hours at 00:00 and 12:00 UTC = 05:30 AM and 05:30 PM IST (Snake only)
+    - cron: "0 */12 * * *" # Every 12 hours
+    
+    # Daily at 03:30 UTC = 09:00 AM IST (Stats + Streak + Snake)
+    - cron: "30 3 * * *" # Daily 9 AM IST
+    
   workflow_dispatch:
 
 permissions:
@@ -11,6 +15,7 @@ permissions:
 
 jobs:
   update-stats:
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 3 * * *'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -74,8 +79,6 @@ jobs:
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%2300c6ff
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
-
-
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
