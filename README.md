@@ -76,7 +76,7 @@
   align="right"
   width="300"
   src="./assets/Neon-G1thub-05-Developer.png"
-  alt="Animated Rainbow ASCII Portrait"
+  alt="Neon-G1thub-05-Developer.png"
 />
 
 ✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
