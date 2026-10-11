@@ -101,6 +101,15 @@ jobs:
           output_path: dist/activity-graph-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Generate trophy SVG directly into dist.
+      - name: Generate GitHub Achievement Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: G1thub-05
+          output_path: dist/github-trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: flat
+
       # Deploy all generated SVGs
       - uses: crazy-max/ghaction-github-pages@v5
         with:
