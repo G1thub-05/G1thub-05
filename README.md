@@ -98,18 +98,23 @@
 </div>
 </br>
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/universe.svg">
-    <img src="./Assets/cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
-</picture>
-
-</br>
 <div align="center">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/timeline.svg">
     <img src="./Assets/cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
 </picture>
 </div>
+
+
+
+</br>
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/universe.svg">
+    <img src="./Assets/cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
+</picture>
+</div>
+
 
 
 </br>
