@@ -1,0 +1,61 @@
+name: Update GitHub Profile Stats
+
+on:
+  schedule:
+    # Daily at 03:30 UTC = 09:00 AM India Standard Time
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate Light Mode GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+          path: profile/github-stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Dark Mode GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
+          path: profile/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate Light Mode Streak
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: "user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280&card_width=495&card_height=195&disable_animations=true"
+          path: profile/github-streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Dark Mode Streak
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: "user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af&card_width=495&card_height=195&disable_animations=true"
+          path: profile/github-streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated SVG cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/github-stats-light.svg profile/github-stats-dark.svg profile/github-streak-light.svg profile/github-streak-dark.svg
+          if git diff --cached --quiet; then
+            echo "No stats changes to commit."
+            exit 0
+          fi
+          git commit -m "Update GitHub profile stats"
+          git push
