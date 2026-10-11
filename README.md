@@ -103,10 +103,24 @@
     <img src="./Assets/cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
 </picture>
 
+## Timeline
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/timeline.svg">
+    <img src="./Assets/cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
+</picture>
+</div>
 
 ## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,gradle,mysql,postgres,mongodb,redis,firebase,aws,docker,kubernetes,jenkins,git,github,gitlab,linux,html,css,javascript,typescript,react,nextjs,angular,nodejs,express,bootstrap,tailwind,postman,idea,eclipse,vscode,vercel,netlify,nginx,figma,svg&perline=19" />
+</div>
+</br>
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/languages.svg">
+    <img src="./Assets/cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
+</picture>
 </div>
 
 ## 🚀 𝑂𝑡ℎ𝑒𝑟 𝑇𝑒𝑐ℎ𝑛𝑜𝑙𝑜𝑔𝑖𝑒𝑠
@@ -140,14 +154,7 @@
 </picture>
 </div>
 
-## Timeline
 
-<div align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/timeline.svg">
-    <img src="./Assets/cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
-</picture>
-</div>
 
 ## GitHub stats
 
@@ -167,12 +174,7 @@
 
 ## Stack
 
-<div align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/languages.svg">
-    <img src="./Assets/cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
-</picture>
-</div>
+
 
 ## Projects
 <div align="center">
