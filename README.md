@@ -245,7 +245,7 @@
 </div>
 
 
-## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
 
 <p align="center">
   <picture>
@@ -264,6 +264,23 @@
     />
   </picture>
 </p>
+</br>
+<div align="center">
+<!-- Light Mode -->
+
+
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
+</a>
+
+
+<!-- Dark Mode -->
+
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
+</a>
+</div> 
+
 
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
 
@@ -328,22 +345,6 @@
 
 
 
-## 📈 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ
-<div align="center">
-<!-- Light Mode -->
-
-
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
-</a>
-
-
-<!-- Dark Mode -->
-
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=G1thub-05&theme=github_dark" alt="𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑟𝑎𝑝ℎ"/>
-</a>
-</div> 
 
 
 
