@@ -19,8 +19,8 @@
   "universe": true,
   "universeStyle": "neon",
 
-  "banner": true,
-  "wave": true,
+  "banner": false,
+  "wave": false,
 
   "cards": true,
   "bars": true,
