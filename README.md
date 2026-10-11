@@ -90,6 +90,7 @@
 📌 **𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔** - 𝑀𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠, 𝑆𝑦𝑠𝑡𝑒𝑚 𝐷𝑒𝑠𝑖𝑔𝑛, 𝐴𝑊𝑆 & 𝐷𝑒𝑣𝑂𝑝𝑠
 
 
+
 ## 🪐 𝑀𝑌 3𝐷 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑎𝑙𝑎𝑥𝑦
 
 <div align="justify">
@@ -131,6 +132,31 @@
 <img src="https://img.shields.io/badge/Logstash-005571?style=for-the-badge&logo=logstash&logoColor=white" alt="Logstash"/>
 </div>
 
+## Recently pushed
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/recent.svg">
+    <img src="./Assets/cards/recent-light.svg" alt="Recently pushed repositories of G1thub-05" width="100%">
+</picture>
+</div>
+
+
+## Projects
+<div align="center">
+<a href="https://github.com/G1thub-05/G1thub-05">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-1.svg">
+        <img src="./Assets/cards/project-1-light.svg" alt="G1thub-05" width="412">
+    </picture>
+</a>
+
+<a href="https://github.com/G1thub-05/PortFolio">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
+        <img src="./Assets/cards/project-2-light.svg" alt="PortFolio" width="412">
+    </picture>
+/a>
+</div>
 
 ### 📊 𝑀𝑌 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
 
