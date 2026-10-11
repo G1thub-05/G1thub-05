@@ -111,7 +111,25 @@
 </picture>
 </div>
 
-## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
+## 📉 𝑪𝒐𝒅𝒊𝒏𝒈 𝑺𝒕𝒂𝒕𝒊𝒔𝒕𝒊𝒄𝒔
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
+    <img src="./Assets/cards/stats-light.svg" alt="GitHub stats for G1thub-05" width="412">
+</picture>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/streak.svg">
+    <img src="./Assets/cards/streak-light.svg" alt="Contribution streak for G1thub-05" width="412">
+</picture>
+</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/activity.svg">
+  <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
+</picture>
+
+## 📂 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡 𝑇𝑜𝑜𝑙𝑠
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,gradle,mysql,postgres,mongodb,redis,firebase,aws,docker,kubernetes,jenkins,git,github,gitlab,linux,html,css,javascript,typescript,react,nextjs,angular,nodejs,express,bootstrap,tailwind,postman,idea,eclipse,vscode,vercel,netlify,nginx,figma,svg&perline=19" />
 </div>
@@ -123,7 +141,7 @@
 </picture>
 </div>
 
-## 🚀 𝑂𝑡ℎ𝑒𝑟 𝑇𝑒𝑐ℎ𝑛𝑜𝑙𝑜𝑔𝑖𝑒𝑠
+## 📂 𝑂𝑡ℎ𝑒𝑟 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡 𝑇𝑜𝑜𝑙𝑠
 <div align="center">
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
 <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security"/>
@@ -156,23 +174,6 @@
 
 
 
-## GitHub stats
-
-<div align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
-    <img src="./Assets/cards/stats-light.svg" alt="GitHub stats for G1thub-05" width="412">
-</picture>
-
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/streak.svg">
-    <img src="./Assets/cards/streak-light.svg" alt="Contribution streak for G1thub-05" width="412">
-</picture>
-</div>
-
-
-
-## Stack
 
 
 
@@ -208,10 +209,6 @@
 
 ### 📊 𝑀𝑌 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/activity.svg">
-  <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
-</picture>
 
 ## 🐍 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝑆𝑛𝑎𝑘𝑒
 <p align="center">
