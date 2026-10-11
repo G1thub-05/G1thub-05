@@ -1,1 +1,26 @@
-
+{
+  "style": "showcase",
+  "theme": "auto",
+  "order": "",
+  "featured": "DevopsNimbus,KOMORA_V8",
+  "adaptive": true,
+  "animate": true,
+  "heatmap": true,
+  "credit": true,
+  "siteUrl": "https://readme-glassfolio.in/",
+  "tagline": "AUTOMATE • SECURE • OBSERVE • SCALE",
+  "role": "Cloud Security Engineer",
+  "stack": "AWS, Terraform, EKS, ECS,CI/CD,",
+  "linkedin": "",
+  "banner": true,
+  "cards": true,
+  "bars": true,
+  "pie": true,
+  "timeline": true,
+  "proj": true,
+  "recent": true,
+  "links": true,
+  "universe": true,
+  "universeStyle": "neon",
+  "wave": true
+}
