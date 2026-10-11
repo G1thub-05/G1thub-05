@@ -140,6 +140,39 @@
 </picture>
 </div>
 
+## Timeline
+
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/timeline.svg">
+    <img src="./Assets/cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
+</picture>
+</div>
+
+## GitHub stats
+
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
+    <img src="./Assets/cards/stats-light.svg" alt="GitHub stats for G1thub-05" width="412">
+</picture>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/streak.svg">
+    <img src="./Assets/cards/streak-light.svg" alt="Contribution streak for G1thub-05" width="412">
+</picture>
+</div>
+
+
+
+## Stack
+
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/languages.svg">
+    <img src="./Assets/cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
+</picture>
+</div>
 
 ## Projects
 <div align="center">
@@ -155,7 +188,20 @@
         <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
         <img src="./Assets/cards/project-2-light.svg" alt="PortFolio" width="412">
     </picture>
-/a>
+</a>
+
+<a href="https://github.com/G1thub-05/Online-Food-ordering-System">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
+        <img src="./Assets/cards/project-2-light.svg" alt="Online-Food-ordering-System" width="412">
+    </picture>
+</a>
+<a href="https://github.com/G1thub-05/E-Commerce-App">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
+        <img src="./Assets/cards/project-2-light.svg" alt="E-Commerce-App" width="412">
+    </picture>
+</a>
 </div>
 
 ### 📊 𝑀𝑌 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
