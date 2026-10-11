@@ -74,7 +74,7 @@
 <!-- <img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/> -->
 <img
   align="right"
-  width="380"
+  width="370"
   src="./Assets/Neon-G1thub-05-Developer.png"
   alt="Neon-G1thub-05-Developer.png"
 />
