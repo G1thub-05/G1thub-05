@@ -79,12 +79,12 @@
   alt="Animated Rainbow ASCII Portrait"
 />
 
-<img
+<!-- <img
   align="right"
   width="300"
   src="https://github.com/G1thub-05/G1thub-05/blob/main/assets/animated-rainbow-ascii.svg"
   alt="Animated Rainbow ASCII Portrait"
-/>
+/> -->
 ✨ **𝑆𝑡𝑟𝑜𝑛𝑔 𝑓𝑜𝑐𝑢𝑠 𝑜𝑛:**
 
 - 𝑆𝑝𝑟𝑖𝑛𝑔 𝐵𝑜𝑜𝑡 & 𝑅𝐸𝑆𝑇 𝐴𝑃𝐼𝑠, 𝐶𝑙𝑒𝑎𝑛 𝐵𝑎𝑐𝑘𝑒𝑛𝑑 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒
