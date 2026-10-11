@@ -74,8 +74,8 @@
 <!-- <img align="right" height="220" src="https://raw.githubusercontent.com/soumyajit4419/soumyajit4419/master/thoughtworks-gif_dribbble.gif"/> -->
 <img
   align="right"
-  width="300"
-  src="./assets/Neon-G1thub-05-Developer.png"
+  width="400"
+  src="./Assets/Neon-G1thub-05-Developer.png"
   alt="Neon-G1thub-05-Developer.png"
 />
 
@@ -86,7 +86,7 @@
 - 𝐷𝑎𝑡𝑎𝑏𝑎𝑠𝑒-𝐷𝑟𝑖𝑣𝑒𝑛 𝐴𝑝𝑝𝑙𝑖𝑐𝑎𝑡𝑖𝑜𝑛𝑠 (𝑀𝑦𝑆𝑄𝐿, 𝑀𝑜𝑛𝑔𝑜𝐷𝐵)
 - 𝐹𝑟𝑜𝑛𝑡𝑒𝑛𝑑 𝐼𝑛𝑡𝑒𝑔𝑟𝑎𝑡𝑖𝑜𝑛, 𝐶𝑙𝑜𝑢𝑑 & 𝐷𝑒𝑝𝑙𝑜𝑦𝑚𝑒𝑛𝑡 𝐵𝑎𝑠𝑖𝑐𝑠
 
-📌 **𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔** - 𝑀𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠 𝐴𝑟𝑐ℎ𝑖𝑡𝑒𝑐𝑡𝑢𝑟𝑒, 𝑆𝑦𝑠𝑡𝑒𝑚 𝐷𝑒𝑠𝑖𝑔𝑛, 𝐴𝑊𝑆 & 𝐷𝑒𝑣𝑂𝑝𝑠
+📌 **𝐶𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑖𝑚𝑝𝑟𝑜𝑣𝑖𝑛𝑔** - 𝑀𝑖𝑐𝑟𝑜𝑠𝑒𝑟𝑣𝑖𝑐𝑒𝑠, 𝑆𝑦𝑠𝑡𝑒𝑚 𝐷𝑒𝑠𝑖𝑔𝑛, 𝐴𝑊𝑆 & 𝐷𝑒𝑣𝑂𝑝𝑠
 
 
 ## 📂 𝑇𝑒𝑐ℎ 𝑆𝑡𝑎𝑐𝑘
