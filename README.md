@@ -132,6 +132,14 @@
   <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
 </picture>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"/>
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg" width="100%" />
+  </picture>
+</p>
+
 ## 📂 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡 𝑇𝑜𝑜𝑙𝑠
 <div align="center">
 <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,gradle,mysql,postgres,mongodb,redis,firebase,aws,docker,kubernetes,jenkins,git,github,gitlab,linux,html,css,javascript,typescript,react,nextjs,angular,nodejs,express,bootstrap,tailwind,postman,idea,eclipse,vscode,vercel,netlify,nginx,figma,svg&perline=19" />
@@ -141,6 +149,14 @@
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/languages.svg">
     <img src="./Assets/cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
+</picture>
+</div>
+ </br>
+
+<div align="center">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/recent.svg">
+    <img src="./Assets/cards/recent-light.svg" alt="Recently pushed repositories of G1thub-05" width="100%">
 </picture>
 </div>
 
@@ -166,18 +182,6 @@
 <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" alt="Kibana"/>
 <img src="https://img.shields.io/badge/Logstash-005571?style=for-the-badge&logo=logstash&logoColor=white" alt="Logstash"/>
 </div>
-
-## Recently pushed
-<div align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/recent.svg">
-    <img src="./Assets/cards/recent-light.svg" alt="Recently pushed repositories of G1thub-05" width="100%">
-</picture>
-</div>
-
-
-
-
 
 
 ## Projects
@@ -210,19 +214,6 @@
 </a>
 </div>
 
-### 📊 𝑀𝑌 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
-
-
-## 🐍 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝑆𝑛𝑎𝑘𝑒
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"/>
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg" width="100%" />
-  </picture>
-</p>
-
-
 
 ## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 
@@ -241,7 +232,35 @@
   <source media="(prefers-color-scheme: dark)" srcset="./profile/github-streak-dark.svg">
   <img width="48%" src="./profile/github-streak-dark.svg" alt="GitHub Streak">
 </picture>
+</div>
 
+</br>
+<div align="center">
+<!-- Light Mode -->
+
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"
+    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github"
+    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"
+    alt="𝑆𝑡𝑎𝑡𝑠"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"
+    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
+</a>
+
+<!-- Dark Mode -->
+
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"
+    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github_dark"
+    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"
+    alt="𝑆𝑡𝑎𝑡𝑠"/>
+  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"
+    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
+</a>
 </div>
 
 
@@ -293,34 +312,7 @@
 </div>
 
 
-## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
-<div align="center">
-<!-- Light Mode -->
 
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"
-    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github"
-    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"
-    alt="𝑆𝑡𝑎𝑡𝑠"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"
-    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
-</a>
-
-<!-- Dark Mode -->
-
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"
-    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github_dark"
-    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"
-    alt="𝑆𝑡𝑎𝑡𝑠"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"
-    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
-</a>
-</div>
 
 <!--
  ## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
