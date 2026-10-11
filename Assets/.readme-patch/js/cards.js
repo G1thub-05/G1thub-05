@@ -676,11 +676,11 @@
     }
     if (core.wantsUniverse(m, o)) files.push({ name: "cards/universe.svg", data: universeCard(m, o, p) });
     if (o.wave) files.push({ name: "cards/footer.svg", data: core.buildWaveFooter(m, o) });
-    if (o.links) {
-      core.connectItems(m, o).forEach(function (it) {
-        files.push({ name: "cards/connect-" + it.key + ".svg", data: connectCard(m, it, p) });
-      });
-    }
+    // if (o.links) {
+    //   core.connectItems(m, o).forEach(function (it) {
+    //     files.push({ name: "cards/connect-" + it.key + ".svg", data: connectCard(m, it, p) });
+    //   });
+    // }
     // the light half of an adaptive README keeps the same names with a "-light" suffix
     if (o.suffix) files.forEach(function (f) { f.name = f.name.replace(/\.svg$/, o.suffix + ".svg"); });
     return files;
@@ -700,7 +700,7 @@
       var oo = {};
       for (var key in o) oo[key] = o[key];
       oo.mode = v.mode; oo.suffix = v.suffix; oo.native = !!v.mode;   // each half is shown only on its matching GitHub page
-      if (o.banner) files.push({ name: "banner" + v.suffix + ".svg", data: core.buildBanner(m, oo) });
+      // if (o.banner) files.push({ name: "banner" + v.suffix + ".svg", data: core.buildBanner(m, oo) });
       Array.prototype.push.apply(files, buildCards(m, oo));
     });
     return files;
