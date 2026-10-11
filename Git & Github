@@ -77,7 +77,7 @@ Step 2: Open folder on your computer
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Git File Stages
-	U - Untracked									→ File exists in your working directory but Git is not tracking/managing it yet.
+	U - Untracked (??)							    → File exists in your working directory but Git is not tracking/managing it yet.
 	M - Modified									→ A tracked file has been changed after the last commit.
 	D - Deleted										→ A tracked file has been deleted from the working directory.
 	A - Added to staging						    → File has been added to the staging area using `git add`.
@@ -147,6 +147,30 @@ Step 2: Open folder on your computer
 	git restore --source=HEAD --staged --worktree .    → Permanently discards staged and unstaged changes to tracked files. 
 	git clean -fd                                      → Deletes all untracked files and directories.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+⚙️ Code Review & Branch Comparison
+	### 1. Local Branch Comparison
+	git diff main A                                    → Compare code differences between main and A
+	git log --oneline main..A                          → Shows commits that exist in A but not in main.
+	git log --oneline A..main                          → Shows commits that exist in main but not in A.
+	git log --oneline --graph --decorate --all         → Displays the commit history of available branches as a graph.
+
+	### 2. Update remote references and compare (Local vs Remote)
+	git fetch origin                                   → Fetch remote updates without integrating
+	git diff A origin/main                             → Shows code differences between local A and the fetched remote main.
+	git log --oneline A..origin/main                   → Shows commits in remote main that are missing from A.
+	git log --oneline origin/main..A                   → Shows commits in A that are missing from remote main.
+
+	### 3. Code Review before creating a Pull Request — A vs origin/main
+	git diff origin/main...A                           → Shows the file changes made in branch A since the common ancestor of origin/main and A.
+	git diff --name-status origin/main...A             → Shows only the changed file names and their status: A M D
+	git log --oneline origin/main..A                   → Shows commits in A that are not reachable from origin/main.
+
+	### 4. Unstage / Restore Changes
+	git restore --staged .                             → Unstage OR Removes all staged changes from the staging area while keeping the edits in your files.
+	git restore .                                      → Discards unstaged changes to tracked files in the current directory. Be careful: those edits can be lost. 
+	git reset                                          → default, unstages changes while keeping the working files unchanged.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git status                      				   → Shows the current state of the working directory and staging area, including: U M D A S C and other changes before and after a commit.
 	git status --short               			   	   → Shows the same status in a compact two-column format using two-character XY codes:
 	git status -s                   				   → The -s is simply the short form of --short.
@@ -211,7 +235,8 @@ Step 2: Open folder on your computer
 ⚙️ The key difference between pull and fetch
 
 	git switch main                                    → Switch to the local `main` branch.
-	git pull origin main                               → Fetch the latest changes from the remote `main` branch from `origin` and integrates its changes into the current local branch (fetch + merge/rebase, depending on configuration).
+	git pull origin main               				   → Fetches the latest changes from the remote `main` branch on `origin` and integrates them into the current local branch (fetch + merge/rebase, depending on configuration).
+	git pull --ff-only origin main                     → Fetches the latest changes from the remote `main` branch on `origin` and integrates them into the current local branch only if a fast-forward is possible; otherwise, it aborts without creating a merge commit.
 	git merge feature-login                            → merge (integrate) the `feature-login` branch into the local current branch.
 																	
 	git switch main                                    → Switch to the local `main` branch.
