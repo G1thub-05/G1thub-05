@@ -72,6 +72,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+      - name: Prepare output directory
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          chmod -R u+rwX dist
+        
       - uses: Platane/snk@v3
         with:
           github_user_name: G1thub-05
