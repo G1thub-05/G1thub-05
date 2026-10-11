@@ -103,7 +103,7 @@
     <img src="./Assets/cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
 </picture>
 
-## Timeline
+## 🕒 𝑇𝑖𝑚𝑒𝑙𝑖𝑛𝑒
 <div align="center">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/timeline.svg">
@@ -112,18 +112,21 @@
 </div>
 
 ## 📉 𝑪𝒐𝒅𝒊𝒏𝒈 𝑺𝒕𝒂𝒕𝒊𝒔𝒕𝒊𝒄𝒔
-<div align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
-    <img src="./Assets/cards/stats-light.svg" alt="GitHub stats for G1thub-05" width="412">
-</picture>
 
-<picture>
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
+    <img src="./Assets/cards/stats-light.svg" alt="GitHub Stats" width="49%">
+  </picture>&nbsp;
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/streak.svg">
-    <img src="./Assets/cards/streak-light.svg" alt="Contribution streak for G1thub-05" width="412">
-</picture>
+    <img src="./Assets/cards/streak-light.svg" alt="Contribution Streak" width="49%">
+  </picture>
 </div>
 
+
+
+</br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/activity.svg">
   <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
