@@ -584,20 +584,20 @@
     return out;
   }
 
-  function links(m, o) {
-    var items = connectItems(m, o);
-    if (o.cards) {
-      var w = items.length === 4 ? "204" : "270";   // pixels: 3 (or 4 narrower) span the 832px desktop column like the cards above, and on a phone they stack at near full size
-      var out = ["## Connect", "", '<div align="center">', ""];
-      items.forEach(function (it) {
-        out.push('<a href="' + esc(it.url) + '">' + pic(o, "cards/connect-" + it.key + ".svg", 'alt="' + esc(it.label) + '" width="' + w + '"') + "</a>");
-      });
-      out.push("", "</div>", "");
-      return out;
-    }
-    return ["## Connect", "", '<div align="center">', "",
-      items.map(function (it) { return "**[" + it.label + "](" + it.url + ")**"; }).join(" · "), "", "</div>", ""];
-  }
+  // function links(m, o) {
+  //   var items = connectItems(m, o);
+  //   if (o.cards) {
+  //     var w = items.length === 4 ? "204" : "270";   // pixels: 3 (or 4 narrower) span the 832px desktop column like the cards above, and on a phone they stack at near full size
+  //     var out = ["## Connect", "", '<div align="center">', ""];
+  //     items.forEach(function (it) {
+  //       out.push('<a href="' + esc(it.url) + '">' + pic(o, "cards/connect-" + it.key + ".svg", 'alt="' + esc(it.label) + '" width="' + w + '"') + "</a>");
+  //     });
+  //     out.push("", "</div>", "");
+  //     return out;
+  //   }
+  //   return ["## Connect", "", '<div align="center">', "",
+  //     items.map(function (it) { return "**[" + it.label + "](" + it.url + ")**"; }).join(" · "), "", "</div>", ""];
+  // }
 
   /** Footer line; the "Made with" credit links back to the site that generated the README, when it has an address. */
   function footer(o) {
