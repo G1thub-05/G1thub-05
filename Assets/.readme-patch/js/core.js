@@ -554,23 +554,32 @@
   // }
 
   
+
 function projectCards(m, o) {
   var top = pickProjects(m, o);
   if (!top.length) return [];
-  var out = ["## Projects", "", '<table><tr>'];
-  top.forEach(function (r, i) {
-    if (i > 0 && i % 3 === 0) {
-      out.push("</tr><tr>");
-    }
 
-    out.push(
-      '<td width="33.33%" align="center">' +
-      '<a href="' + esc(r.url) + '">' + pic(o, "cards/project-" + (i + 1) + ".svg", 'alt="' + esc(r.name) + '" width="100%"') + "</a></td>"
-    );
-  });
-  out.push("</tr></table>", "");
+  var out = ["## Projects", ""];
+
+  for (var i = 0; i < top.length; i += 3) {
+    var row = top.slice(i, i + 3);
+
+    out.push("| " + row.map(function (r) {
+      return '<a href="' + esc(r.url) + '">' +
+        pic(o, "cards/project-" + (top.indexOf(r) + 1) + ".svg",
+          'alt="' + esc(r.name) + '" width="100%") +
+        "</a>";
+    }).join(" | ") + " |");
+
+    out.push("| " + row.map(function () {
+      return ":---:";
+    }).join(" | ") + " |");
+    out.push("");
+  }
+
   return out;
 }
+
 
 
   function timeline(m, o) {
