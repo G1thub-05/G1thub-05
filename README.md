@@ -132,21 +132,19 @@
 </div>
 
 
+### 📊 𝑀𝑌 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐴𝑐𝑡𝑖𝑣𝑖𝑡𝑦
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/activity.svg">
+  <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
+</picture>
+
 ## 🐍 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝑆𝑛𝑎𝑘𝑒
 <p align="center">
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"
-    />
-    <img
-      alt="GitHub Contribution Snake"
-      src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"
-    />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg"/>
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake.svg" width="100%" />
   </picture>
 </p>
 
