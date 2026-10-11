@@ -1,0 +1,54 @@
+# Keeps your profile stats fresh. Written by "Patch your profile"; this file is yours to read, change or delete.
+#
+# Every day it rebuilds README.md and the images from .readme-patch/config.json and commits only if something changed.
+# It uses NO third-party actions: every step is plain shell, and the generator it runs is the copy in .readme-patch/.
+# The only permission it asks for is to write to this repository's contents.
+#
+# To stop it: delete this file, or switch the workflow off in the Actions tab.
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "49 5 * * *"   # every day at 05:49 UTC
+  workflow_dispatch: {}                      # also lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get this repository
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          auth="$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.git" .
+          git config --local "http.https://github.com/.extraheader" "AUTHORIZATION: basic $auth"
+
+      - name: Rebuild the README and images
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" --config Assets/.readme-patch/config.json --require-activity --clean --out Assets
+
+      - name: Commit if anything changed
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Assets/README.md Assets/cards/*.svg
+          if git diff --cached --quiet; then
+            echo "Nothing changed today."
+          else
+            git commit -m "Update profile stats"
+            git push
+          fi
