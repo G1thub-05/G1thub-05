@@ -91,7 +91,7 @@
 
 
 
-## 🪐 𝑀𝑌 3𝐷 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑎𝑙𝑎𝑥𝑦
+## 🪐 𝑀𝑦 3𝐷 𝐺𝑖𝑡𝐻𝑢𝑏 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑖𝑜𝑛 𝐺𝑎𝑙𝑎𝑥𝑦
 
 <div align="justify">
 𝘞𝘦𝘭𝘤𝘰𝘮𝘦 𝘵𝘰 𝘮𝘺 3𝘋 𝘎𝘪𝘵𝘏𝘶𝘣 𝘊𝘰𝘯𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯 𝘎𝘢𝘭𝘢𝘹𝘺, 𝘸𝘩𝘦𝘳𝘦 𝘮𝘺 𝘤𝘰𝘥𝘪𝘯𝘨 𝘫𝘰𝘶𝘳𝘯𝘦𝘺 𝘤𝘰𝘮𝘦𝘴 𝘵𝘰 𝘭𝘪𝘧𝘦 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘢 𝘶𝘯𝘪𝘲𝘶𝘦 𝘤𝘰𝘴𝘮𝘪𝘤 𝘷𝘪𝘴𝘶𝘢𝘭𝘪𝘻𝘢𝘵𝘪𝘰𝘯. 𝘛𝘩𝘪𝘴 3𝘋 𝘷𝘪𝘦𝘸 𝘳𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘴 𝘮𝘺 𝘎𝘪𝘵𝘏𝘶𝘣 𝘢𝘤𝘵𝘪𝘷𝘪𝘵𝘺 𝘰𝘷𝘦𝘳 𝘵𝘩𝘦 𝘱𝘢𝘴𝘵 12 𝘮𝘰𝘯𝘵𝘩𝘴, 𝘵𝘶𝘳𝘯𝘪𝘯𝘨 𝘤𝘰𝘯𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯𝘴 𝘪𝘯𝘵𝘰 𝘢 𝘨𝘢𝘭𝘢𝘹𝘺 𝘰𝘧 𝘱𝘳𝘰𝘨𝘳𝘦𝘴𝘴. 𝘌𝘢𝘤𝘩 𝘮𝘰𝘯𝘵𝘩𝘭𝘺 𝘴𝘦𝘤𝘵𝘪𝘰𝘯 𝘩𝘪𝘨𝘩𝘭𝘪𝘨𝘩𝘵𝘴 𝘮𝘺 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘮𝘦𝘯𝘵 𝘢𝘤𝘵𝘪𝘷𝘪𝘵𝘺, 𝘸𝘩𝘪𝘭𝘦 𝘵𝘩𝘦 𝘱𝘭𝘢𝘯𝘦𝘵𝘴 𝘳𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵 𝘮𝘺 𝘵𝘰𝘱 𝘳𝘦𝘱𝘰𝘴𝘪𝘵𝘰𝘳𝘪𝘦𝘴. 𝘛𝘩𝘦 𝘷𝘪𝘴𝘶𝘢𝘭𝘪𝘻𝘢𝘵𝘪𝘰𝘯 𝘢𝘭𝘴𝘰 𝘴𝘩𝘰𝘸𝘤𝘢𝘴𝘦𝘴 𝘮𝘺 𝘤𝘰𝘯𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯 𝘮𝘪𝘹, 𝘱𝘦𝘢𝘬 𝘢𝘤𝘵𝘪𝘷𝘪𝘵𝘺 𝘥𝘢𝘺𝘴, 𝘢𝘯𝘥 𝘮𝘰𝘯𝘵𝘩𝘭𝘺 𝘵𝘳𝘦𝘯𝘥𝘴 𝘪𝘯 𝘢𝘯 𝘪𝘯𝘵𝘦𝘳𝘢𝘤𝘵𝘪𝘷𝘦-𝘭𝘰𝘰𝘬𝘪𝘯𝘨 𝘤𝘰𝘴𝘮𝘪𝘤 𝘥𝘪𝘴𝘱𝘭𝘢𝘺. 𝘔𝘰𝘳𝘦 𝘵𝘩𝘢𝘯 𝘫𝘶𝘴𝘵 𝘴𝘵𝘢𝘵𝘪𝘴𝘵𝘪𝘤𝘴, 𝘵𝘩𝘪𝘴 𝘨𝘢𝘭𝘢𝘹𝘺 𝘳𝘦𝘧𝘭𝘦𝘤𝘵𝘴 𝘮𝘺 𝘤𝘰𝘯𝘴𝘪𝘴𝘵𝘦𝘯𝘤𝘺, 𝘭𝘦𝘢𝘳𝘯𝘪𝘯𝘨, 𝘢𝘯𝘥 𝘤𝘰𝘯𝘵𝘪𝘯𝘶𝘰𝘶𝘴 𝘨𝘳𝘰𝘸𝘵𝘩 𝘢𝘴 𝘢 𝘥𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳. 𝘌𝘷𝘦𝘳𝘺 𝘤𝘰𝘯𝘵𝘳𝘪𝘣𝘶𝘵𝘪𝘰𝘯 𝘪𝘴 𝘢 𝘴𝘵𝘦𝘱 𝘧𝘰𝘳𝘸𝘢𝘳𝘥, 𝘢𝘯𝘥 𝘦𝘷𝘦𝘳𝘺 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘪𝘴 𝘢𝘯𝘰𝘵𝘩𝘦𝘳 𝘰𝘱𝘱𝘰𝘳𝘵𝘶𝘯𝘪𝘵𝘺 𝘵𝘰 𝘭𝘦𝘢𝘳𝘯, 𝘣𝘶𝘪𝘭𝘥, 𝘢𝘯𝘥 𝘪𝘯𝘯𝘰𝘷𝘢𝘵𝘦.
@@ -199,13 +199,13 @@
 <a href="https://github.com/G1thub-05/Online-Food-ordering-System">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
-        <img src="./Assets/cards/project-2-light.svg" alt="Online-Food-ordering-System" width="412">
+        <img src="./Assets/cards/project-3-light.svg" alt="Online-Food-ordering-System" width="412">
     </picture>
 </a>
 <a href="https://github.com/G1thub-05/E-Commerce-App">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/project-2.svg">
-        <img src="./Assets/cards/project-2-light.svg" alt="E-Commerce-App" width="412">
+        <img src="./Assets/cards/project-4-light.svg" alt="E-Commerce-App" width="412">
     </picture>
 </a>
 </div>
