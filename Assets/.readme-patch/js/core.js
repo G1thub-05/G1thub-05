@@ -542,16 +542,36 @@
     return out;
   }
 
-  function projectCards(m, o) {
-    var top = pickProjects(m, o);
-    if (!top.length) return [];
-    var out = ["## Projects", "", '<div align="center">', ""];
-    top.forEach(function (r, i) {
-      out.push('<a href="' + esc(r.url) + '">' + pic(o, "cards/project-" + (i + 1) + ".svg", 'alt="' + esc(r.name) + '" width="' + HALF + '"') + "</a>");
-    });
-    out.push("", "</div>", "");
-    return out;
-  }
+  // function projectCards(m, o) {
+  //   var top = pickProjects(m, o);
+  //   if (!top.length) return [];
+  //   var out = ["## Projects", "", '<div align="center">', ""];
+  //   top.forEach(function (r, i) {
+  //     out.push('<a href="' + esc(r.url) + '">' + pic(o, "cards/project-" + (i + 1) + ".svg", 'alt="' + esc(r.name) + '" width="' + HALF + '"') + "</a>");
+  //   });
+  //   out.push("", "</div>", "");
+  //   return out;
+  // }
+
+  
+function projectCards(m, o) {
+  var top = pickProjects(m, o);
+  if (!top.length) return [];
+  var out = ["## Projects", "", '<table><tr>'];
+  top.forEach(function (r, i) {
+    if (i > 0 && i % 3 === 0) {
+      out.push("</tr><tr>");
+    }
+
+    out.push(
+      '<td width="33.33%" align="center">' +
+      '<a href="' + esc(r.url) + '">' + pic(o, "cards/project-" + (i + 1) + ".svg", 'alt="' + esc(r.name) + '" width="100%"') + "</a></td>"
+    );
+  });
+  out.push("</tr></table>", "");
+  return out;
+}
+
 
   function timeline(m, o) {
     if (!o.timeline || !m.all.length) return [];
