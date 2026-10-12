@@ -362,6 +362,34 @@
 
 
 
+## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
+<div align="center">
+
+<!-- GitHub Stats -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-stats-light.svg">
+  <img width="49%" src="./Assets/Profile/github-stats-light.svg" alt="GitHub Stats">
+</picture>
+
+<!-- GitHub Streak -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-streak-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-streak-light.svg">
+  <img width="49%" src="./Assets/Profile/github-streak-light.svg" alt="GitHub Streak">
+</picture>
+
+<!-- Top Languages -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/top-langs-light.svg">
+  <img width="49%" src="./Assets/Profile/top-langs-light.svg" alt="Top Languages">
+</picture>
+
+</div>
+
+
+
 
 <!-- Footer -->
 <div align="center">
