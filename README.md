@@ -265,14 +265,14 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-stats-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-stats-dark.svg">
-  <img width="48%" src="./profile/github-stats-dark.svg" alt="GitHub Stats">
+  <img width="48%" src="./Assets/Profile/github-stats-dark.svg" alt="GitHub Stats">
 </picture>
 
 <!-- GitHub Streak: Light/Dark mode, generated and stored in this repository -->
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-streak-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-streak-dark.svg">
-  <img width="48%" src="./profile/github-streak-dark.svg" alt="GitHub Streak">
+  <img width="48%" src="./Assets/Profile/github-streak-dark.svg" alt="GitHub Streak">
 </picture>
 </div>
 
