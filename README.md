@@ -146,12 +146,12 @@
   <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
 </picture>
 
-<h3><code>divansh@github ~ $ .skyline --3d</code></h3>
+<h3><code>Digeshwar@github ~ $ .skyline --3d</code></h3>
 <div align="center">
 <img src="./Assets/Profile-Art/svg//contrib-skyline.svg" width="100%" alt="Isometric 3D skyline of the last year of contributions" />
 </div>
 
-<h3><code>divansh@github ~ $ .contributions.sh</code></h3>
+<h3><code>Digeshwar@github ~ $ .contributions.sh</code></h3>
 <div align="center">
 <img src="./Assets/Profile-Art/svg//contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year" />
 </div>
