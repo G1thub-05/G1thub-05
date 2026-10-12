@@ -23,7 +23,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=FF512F&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
 </a>
 
-
    <div align="center">
      <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
        <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub" />
@@ -42,12 +41,12 @@
      </a>
   <!-- Light Mode -->
   <a href="https://github.com/G1thub-05#gh-light-mode-only">
-    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=00c6ff" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat&color=00c6ff" alt="Profile views" />
   </a>
   
   <!-- Dark Mode -->
   <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=plastic&color=ff512f" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat&color=ff512f" alt="Profile views" />
   </a>
    </div>
 
@@ -163,25 +162,26 @@
 </a>
 </div> 
 
-
+## mod
 </br>
 <p align="center">
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg"
-    />
-    <img
-      width="100%"
-      src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg"
-      alt="GitHub Contribution Activity Graph"
-    />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg"/>
+    <img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg" alt="GitHub Contribution Activity Graph"/>
   </picture>
 </p>
+
+
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg"/>
+    <img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg" alt="GitHub Contribution Activity Graph"/>
+  </picture>
+</p>
+
 
 ## 📂 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡 𝑇𝑜𝑜𝑙𝑠
 <div align="center">
