@@ -77,6 +77,24 @@ jobs:
           path: Assets/Profile/top-langs-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
+      
+      # 3. Generate Activity Graph - Light
+      - name: Generate Activity Graph - Light
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: G1thub-05
+          options: theme=github-compact&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true
+          output_path: dist/activity-graph-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Generate Activity Graph - Dark
+      - name: Generate Activity Graph - Dark
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: G1thub-05
+          options: theme=github&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true
+          output_path: dist/activity-graph-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # 3. enerate GitHub Profile Summary Cards
       - name: Generate GitHub Profile Summary Cards
