@@ -162,18 +162,8 @@
 </a>
 </div> 
 
-## mod
+
 </br>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg"/>
-    <img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-light.svg" alt="GitHub Contribution Activity Graph"/>
-  </picture>
-</p>
-
-
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/activity-graph-dark.svg"/>
