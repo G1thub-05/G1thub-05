@@ -1,98 +1,131 @@
-name: Update GitHub Profile
+# Name of the workflow displayed in the GitHub Actions tab
+name: GitHub README Update
 
+# Define when the workflow should run
 on:
   schedule:
-    # Every 12 hours at 00:00 and 12:00 UTC = 05:30 AM and 05:30 PM IST (Snake only)
-    - cron: "0 */12 * * *" # Every 12 hours
-    
-    # Daily at 03:30 UTC = 09:00 AM IST (Stats + Streak + Snake)
-    - cron: "30 3 * * *" # Daily 9 AM IST
-    
+    # Run every 12 hours at 00:30 and 12:30 UTC equivalent to 06:00 AM and 06:00 PM IST
+    - cron: "30 0,12 * * *"
+
+  # Allow the workflow to be triggered manually
   workflow_dispatch:
 
+# Grant permission to commit and push generated files to repository
 permissions:
   contents: write
 
+# Ensure this workflow does not have multiple runs executing at the same time.
+# If a new run starts while another is running, the current run will not be cancelled.
+concurrency:
+  group: GitHub-README-Update # Identifier used to group runs of this workflow
+  cancel-in-progress: false # Do not cancel a running workflow when another run starts
+
 jobs:
-  update-stats:
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 3 * * *'
-    runs-on: ubuntu-latest
+  # JOB 1: Generate and update GitHub statistics and contribution streak cards
+  Update-Github-Stats:
+    runs-on: ubuntu-latest # Run on every scheduled or manual jon on an Ubuntu virtual machine runner
+    timeout-minutes: 10 # Stop the job if it runs longer than 10 minutes
+
+    # Download the repository files to the runner
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Create Assets/Profile folder
+        run: mkdir -p Assets/Profile
+
+      # 1. Generate the GitHub statistics card for light mode
       - name: Generate Light Mode GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: stats
-          options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
-          path: profile/github-stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+          card: stats # Specify the type of card to generate
 
+          # Configure username, icons, theme, and colors
+          options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+
+          path: Assets/Profile/github-stats-light.svg # Save the generated SVG at this location
+          token: ${{ secrets.GITHUB_TOKEN }} # Authenticate using the GitHub Actions token
+          fail_on_error: true # Fail the job if SVG generation fails
+
+      # Generate the GitHub statistics card for dark mode
       - name: Generate Dark Mode GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: "username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
-          path: profile/github-stats-dark.svg
+          path: Assets/Profile/github-stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      # 2. Generate the contribution streak card for light mode
       - name: Generate Light Mode Streak
         uses: zients/github-readme-streak-stats@v2
         with:
           options: "user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280&card_width=495&card_height=195&disable_animations=true"
-          path: profile/github-streak-light.svg
+          path: Assets/Profile/github-streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Generate the contribution streak card for dark mode
       - name: Generate Dark Mode Streak
         uses: zients/github-readme-streak-stats@v2
         with:
           options: "user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af&card_width=495&card_height=195&disable_animations=true"
-          path: profile/github-streak-dark.svg
+          path: Assets/Profile/github-streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Commit and push the generated statistics and streak SVGs
       - name: Commit generated SVG cards
         run: |
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/github-stats-light.svg profile/github-stats-dark.svg profile/github-streak-light.svg profile/github-streak-dark.svg
+          git add Assets/Profile/github-stats-light.svg Assets/Profile/github-stats-dark.svg Assets/Profile/github-streak-light.svg Assets/Profile/github-streak-dark.svg
+
           if git diff --cached --quiet; then
             echo "No stats changes to commit."
             exit 0
           fi
-          git commit -m "Update GitHub profile stats"
+
+
+          git commit -m "Update GitHub Profile README"
           git push
 
-
-  update-snake:
+  # JOB 2: Generate Snake, Activity Graph, and Trophies
+  Update-Running-Snake:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+
+      # Create a clean directory for generated SVG files
       - name: Prepare output directory
         run: |
           rm -rf dist
           mkdir -p dist
           chmod -R u+rwX dist
-        
+
+      # 1. Generate animated contribution snake SVGs
       - uses: Platane/snk@v3
         with:
+          # GitHub username used to retrieve contributions
           github_user_name: G1thub-05
           outputs: |
             dist/github-snake.svg?palette=github-light&color_snake=%2300c6ff
             dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
 
+      # 2. Generate the github contribution activity graph for light mode
       - name: Generate Light Mode Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: G1thub-05
+
+          # Configure graph theme, line colors, and appearance
           options: "theme=github-light&hide_border=true&color=24292f&line=0072ff&point=00c6ff&area=true"
           output_path: dist/activity-graph-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Generate the github contribution activity graph for dark mode
       - name: Generate Dark Mode Activity Graph
         uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
@@ -101,7 +134,7 @@ jobs:
           output_path: dist/activity-graph-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate trophy SVG directly into dist.
+      # 3. Generate GitHub achievement trophies SVG directly into dist.
       - name: Generate GitHub Achievement Trophies
         uses: ryo-ma/github-profile-trophy@master
         with:
@@ -110,28 +143,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: flat
 
-      # Deploy all generated SVGs
+      # Publish OR Deploy all generated SVGs files from dist to the output branch
       - uses: crazy-max/ghaction-github-pages@v5
         with:
-          target_branch: output
-          build_dir: dist
+          target_branch: output # Destination branch for generated files
+          build_dir: dist # Directory containing the generated SVG files
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Token used to push generated files to the output branch
 
