@@ -309,6 +309,26 @@
 
 
 
+<!-- GitHub Profile Summary Cards -->
+## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑃𝑟𝑜𝑓𝑖𝑙𝑒 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
+<div align="center">
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="24%" src="./Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
+  <img width="24%" src="./Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
+  <img width="24%" src="./Assets/Profile/summary-stats-light.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="./Assets/Profile/productive-time-light.svg" alt="Productive Time"/>
+</a>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="24%" src="./Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
+  <img width="24%" src="./Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
+  <img width="24%" src="./Assets/Profile/summary-stats-dark.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="./Assets/Profile/productive-time-dark.svg" alt="Productive Time"/>
+</a>
+</div>
+
 
 
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
