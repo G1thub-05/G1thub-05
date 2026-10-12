@@ -163,6 +163,7 @@
 </a>
 </div> 
 
+
 </br>
 <p align="center">
   <picture>
@@ -257,8 +258,7 @@
 </div>
 
 
-## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
-
+## 📈 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
 
 <!-- GitHub Stats: Light/Dark mode, generated and stored in this repository -->
@@ -277,40 +277,6 @@
 </div>
 
 </br>
-<div align="center">
-<!-- Light Mode -->
-
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github"
-    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github"
-    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github"
-    alt="𝑆𝑡𝑎𝑡𝑠"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github&utcOffset=5.5"
-    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
-</a>
-
-<!-- Dark Mode -->
-
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=G1thub-05&theme=github_dark"
-    alt="𝑅𝑒𝑝𝑜𝑠 𝑃𝑒𝑟 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=G1thub-05&theme=github_dark"
-    alt="𝑀𝑜𝑠𝑡 𝐶𝑜𝑚𝑚𝑖𝑡 𝐿𝑎𝑛𝑔𝑢𝑎𝑔𝑒"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=G1thub-05&theme=github_dark"
-    alt="𝑆𝑡𝑎𝑡𝑠"/>
-  <img width="24%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=G1thub-05&theme=github_dark&utcOffset=5.5"
-    alt="𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑣𝑒 𝑇𝑖𝑚𝑒"/>
-</a>
-</div>
-
-
-
-
-
-<!-- GitHub Profile Summary Cards -->
-## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑃𝑟𝑜𝑓𝑖𝑙𝑒 𝑆𝑢𝑚𝑚𝑎𝑟𝑦
 <div align="center">
 <!-- Light Mode -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
@@ -340,6 +306,7 @@
     width="100%"
   />
 </div>
+
 
 
 ## ⚙️ Top Language
