@@ -57,7 +57,28 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      # 2. Generate the contribution streak card for light mode
+
+      # 2. Generate Light Mode Top Languages
+      - name: Generate Light Mode Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=G1thub-05&layout=compact&theme=default&hide_border=true"
+          path: Assets/Profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Generate Dark Mode Top Languages
+      - name: Generate Dark Mode Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true"
+          path: Assets/Profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # 3.. Generate the contribution streak card for light mode
       - name: Generate Light Mode Streak
         uses: zients/github-readme-streak-stats@v2
         with:
@@ -79,7 +100,13 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Assets/Profile/github-stats-light.svg Assets/Profile/github-stats-dark.svg Assets/Profile/github-streak-light.svg Assets/Profile/github-streak-dark.svg
+          git add -- \
+            Assets/Profile/github-stats-light.svg \
+            Assets/Profile/github-stats-dark.svg \
+            Assets/Profile/github-streak-light.svg \
+            Assets/Profile/github-streak-dark.svg \
+            Assets/Profile/top-langs-light.svg \
+            Assets/Profile/top-langs-dark.svg
 
           if git diff --cached --quiet; then
             echo "No stats changes to commit."
