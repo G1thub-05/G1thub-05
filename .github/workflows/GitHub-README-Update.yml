@@ -78,16 +78,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      # G3. enerate GitHub Profile Summary Cards
+      # 3. enerate GitHub Profile Summary Cards
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: G1thub-05
           UTC_OFFSET: 5.5
           AUTO_PUSH: false
-
 
       # Copy Generated Cards to Assets Profile
       - name: Copy Summary Cards to Assets Profile
