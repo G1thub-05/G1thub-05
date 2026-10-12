@@ -151,6 +151,11 @@
 <img src="./Assets/Profile-Art/svg//contrib-skyline.svg" width="100%" alt="Isometric 3D skyline of the last year of contributions" />
 </div>
 
+<h3><code>divansh@github ~ $ .contributions.sh</code></h3>
+<div align="center">
+<img src="./Assets/Profile-Art/svg//contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year" />
+</div>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"/>
