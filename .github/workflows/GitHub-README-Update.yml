@@ -78,7 +78,40 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
-      # 3.. Generate the contribution streak card for light mode
+      # G3. enerate GitHub Profile Summary Cards
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: G1thub-05
+          UTC_OFFSET: 5.5
+          AUTO_PUSH: false
+
+
+      # Copy Generated Cards to Assets Profile
+      - name: Copy Summary Cards to Assets Profile
+        run: |
+          set -e
+          mkdir -p Assets/Profile
+
+          SRC="profile-summary-card-output"
+          echo "Generated SVG files:"
+          find "$SRC" -type f -name '*.svg'
+
+          cp "$SRC/github/repos-per-language.svg" Assets/Profile/repos-per-language-light.svg
+          cp "$SRC/github/most-commit-language.svg" Assets/Profile/most-commit-language-light.svg
+          cp "$SRC/github/stats.svg" Assets/Profile/summary-stats-light.svg
+          cp "$SRC/github/productive-time.svg" Assets/Profile/productive-time-light.svg
+
+          cp "$SRC/github_dark/repos-per-language.svg" Assets/Profile/repos-per-language-dark.svg
+          cp "$SRC/github_dark/most-commit-language.svg" Assets/Profile/most-commit-language-dark.svg
+          cp "$SRC/github_dark/stats.svg" Assets/Profile/summary-stats-dark.svg
+          cp "$SRC/github_dark/productive-time.svg" Assets/Profile/productive-time-dark.svg
+
+
+
+      # 4. Generate the contribution streak card for light mode
       - name: Generate Light Mode Streak
         uses: zients/github-readme-streak-stats@v2
         with:
@@ -106,7 +139,15 @@ jobs:
             Assets/Profile/github-streak-light.svg \
             Assets/Profile/github-streak-dark.svg \
             Assets/Profile/top-langs-light.svg \
-            Assets/Profile/top-langs-dark.svg
+            Assets/Profile/top-langs-dark.svg \
+            Assets/Profile/repos-per-language-light.svg \
+            Assets/Profile/repos-per-language-dark.svg \
+            Assets/Profile/most-commit-language-light.svg \
+            Assets/Profile/most-commit-language-dark.svg \
+            Assets/Profile/summary-stats-light.svg \
+            Assets/Profile/summary-stats-dark.svg \
+            Assets/Profile/productive-time-light.svg \
+            Assets/Profile/productive-time-dark.svg
 
           if git diff --cached --quiet; then
             echo "No stats changes to commit."
