@@ -9,21 +9,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
 </a>
 
-
-
-
-<!-- Light Mode Header -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="100%" src="Assets/Header-Footer/neon-header-light.svg" alt="Digeshwar Neon Header - Light Mode"/>
-</a>
-
-<!-- Dark Mode Header -->
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="Assets/Header-Footer/neon-header-dark.svg" alt="Digeshwar Neon Header - Dark Mode"/>
-</a>
-
-
-
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
    </div>
