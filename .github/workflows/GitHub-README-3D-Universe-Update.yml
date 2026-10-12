@@ -1,0 +1,64 @@
+# Keeps the 3D contribution universe SVGs up to date. Every 12 hours, it regenerates only the universe cards from config.json and commits and pushes changes only when the generated files have changed.
+# The daily README workflow also regenerates the universe as part of the full rebuild.
+# This workflow uses shell commands and the local generator instead of third-party actions.
+# To stop automatic updates, delete this workflow or disable it in the Actions tab.
+
+# Name of the workflow displayed in the GitHub Actions tab
+name: GitHub-README-3D-Universe-Update.yml
+
+# Define when the workflow should run
+on:
+  schedule:
+    # Run every 12 hours at 00:30 and 12:30 UTC equivalent to 06:00 AM and 06:00 PM IST
+    - cron: "30 0,12 * * *"
+
+  # Allow the workflow to be triggered manually
+  workflow_dispatch:
+
+# Grant permission to commit and push generated files to repository
+permissions:
+  contents: write
+
+# Ensure this workflow does not have multiple runs executing at the same time.
+# If a new run starts while another is running, the current run will not be cancelled.
+concurrency:
+  group: GitHub-README-3D-Universe-Update # Identifier used to group runs of this workflow
+  cancel-in-progress: false # Do not cancel a running workflow when another run starts
+
+jobs:
+  GitHub-README-3D-Universe-Update:
+    runs-on: ubuntu-latest # Run on every scheduled or manual jon on an Ubuntu virtual machine runner
+    timeout-minutes: 10 # Stop the job if it runs longer than 10 minutes
+    steps:
+      # Step 1: Clone the current GitHub repository using the GitHub Actions token
+      - name: Get this repository
+        env:
+          GITHUB_TOKEN: ${{ github.token }} # Make the GitHub Actions token available to the shell
+        run: |
+          set -euo pipefail
+          auth="$(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.git" .
+          git config --local "http.https://github.com/.extraheader" "AUTHORIZATION: basic $auth"
+
+      # Step 2: Regenerate only the 3D universe cards
+      - name: Redraw the 3D universe
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" --config Assets/.readme-patch/config.json --require-activity --universe-only --out Assets
+
+      - name: Commit if it changed
+        run: |
+
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Assets/cards/universe*.svg
+
+          if git diff --cached --quiet; then
+            echo "The universe hasn't changed."
+          else
+            git commit -m "Update 3D universe"
+            git push
+          fi
