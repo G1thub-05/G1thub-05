@@ -33,22 +33,60 @@ jobs:
           git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" clone --depth 1 "https://github.com/${GITHUB_REPOSITORY}.git" .
           git config --local "http.https://github.com/.extraheader" "AUTHORIZATION: basic $auth"
 
-      - name: Rebuild the README and images
+      # Step 2: Rebuild README.md and the generated images
+      # - name: Rebuild the README and images
+      #   env:
+      #     GITHUB_TOKEN: ${{ github.token }}
+      #   run: |
+
+      #     set -euo pipefail
+      #     node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" --config Assets/.readme-patch/config.json --require-activity --clean --out Assets
+
+      # Step 2: Rebuild generated SVG cards only
+      - name: Rebuild SVG cards only
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" --config Assets/.readme-patch/config.json --require-activity --clean --out Assets
 
-      - name: Commit if anything changed
+          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" \
+            --config Assets/.readme-patch/config.json \
+            --require-activity \
+            --clean \
+            --out /tmp/readme-generated
+
+          mkdir -p Assets/cards
+          find /tmp/readme-generated/cards \
+            -maxdepth 1 -type f -name '*.svg' \
+            -exec cp -t Assets/cards/ {} +
+
+      # - name: Commit if anything changed
+      #   run: |
+
+      #     set -euo pipefail
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git add -A
+
+      #     if git diff --cached --quiet; then
+      #       echo "Nothing changed today."
+      #     else
+      #       git commit -m "Update profile stats"
+      #       git push
+      #     fi
+
+      - name: Commit SVG cards if changed
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+
+          git add -- 'Assets/cards/*.svg'
+
           if git diff --cached --quiet; then
-            echo "Nothing changed today."
+            echo "No SVG card changes."
           else
-            git commit -m "Update profile stats"
+            git commit -m "Update profile stats cards"
             git push
           fi
+
