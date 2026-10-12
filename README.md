@@ -146,6 +146,11 @@
   <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
 </picture>
 
+<h3><code>divansh@github ~ $ .skyline --3d</code></h3>
+<div align="center">
+<img src="./Assets/Profile-Art/svg//contrib-skyline.svg" width="100%" alt="Isometric 3D skyline of the last year of contributions" />
+</div>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-snake-dark.svg"/>
