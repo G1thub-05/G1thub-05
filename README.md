@@ -322,62 +322,7 @@
 </div>
 
 
-
-
-
-
-## 📊 𝐺𝑖𝑡ℎ𝑢𝑏 𝑆𝑡𝑎𝑡𝑖𝑐𝑠
-
-<div align="center">
-
-<!-- Light Mode -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=default&hide_border=true&cache_seconds=14400"
-    alt="GitHub Statistics"
-  />
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=default&hide_border=true&cache_seconds=14400"
-    alt="Top Languages"
-  />
-</a>
-
-<!-- Dark Mode -->
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=G1thub-05&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=14400"
-    alt="GitHub Statistics Dark Mode"
-  />
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=14400"
-    alt="Top Languages Dark Mode"
-  />
-</a>
-
-</div>
-
-
-
-## ⚙️ 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
-<div align="center">
-
-<!-- GitHub Stats -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-stats-light.svg">
-  <img width="49%" src="./Assets/Profile/github-stats-light.svg" alt="GitHub Stats">
-</picture>
-
-<!-- GitHub Streak -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-streak-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-streak-light.svg">
-  <img width="49%" src="./Assets/Profile/github-streak-light.svg" alt="GitHub Streak">
-</picture>
+## ⚙️ Top Language
 
 <!-- Top Languages -->
 <picture>
