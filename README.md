@@ -47,7 +47,7 @@
   
   <!-- Dark Mode -->
   <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=flat-square&color=ff512f" alt="Profile views" />
+    <img src="https://komarev.com/ghpvc/?username=G1thub-05&style=plastic&color=ff512f" alt="Profile views" />
   </a>
    </div>
 
