@@ -24,7 +24,7 @@
 
   "cards": true,
   "bars": true,
-  "pie": true,
+  "pie": false,
   "timeline": true,
   "proj": true,
   "recent": true,
