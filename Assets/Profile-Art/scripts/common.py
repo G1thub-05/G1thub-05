@@ -53,6 +53,7 @@ WINDOW_THEME_CSS = """
     --color-orange: #ffa657;
     --color-pink: #ff7b9c;
     --color-sweep: #fff;
+    --color-cmd: #39d353;
 
     --globe-land-dot: #39d353;
     --globe-atmosphere: #58d5e8;
