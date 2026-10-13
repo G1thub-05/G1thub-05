@@ -69,7 +69,7 @@ def main():
   <text x="{px}" y="182" font-size="13" fill="var(--window-muted)">{esc(TAGLINE)}</text>
 </g>
 """
-    write_svg("Header.svg", window(W, H, f"~/{PROMPT_USER} — .sh", body, defs))
+    write_svg("header.svg", window(W, H, f"~/{PROMPT_USER} — .sh", body, defs))
 
 
 if __name__ == "__main__":
