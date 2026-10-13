@@ -8,5 +8,3 @@ import render_tech_sphere_svg
 
 for mod in (render_header_svg, render_info_card, render_globe_svg, render_tech_sphere_svg, render_skyline_svg, render_heatmap_svg):
     mod.main()
-
-Assets/Profile-Art/
