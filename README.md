@@ -103,7 +103,7 @@
 </div>
 </br>
 
-<img src="./Assets/Profile-Art/svg/header.svg" width="100%" alt="Divansh Bajaj — Lead Engineer, AWS Certified Developer, Cloud & Serverless Architect, AI Agents" />
+<img src="./Assets/Profile-Art/svg/header.svg" width="100%" alt="Digeshwa — Java Full Stack Developer" />
 
 <!-- <h3><code>Digeshwar@github ~ $ whoami</code></h3>
 <div align="center">
