@@ -137,7 +137,36 @@ Step 2: Open folder on your computer
     git branch --merged								   → Lists local branches whose changes have been merged into the current branch; it does not delete anything.
 	git remote prune origin	                           → Removes stale (branches that no longer exist on origin) remote-tracking references without fetching new updates or directly deleting the underlying commit data.
 	git fetch --prune origin	                       → Fetches new remote updates from origin and Removes stale remote-tracking references without directly deleting the underlying commit data.
-	git rev-parse --git-dir	                           → Locates or Displays the repository's Git directory; it does not perform branch cleanup.
+	git rev-parse --git-dir            				   → Displays the path to the repository's Git directory (Output: .git); it does not perform branch cleanup .
+	git rev-parse --absolute-git-dir   				   → Displays the absolute path to the repository's Git directory (Output: C:/projects/my-project/.git); it does not perform branch cleanup.
+	
+	my-project/
+	├── src/
+	│   ├── main/
+	│   └── test/
+	├── pom.xml
+	├── README.md
+	└── .git/
+	    ├── HEAD                              # Indicates the currently checked-out branch or commit.
+	    ├── config                            # Stores repository configuration, including remote names and URLs.
+	    ├── index                             # Stores the staging area's index information.
+	    ├── packed-refs                       # Stores packed branch and tag references, if present.
+	    ├── objects/                          # Stores Git objects, including commits, trees, and blobs.
+	    │   ├── info/
+	    │   └── pack/                          # Compressed Git objects.
+	    ├── refs/
+	    │   ├── heads/                         # Stores local branch references.
+	    │   │   ├── main
+	    │   │   └── feature-login
+	    │   ├── remotes/
+	    │   │   └── origin/                    # Stores remote-tracking branch references for origin.
+	    │   │       ├── main
+	    │   │       └── feature-login
+	    │   └── tags/                          # Stores tag references.
+	    └── logs/                              # Stores reference history, including reflog information.
+
+	Note: References may be stored in .git/packed-refs instead of individual files under refs/.
+	Important: In some repositories, especially Git worktrees and submodules, the Git directory may be elsewhere rather than inside the project folder.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git add User.java                           	   → Stages a specific file for the next commit.
 	git add User.java UserController.java       	   → Stages multi file for the next commit.
