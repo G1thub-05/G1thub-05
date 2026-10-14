@@ -1,3 +1,5 @@
+
+
 <div align="center">
 <!-- Light Mode Header -->
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
@@ -130,14 +132,11 @@
 </picture>
 </div>
 
+
 </br>
 <div align="center">
-  <picture>
-    <img src="./Assets/Profile-Art/svg/globe.svg" width="49%" alt="Rotating 3D globe with arcs from Raipur to cloud regions" />
-  </picture>&nbsp;
-  <picture>
-    <img src="./Assets/Profile-Art/svg/tech-sphere.svg" width="49%" alt="Tech stack on a rotating 3D sphere" />
-  </picture>
+  <img src="./Assets/Profile-Art/svg/globe.svg" width="48%" alt="Global Network" />&nbsp;
+  <img src="./Assets/Profile-Art/svg/tech-sphere.svg" width="48%" alt="Tech Stack" />
 </div>
 
 
@@ -180,13 +179,11 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/stats.svg">
     <img src="./Assets/cards/stats-light.svg" alt="GitHub Stats" width="49%">
-  </picture>&nbsp;
-  <picture>
+  </picture><picture>
     <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/streak.svg">
     <img src="./Assets/cards/streak-light.svg" alt="Contribution Streak" width="49%">
   </picture>
 </div>
-
 
 
 </br>
