@@ -70,5 +70,5 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh profile art [skip ci]"
+          commit_message: "Update-Profile-Art"
           file_pattern: "Assets/Profile-Art/data/*.json Assets/Profile-Art/svg/*.svg Assets/Profile-Art/source-prepped.png"
