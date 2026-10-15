@@ -64,7 +64,6 @@ Step 2: Open folder on your computer
 	git config --global http.lowSpeedTime 999999       			→ Sets the amount of time Git waits when the HTTP transfer remains below the low-speed threshold (Give very long timeout to Git before Git gives up).
 	git config --global --unset http.lowSpeedTime     			→ Removes the custom lowSpeedTime setting and returns to the default.
 
-
 ✨ Work Management
 🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️🛡️
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -74,6 +73,26 @@ Step 2: Open folder on your computer
 	│ git add     → Staging Area
 	│ git commit  → Local Repository (Commits)
 	│ git push    → Remote Repository (GitHub)
+
+⚙️ Common Git Commit Types
+	┌───────────────┬───────────────────────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────────────────┐
+	|	Type	    |                               Meaning	                                    |                                Example     	                       |
+	├───────────────┼───────────────────────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────────────┤
+	|	feat	    - 	Adds a new feature	                                                	- 	git commit -m "feat: add student search"                           |
+	|	fix	        - 	Fixes a bug	                                                        	- 	git commit -m "fix: correct pending fee calculation"               |
+	|	chore	    - 	Performs routine maintenance	                                        - 	git commit -m "chore: update dependencies"                         |
+	|	docs	    - 	Updates documentation	                                                - 	git commit -m "docs: update README"                                |
+	|	style	    - 	Makes formatting or styling changes without changing functionality		- 	git commit -m "style: improve dashboard layout"                    |
+	|	refactor	- 	Improves code structure without changing behavior	                    - 	git commit -m "refactor: simplify fee calculations"                |
+	|	test	    - 	Adds or updates tests	                                                - 	git commit -m "test: add fee calculation tests"                    |
+	|	build	    - 	Updates/Changes build tools or build dependencies                     	- 	git commit -m "build: update Vite or Maven configuration"          |
+	|	perf	    - 	Improves performance													- 	git commit -m "perf: optimize student list rendering"              |
+	|	ci	        - 	Updates CI/CD configuration	 											- 	git commit -m "ci: add GitHub Actions workflow"                    |
+	|	revert	    - 	Reverts a previous commit												- 	git commit -m "revert: undo student search changes"                |
+	|	security	- 	Security-related changes (team-specific convention)						- 	git commit -m "security: improve environment variable handling"    |
+	|	deps	    - 	Dependency updates (optional custom convention)							- 	git commit -m "deps: update React dependencies"                    |
+	└───────────────┴───────────────────────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────────────────┘
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ⚙️ Git File Stages
