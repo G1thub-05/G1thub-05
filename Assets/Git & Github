@@ -143,6 +143,14 @@ Step 2: Open folder on your computer
 	git switch -c feature-login                 	   → Equivalent modern command (Creates a new branch called <branch-name> and immediately switches to it)
 	git branch -m <branch-name>                 	   → Rename current branch to <branch-name>.
 	git branch -M <branch-name>                	       → Force-renames the current branch to <branch-name>, the -M option allows the rename even if a branch named <branch-name> already exists.
+
+	git branch <new-branch> <commit-id>                → Create a branch from a commit ID WITHOUT switching
+	git checkout -b <new-branch> <commit-id>           → Create and switch to a branch from a commit ID
+	git switch -c <new-branch> <commit-id>             → Modern way: Create and switch from a commit ID
+	git branch <new-branch> <source-branch>            → Create a branch from a source branch WITHOUT switching
+	git checkout -b <new-branch> <source-branch>       → Create and switch to a branch from a source branch
+	git switch -c <new-branch> <source-branch>         → Modern way: Create and switch from a source branch
+	git checkout <commit-id>                           → Checkout a commit directly (does NOT create a branch). Usually enters detached HEAD state
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	git fetch  										   → Download the latest information from configured upstream remote branch, but do not change my current branch or working files.
 	git fetch origin  								   → Download the latest information from remote origin, but do not change my current branch or working files.
@@ -244,7 +252,7 @@ Step 2: Open folder on your computer
 	git branch -v                                      → Lists local branches with their latest commit hash and commit message. Does not show upstream tracking information.
 														
 	✨ Important Notes
-		The -u is short for --set-upstream and uou usually use -u when pushing a branch for the first time.
+		The -u is short for --set-upstream and you usually use -u when pushing a branch for the first time.
 		The -u sets the upstream tracking relationship branch for local branch. Each can have its own upstream tracking configuration branch.
 		The -u is important for the first push because afterward once the upstream is configured you can usually simply use `git push` instead of specifying the remote and branch each time (git push origin <branch-name>).
 		The current branch does not determine which branch is pushed when you explicitly specify a local branch in the command.
