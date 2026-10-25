@@ -1036,7 +1036,7 @@
 		}
 
 		// normalise repo fields so unexpected API values can't break the geometry
-		var list = (repos || []).slice(0, 6).map(function (r) {
+		var list = (repos || []).slice(0, 10).map(function (r) {
 			return {
 				name: String(r && r.name != null ? r.name : ""),
 				stars: Math.max(0, Math.floor(Number(r && r.stars)) || 0),
