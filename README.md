@@ -287,11 +287,12 @@
 </div>
 
 <!-- 
+-->
 ## 📈 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
 
 <!-- GitHub Stats: Light/Dark mode, generated and stored in this repository -->
-<!-- 
+
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-dark.svg">
@@ -299,7 +300,7 @@
 </picture>
 
 <!-- GitHub Streak: Light/Dark mode, generated and stored in this repository -->
-<!-- 
+
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-dark.svg">
@@ -310,7 +311,6 @@
 </br>
 <div align="center">
 <!-- Light Mode -->
-<!-- 
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
   <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
@@ -319,7 +319,7 @@
 </a>
 
 <!-- Dark Mode -->
-<!-- 
+
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
   <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
   <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
@@ -334,7 +334,7 @@
 
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/github-trophies.svg"
+    src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-trophies.svg"
     alt="GitHub Achievements"
     width="100%"
   />
@@ -345,7 +345,7 @@
 ## ⚙️ Top Language
 
 <!-- Top Languages -->
-<!-- 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-light.svg">
