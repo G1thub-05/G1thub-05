@@ -31,11 +31,22 @@ def main():
     # subject over pure black: the portrait is drawn as light glyphs on a dark card
     out = (gray.astype(np.float32) * alpha[..., 0]).astype(np.uint8)
 
+    # ys, xs = np.where(alpha[..., 0] > 0.2)
+    # pad = 12
+    # y0, y1 = max(ys.min() - pad, 0), min(ys.max() + pad, out.shape[0])
+    # x0, x1 = max(xs.min() - pad, 0), min(xs.max() + pad, out.shape[1])
+    # out = out[y0:y1, x0:x1]
+
     ys, xs = np.where(alpha[..., 0] > 0.2)
-    pad = 12
-    y0, y1 = max(ys.min() - pad, 0), min(ys.max() + pad, out.shape[0])
-    x0, x1 = max(xs.min() - pad, 0), min(xs.max() + pad, out.shape[1])
+    pad = 35
+    
+    y0 = max(ys.min() - pad, 0)
+    y1 = min(ys.max() + pad, out.shape[0])
+    x0 = max(xs.min() - pad, 0)
+    x1 = min(xs.max() + pad, out.shape[1])
+    
     out = out[y0:y1, x0:x1]
+    
     Image.fromarray(out).save(os.path.join(ROOT, "source-prepped.png"))
     print("wrote source-prepped.png", out.shape)
 
