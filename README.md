@@ -81,7 +81,7 @@
 <img
   align="right"
   width="370"
-  src="./Assets/Neon-G1thub-05-Developer.png"
+  src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neon-G1thub-05-Developer.png"
   alt="Neon-G1thub-05-Developer.png"
 />
 
@@ -103,22 +103,22 @@
 </div>
 </br>
 
-<img src="./Assets/Profile-Art/svg/header.svg" width="100%" alt="Digeshwa — Java Full Stack Developer" />
+<img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg/header.svg" width="100%" alt="Digeshwa — Java Full Stack Developer" />
 
 <!-- <h3><code>Digeshwar@github ~ $ whoami</code></h3>
 <div align="center">
 <table>
   <tr>
-    <td valign="top"><img src="./Assets/Profile-Art/svg//ascii-portrait.svg" width="370" alt="ASCII portrait of Digeshwar" /></td>
-    <td valign="top"><img src="./Assets/Profile-Art/svg//info-card.svg" width="490" alt="neofetch-style card: role, stack, live GitHub stats" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg//ascii-portrait.svg" width="370" alt="ASCII portrait of Digeshwar" /></td>
+    <td valign="top"><img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg//info-card.svg" width="490" alt="neofetch-style card: role, stack, live GitHub stats" /></td>
   </tr>
 </table>
 </div> -->
 
 <div align="center">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/timeline.svg">
-    <img src="./Assets/Neo-Cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/timeline.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/timeline-light.svg" alt="Timeline of repositories created by G1thub-05" width="100%">
 </picture>
 </div>
 
@@ -127,35 +127,35 @@
 </br>
 <div align="center">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/universe.svg">
-    <img src="./Assets/Neo-Cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/universe.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/universe-light.svg" alt="3D GitHub Contribution Universe" width="100%">
 </picture>
 </div>
 
 
 </br>
 <div align="center">
-  <img src="./Assets/Profile-Art/svg/globe.svg" width="48%" alt="Global Network" />&nbsp;
-  <img src="./Assets/Profile-Art/svg/tech-sphere.svg" width="48%" alt="Tech Stack" />
+  <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg/globe.svg" width="48%" alt="Global Network" />&nbsp;
+  <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg/tech-sphere.svg" width="48%" alt="Tech Stack" />
 </div>
 
 
 </br>
 <div align="center">
-<img src="./Assets/Profile-Art/svg//contrib-skyline.svg" width="100%" alt="Isometric 3D skyline of the last year of contributions" />
+<img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg//contrib-skyline.svg" width="100%" alt="Isometric 3D skyline of the last year of contributions" />
 </div>
 
 </br>
 <div align="center">
-<img src="./Assets/Profile-Art/svg//contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year" />
+<img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg//contrib-heatmap.svg" width="100%" alt="Contribution heatmap for the last year" />
 </div>
 
 
 <!-- </br>
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/activity.svg">
-  <img src="./Assets/Neo-Cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/activity.svg">
+  <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
 </picture>
 </div>
  -->
@@ -172,16 +172,16 @@
 
 <!-- <h3><code>Digeshwar@github ~ $ .snake --eat-commits</code></h3>
 <div align="center">
-<img src="./Assets/Profile-Art/svg/contrib-snake.svg" width="860" alt="Snake eating the contribution graph" />
+<img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg/contrib-snake.svg" width="860" alt="Snake eating the contribution graph" />
 </div> -->
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/stats.svg">
-    <img src="./Assets/Neo-Cards/stats-light.svg" alt="GitHub Stats" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/stats.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/stats-light.svg" alt="GitHub Stats" width="49%">
   </picture><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/streak.svg">
-    <img src="./Assets/Neo-Cards/streak-light.svg" alt="Contribution Streak" width="49%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/streak.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/streak-light.svg" alt="Contribution Streak" width="49%">
   </picture>
 </div>
 
@@ -189,16 +189,16 @@
 </br>
 <div align="center">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/languages.svg">
-    <img src="./Assets/Neo-Cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/languages.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/languages-light.svg" alt="Languages and tools for G1thub-05" width="100%">
 </picture>
 </div>
 
  </br>
 <div align="center">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/recent.svg">
-    <img src="./Assets/Neo-Cards/recent-light.svg" alt="Recently pushed repositories of G1thub-05" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/recent.svg">
+    <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/recent-light.svg" alt="Recently pushed repositories of G1thub-05" width="100%">
 </picture>
 </div>
 
@@ -261,28 +261,28 @@
 <div align="center">
 <a href="https://github.com/G1thub-05/G1thub-05">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/project-1.svg">
-        <img src="./Assets/Neo-Cards/project-1-light.svg" alt="G1thub-05" width="412">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-1.svg">
+        <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-1-light.svg" alt="G1thub-05" width="412">
     </picture>
 </a>
 
 <a href="https://github.com/G1thub-05/PortFolio">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/project-2.svg">
-        <img src="./Assets/Neo-Cards/project-2-light.svg" alt="PortFolio" width="412">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-2.svg">
+        <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-2-light.svg" alt="PortFolio" width="412">
     </picture>
 </a>
 
 <a href="https://github.com/G1thub-05/Online-Food-ordering-System">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/project-3.svg">
-        <img src="./Assets/Neo-Cards/project-3-light.svg" alt="Online-Food-ordering-System" width="412">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-3.svg">
+        <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-3-light.svg" alt="Online-Food-ordering-System" width="412">
     </picture>
 </a>
 <a href="https://github.com/G1thub-05/E-Commerce-App">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./Assets/Neo-Cards/project-4.svg">
-        <img src="./Assets/Neo-Cards/project-4-light.svg" alt="E-Commerce-App" width="412">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-4.svg">
+        <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/project-4-light.svg" alt="E-Commerce-App" width="412">
     </picture>
 </a>
 </div>
@@ -294,17 +294,17 @@
 <!-- GitHub Stats: Light/Dark mode, generated and stored in this repository -->
 <!-- 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-stats-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-stats-dark.svg">
-  <img width="48%" src="./Assets/Profile/github-stats-dark.svg" alt="GitHub Stats">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-dark.svg">
+  <img width="48%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-dark.svg" alt="GitHub Stats">
 </picture>
 
 <!-- GitHub Streak: Light/Dark mode, generated and stored in this repository -->
 <!-- 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/github-streak-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/github-streak-dark.svg">
-  <img width="48%" src="./Assets/Profile/github-streak-dark.svg" alt="GitHub Streak">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-dark.svg">
+  <img width="48%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-dark.svg" alt="GitHub Streak">
 </picture>
 </div>
 
@@ -313,19 +313,19 @@
 <!-- Light Mode -->
 <!-- 
 <a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="24%" src="./Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
-  <img width="24%" src="./Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
-  <img width="24%" src="./Assets/Profile/summary-stats-light.svg" alt="GitHub Summary Stats"/>
-  <img width="24%" src="./Assets/Profile/productive-time-light.svg" alt="Productive Time"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-light.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-light.svg" alt="Productive Time"/>
 </a>
 
 <!-- Dark Mode -->
 <!-- 
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="24%" src="./Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
-  <img width="24%" src="./Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
-  <img width="24%" src="./Assets/Profile/summary-stats-dark.svg" alt="GitHub Summary Stats"/>
-  <img width="24%" src="./Assets/Profile/productive-time-dark.svg" alt="Productive Time"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-dark.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-dark.svg" alt="Productive Time"/>
 </a>
 </div>
 
@@ -348,14 +348,14 @@
 <!-- Top Languages -->
 <!-- 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./Assets/Profile/top-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./Assets/Profile/top-langs-light.svg">
-  <img width="49%" src="./Assets/Profile/top-langs-light.svg" alt="Top Languages">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-light.svg">
+  <img width="49%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-light.svg" alt="Top Languages">
 </picture>
 
 <!-- Make Your Own -->
 <div align="justify">
-<sub>Every SVG here is generated by Python in <a href="./Assets/Profile-Art/scripts"><code>scripts/</code></a> and refreshed daily by GitHub Actions. No external image services. Want one? <a href="./Assets/Profile-Art/SETUP.md">Build your own</a>.</sub>
+<sub>Every SVG here is generated by Python in <a href="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/scripts"><code>scripts/</code></a> and refreshed daily by GitHub Actions. No external image services. Want one? <a href="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/SETUP.md">Build your own</a>.</sub>
 </div>
 
 
