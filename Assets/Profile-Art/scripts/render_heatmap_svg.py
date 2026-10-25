@@ -81,14 +81,28 @@ def main():
     ]
 
 
-    sx = x0
+    # sx = x0
+    # foot = []
+    # for i, (v, label, color) in enumerate(stats):
+    #     foot.append(
+    #         f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s"><text x="{sx}" y="{H - 20}" font-size="15" font-weight="700" fill="{color}">{esc(v)}'
+    #         f'<tspan font-size="11" font-weight="400" fill="var(--window-muted)" dx="6">{esc(label)}</tspan></text></g>'
+    #     )
+    #     sx += (len(v) + len(label)) * 7.2 + 44
+
     foot = []
-    for i, (v, label, color) in enumerate(stats):
-        foot.append(
-            f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s"><text x="{sx}" y="{H - 20}" font-size="15" font-weight="700" fill="{color}">{esc(v)}'
-            f'<tspan font-size="11" font-weight="400" fill="var(--window-muted)" dx="6">{esc(label)}</tspan></text></g>'
-        )
-        sx += (len(v) + len(label)) * 7.2 + 44
+        margin = 42
+        usable_w = W - 2 * margin
+        slot_w = usable_w / len(stats)
+    
+        for i, (v, label, color) in enumerate(stats):
+            sx = margin + i * slot_w
+            foot.append(
+                f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s">'
+                f'<text x="{sx:.1f}" y="{H - 20}" font-size="12" font-weight="700" fill="{color}">{esc(v)}'
+                f'<tspan font-size="10" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
+                f'</text></g>'
+            )
 
     defs = f"""
 <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
