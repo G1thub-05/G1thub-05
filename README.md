@@ -203,6 +203,19 @@
 </div>
 
 </br>
+<div align="center">
+  <!-- Light Mode -->
+  <a href="https://github.com/G1thub-05#gh-light-mode-only">
+    <img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/profile-details-light.svg" alt="Contribution Graph - Light Mode"/>
+  </a>
+
+  <!-- Dark Mode -->
+  <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+    <img width="100%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/profile-details-dark.svg" alt="Contribution Graph - Dark Mode"/>
+  </a>
+</div>
+
+
 
 <div align="center">
 <!-- Light Mode -->
