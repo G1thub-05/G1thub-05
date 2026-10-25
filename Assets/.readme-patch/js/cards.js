@@ -384,11 +384,28 @@
 	function statsCard(m, p) {
 		var a = m.activity,
 			items = statTiles(m);
+		
+		// var sub = a
+		// 	? a.source === "graphql"
+		// 		? "PAST YEAR"
+		// 		: "PUBLIC ACTIVITY"
+		// 	: "PROFILE";
+
 		var sub = a
-			? a.source === "graphql"
-				? "PAST YEAR"
-				: "PUBLIC ACTIVITY"
-			: "PROFILE";
+		    ? a.source === "graphql"
+		        ? "PAST YEAR · " +
+		          (a.start ? a.start.slice(0, 4) : "") +
+		          "–" +
+		          (a.start
+		              ? new Date(
+		                    Date.parse(a.start + "T00:00:00Z") +
+		                    (a.windowDays - 1) * DAYMS
+		                ).getUTCFullYear()
+		              : "")
+		        : "PUBLIC ACTIVITY"
+		    : "PROFILE";
+		
+		
 		var body = title(p, "GITHUB STATS", sub);
 		[154, 280].forEach(function (x) {
 			body +=
@@ -472,8 +489,22 @@
 	function streakCard(m, p) {
 		var a = m.activity;
 		if (!a) return null;
+		// var win =
+		// 	a.windowDays >= 360 ? "PAST YEAR" : "LAST " + a.windowDays + " DAYS";
+
 		var win =
-			a.windowDays >= 360 ? "PAST YEAR" : "LAST " + a.windowDays + " DAYS";
+		    a.windowDays >= 360
+		        ? "PAST YEAR · " +
+		          (a.start ? a.start.slice(0, 4) : "") +
+		          "–" +
+		          (a.start
+		              ? new Date(
+		                    Date.parse(a.start + "T00:00:00Z") +
+		                    (a.windowDays - 1) * DAYMS
+		                ).getUTCFullYear()
+		              : "")
+		        : "LAST " + a.windowDays + " DAYS";
+		
 		var body = title(p, "CONTRIBUTION STREAK", win);
 		var cols = [
 			{
