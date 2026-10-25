@@ -1,4 +1,4 @@
-name: Update-Profile-Art.yml
+name: Github-Profile-Art.yml
 
 # Define when the workflow should run
 on:
