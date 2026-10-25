@@ -63,7 +63,7 @@ def main():
         )
         + f'<text x="{legend_x + 6 * 15 + 4}" y="{ly + 10}" font-size="11" fill="var(--window-muted)">More</text>'
     )
-    best = date.fromisoformat(st["best_day"]["date"]).strftime("%b %d")
+    best = date.fromisoformat(st["best_day"]["date"]).strftime("%b %d, %Y")
     stats = [
         (f"{st['total']:,}", "contributions", "var(--color-green)"),
         (f"{st['current_streak']}d", "current streak", "var(--color-cyan)"),
