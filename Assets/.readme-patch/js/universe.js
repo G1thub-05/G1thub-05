@@ -1075,23 +1075,43 @@
 			var chars =
 				Math.min(repo.name.length, 18) +
 				(repo.stars > 0 ? 2 + String(repo.stars).length : 0);
+			// function nameShows(rad, isNear) {
+			// 	if (isNear) return true;
+			// 	var sc = 1 + 0.18 * Math.sin(rad),
+			// 		x = OCX + R * Math.cos(rad),
+			// 		y = OCY + R * FLAT * Math.sin(rad);
+			// 	var w = (chars * 7 + 8) * sc,
+			// 		base = y + (-radius - 11) * sc;
+			// 	return !hitsPie(
+			// 		{
+			// 			x0: x - w / 2,
+			// 			x1: x + w / 2,
+			// 			y0: base - 13 * sc,
+			// 			y1: base + 4 * sc,
+			// 		},
+			// 		blockers,
+			// 	);
+			// }
+
 			function nameShows(rad, isNear) {
-				if (isNear) return true;
-				var sc = 1 + 0.18 * Math.sin(rad),
-					x = OCX + R * Math.cos(rad),
-					y = OCY + R * FLAT * Math.sin(rad);
-				var w = (chars * 7 + 8) * sc,
-					base = y + (-radius - 11) * sc;
-				return !hitsPie(
-					{
-						x0: x - w / 2,
-						x1: x + w / 2,
-						y0: base - 13 * sc,
-						y1: base + 4 * sc,
-					},
-					blockers,
-				);
+			    var sc = 1 + 0.18 * Math.sin(rad);
+			    var x = OCX + R * Math.cos(rad);
+			    var y = OCY + R * FLAT * Math.sin(rad);
+			
+			    var w = (chars * 7 + 8) * sc;
+			    var base = y + (-radius - 11) * sc;
+			
+			    return !hitsPie(
+			        {
+			            x0: x - w / 2,
+			            x1: x + w / 2,
+			            y0: base - 13 * sc,
+			            y1: base + 4 * sc
+			        },
+			        blockers
+			    );
 			}
+
 			// the name's visibility through one orbit, sampled 72 times; the first half of the loop is the near side
 			var N = 72,
 				states = [];
