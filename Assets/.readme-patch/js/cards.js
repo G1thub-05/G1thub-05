@@ -378,7 +378,7 @@
 					return t.zero;
 				}),
 			);
-		return items.concat(extra).slice(0, 6);
+		return items.concat(extra).slice(0, 10);
 	}
 
 	function statsCard(m, p) {
