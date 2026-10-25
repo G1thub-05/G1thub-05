@@ -49,17 +49,35 @@ jobs:
           set -euo pipefail
           node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" --config Assets/.readme-patch/config.json --require-activity --universe-only --out Assets
 
-      - name: Commit if it changed
-        run: |
+      # - name: Commit if it changed
+      #   run: |
 
+      #     set -euo pipefail
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     git add Assets/cards/universe*.svg
+
+      #     if git diff --cached --quiet; then
+      #       echo "The universe hasn't changed."
+      #     else
+      #       git commit -m "Update 3D universe"
+      #       git push
+      #     fi
+
+      - name: Commit universe only if changed
+        shell: bash
+        run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Assets/cards/universe*.svg
+          git add -- Assets/cards/universe*.svg
 
           if git diff --cached --quiet; then
             echo "The universe hasn't changed."
-          else
-            git commit -m "Update 3D universe"
-            git push
+            exit 0
           fi
+
+          git commit -m "3D universe"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
