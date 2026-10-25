@@ -155,16 +155,37 @@
 		});
 	}
 
+	// function fetchActivity(username, opts) {
+	// 	var run = opts.token
+	// 		? activityGraphQL(username, opts).catch(function () {
+	// 				return activityPublic(username, opts);
+	// 			})
+	// 		: activityPublic(username, opts);
+	// 	return run.catch(function () {
+	// 		return null;
+	// 	});
+	// }
+
 	function fetchActivity(username, opts) {
-		var run = opts.token
-			? activityGraphQL(username, opts).catch(function () {
-					return activityPublic(username, opts);
-				})
-			: activityPublic(username, opts);
-		return run.catch(function () {
-			return null;
-		});
+	    var run = opts.token
+	        ? activityGraphQL(username, opts).catch(function (err) {
+	                console.warn(
+	                    "GraphQL activity failed; trying public activity:",
+	                    err.message
+	                );
+	                return activityPublic(username, opts);
+	            })
+	        : activityPublic(username, opts);
+	
+	    return run.catch(function (err) {
+	        console.warn(
+	            "GitHub activity unavailable:",
+	            err.message
+	        );
+	        return null;
+	    });
 	}
+
 
 	/** Resolves with a model ready for core.buildReadme and the card builders. */
 	function fetchProfile(username, opts) {
