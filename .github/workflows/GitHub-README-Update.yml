@@ -17,7 +17,8 @@ permissions:
 # Ensure this workflow does not have multiple runs executing at the same time.
 # If a new run starts while another is running, the current run will not be cancelled.
 concurrency:
-  group: GitHub-README-Update # Identifier used to group runs of this workflow
+  group: generated-profile-assets # Identifier used to group runs of this workflow
+  queue: max
   cancel-in-progress: false # Do not cancel a running workflow when another run starts
 
 jobs:
