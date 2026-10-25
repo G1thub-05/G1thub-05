@@ -4,7 +4,7 @@
 # To stop it: delete this file, or switch the workflow off in the Actions tab.
 
 # Name of the workflow displayed in the GitHub Actions tab
-name: GitHub-README-Neo-Update
+name: GitHub-README-Neo
 
 # Define when the workflow should run
 on:
