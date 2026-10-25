@@ -109,7 +109,7 @@
 <div align="center">
 <table>
   <tr>
-    <td valign="top"><img src="./Assets/Profile-Art/svg//ascii-portrait.svg" width="370" alt="ASCII portrait of Divansh" /></td>
+    <td valign="top"><img src="./Assets/Profile-Art/svg//ascii-portrait.svg" width="370" alt="ASCII portrait of Digeshwar" /></td>
     <td valign="top"><img src="./Assets/Profile-Art/svg//info-card.svg" width="490" alt="neofetch-style card: role, stack, live GitHub stats" /></td>
   </tr>
 </table>
@@ -170,7 +170,7 @@
 </p>
 </div>
 
-<!-- <h3><code>divansh@github ~ $ .snake --eat-commits</code></h3>
+<!-- <h3><code>Digeshwar@github ~ $ .snake --eat-commits</code></h3>
 <div align="center">
 <img src="./Assets/Profile-Art/svg/contrib-snake.svg" width="860" alt="Snake eating the contribution graph" />
 </div> -->
