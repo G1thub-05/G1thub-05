@@ -88,6 +88,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No Profile-Art changes."
           else
-            git commit -m "Update Profile-Art"
+            git commit -m "Profile-Art"
             git push
           fi
