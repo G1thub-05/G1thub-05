@@ -4,7 +4,7 @@
 # To stop automatic updates, delete this workflow or disable it in the Actions tab.
 
 # Name of the workflow displayed in the GitHub Actions tab
-name: GitHub-README-3D-Universe-Update.yml
+name: GitHub-README-3D-Universe.yml
 
 # Define when the workflow should run
 on:
