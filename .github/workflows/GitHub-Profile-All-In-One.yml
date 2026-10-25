@@ -70,13 +70,13 @@ permissions:
 # If a new run starts while another is running, the current run will not be cancelled.
 concurrency:
   group: generated-profile-assets # Identifier used to group runs of this workflow
-  queue: max                      # Queue runs instead of cancelling an in-progress run.
-  cancel-in-progress: false       # Do not cancel a running workflow when another run starts
+  queue: max # Queue runs instead of cancelling an in-progress run.
+  cancel-in-progress: false # Do not cancel a running workflow when another run starts
 
 jobs:
   generate-profile-assets:
     runs-on: ubuntu-latest # Run on every scheduled or manual job on an Ubuntu hosted virtual machine runner for all generators.
-    timeout-minutes: 30    # Fail the job if all generation steps together take too long.
+    timeout-minutes: 30 # Fail the job if all generation steps together take too long.
 
     steps:
       # =======================================================================
@@ -126,7 +126,6 @@ jobs:
       - name: Generate Light Mode GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
-
           # Specify the type of card to generate
           card: stats
 
@@ -134,8 +133,8 @@ jobs:
           options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
 
           output_path: dist/Assets/Profile/github-stats-light.svg # Save the generated SVG at this location
-          token: ${{ secrets.GITHUB_TOKEN }}          # Authenticate using the GitHub Actions token
-          fail_on_error: true                         # Fail the job if SVG generation fails
+          token: ${{ secrets.GITHUB_TOKEN }} # Authenticate using the GitHub Actions token
+          fail_on_error: true # Fail the job if SVG generation fails
 
       # Generate the GitHub statistics card for dark mode.
       - name: Generate Dark Mode GitHub Stats
@@ -261,12 +260,12 @@ jobs:
             --out /tmp/readme-generated
 
           mkdir -p dist/Assets/Neo-Cards
-          if [ -d /tmp/readme-generated/cards ]; then
-            find /tmp/readme-generated/cards \
+          if [ -d /tmp/readme-generated/Neo-Cards ]; then
+            find /tmp/readme-generated/Neo-Cards \
               -maxdepth 1 -type f -name '*.svg' \
               -exec cp -t dist/Assets/Neo-Cards/ {} +
           else
-            echo "ERROR: Neo card generator did not create /tmp/readme-generated/cards."
+            echo "ERROR: Neo card generator did not create /tmp/readme-generated/Neo-Cards."
             exit 1
           fi
 
@@ -348,7 +347,6 @@ jobs:
       # branch. The activity graphs generated earlier are preserved by copying
       # them to a temporary directory before cleaning dist/.
 
-
       # - name: Prepare Output Branch Files
       #   shell: bash
       #   run: |
@@ -362,9 +360,6 @@ jobs:
       #     fi
       #     mkdir -p dist
       #     cp /tmp/profile-dist/*.svg dist/ 2>/dev/null || true
-
-
-
 
       # Generate both light and dark contribution snakes into dist/.
       - name: Generate Output Branch Contribution Snakes
@@ -401,7 +396,6 @@ jobs:
 
       # Stage the generated files from all four original workflows. Using
       # explicit folders keeps unrelated user changes out of the commit.
-
 
       # - name: Commit Generated Files to Main If Changed
       #   shell: bash
