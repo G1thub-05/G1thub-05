@@ -74,10 +74,10 @@ def main():
     daily_avg = st["total"] / len(days) if days else 0
     stats = [
         (f"{st['total']:,}", "contributions", "var(--color-green)"),
-        (f"{st['current_streak']}d", "current streak", "var(--color-cyan)"),
-        (f"{st['longest_streak']}d", "longest streak", "var(--color-purple)"),
-        (f"{daily_avg:.1f}", "daily average", "var(--color-cyan)"),
         (f"{st['best_day']['count']}", f"best day · {best}", "var(--color-orange)"),
+        (f"{daily_avg:.1f}", "daily average", "var(--color-cyan)"),
+        (f"{st['longest_streak']}d", "longest streak", "var(--color-purple)"),
+        (f"{st['current_streak']}d", "current streak", "var(--color-cyan)"),
     ]
 
 
@@ -90,19 +90,35 @@ def main():
     #     )
     #     sx += (len(v) + len(label)) * 7.2 + 44
 
+
     foot = []
     margin = 42
-    usable_w = W - 2 * margin
-    slot_w = usable_w / len(stats)
-    
+    font_value = 12
+    font_label = 10
+
+    # Estimate each stat's rendered width
+    widths = [
+        len(v) * font_value * 0.62
+        + len(label) * font_label * 0.60
+        + 4
+        for v, label, color in stats
+    ]
+
+    total_text_width = sum(widths)
+    gap = (W - 2 * margin - total_text_width) / (len(stats) - 1)
+    sx = margin
+
     for i, (v, label, color) in enumerate(stats):
-        sx = margin + i * slot_w
         foot.append(
             f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s">'
-            f'<text x="{sx:.1f}" y="{H - 20}" font-size="12" font-weight="700" fill="{color}">{esc(v)}'
-            f'<tspan font-size="10" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
+            f'<text x="{sx:.1f}" y="{H - 20}" font-size="{font_value}" font-weight="700" fill="{color}">{esc(v)}'
+            f'<tspan font-size="{font_label}" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
             f'</text></g>'
         )
+        sx += widths[i] + gap
+
+
+
 
     defs = f"""
 <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
