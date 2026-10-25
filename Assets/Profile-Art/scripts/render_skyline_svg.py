@@ -71,7 +71,7 @@ def main():
     beacon = ""
     if best_top:
         (bx, by), bd = best_top
-        label = f"{bd['count']} · {date.fromisoformat(bd['date']).strftime('%b %d')}"
+        label = f"{bd['count']} · {date.fromisoformat(bd['date']).strftime('%b %d, %Y')}"
         beacon = f"""<g class="fin" style="animation-delay:3.2s">
   <rect x="{bx - 1.5:.1f}" y="{by - 46:.1f}" width="3" height="46" fill="url(#beam)"/>
   <circle cx="{bx:.1f}" cy="{by - 48:.1f}" r="4" fill="var(--color-orange)"><animate attributeName="r" values="3;6;3" dur="1.6s" repeatCount="indefinite"/></circle>
