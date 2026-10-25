@@ -338,6 +338,13 @@
 			? MONTHS[m[1] - 1] + " " + m[2]
 			: String(iso);
 	}
+	// "2026-05-17" -> "May 17, 2026"
+	function fullDate(iso) {
+	    var m = String(iso).split("-").map(Number);
+	    return m[1] >= 1 && m[1] <= 12 && m[2] && m[0]
+	        ? MONTHS[m[1] - 1] + " " + m[2] + ", " + m[0]
+	        : String(iso);
+	}
 
 	/* ---------- backdrop ---------- */
 	function starfield() {
