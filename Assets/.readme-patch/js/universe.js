@@ -271,7 +271,8 @@
 						key: key,
 						days: 0,
 						total: 0,
-						label: MONTHS[Number(key.slice(5)) - 1] || "",
+						// label: MONTHS[Number(key.slice(5)) - 1] || "",
+						label: (MONTHS[Number(key.slice(5)) - 1] || "") + " " + key.slice(0, 4),
 					}),
 				);
 			m.days++;
