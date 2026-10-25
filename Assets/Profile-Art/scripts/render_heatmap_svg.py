@@ -91,9 +91,9 @@ def main():
     #     sx += (len(v) + len(label)) * 7.2 + 44
 
     foot = []
-        margin = 42
-        usable_w = W - 2 * margin
-        slot_w = usable_w / len(stats)
+    margin = 42
+    usable_w = W - 2 * margin
+    slot_w = usable_w / len(stats)
     
     for i, (v, label, color) in enumerate(stats):
         sx = margin + i * slot_w
