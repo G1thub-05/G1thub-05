@@ -95,14 +95,14 @@ def main():
         usable_w = W - 2 * margin
         slot_w = usable_w / len(stats)
     
-        for i, (v, label, color) in enumerate(stats):
-            sx = margin + i * slot_w
-            foot.append(
-                f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s">'
-                f'<text x="{sx:.1f}" y="{H - 20}" font-size="12" font-weight="700" fill="{color}">{esc(v)}'
-                f'<tspan font-size="10" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
-                f'</text></g>'
-            )
+    for i, (v, label, color) in enumerate(stats):
+        sx = margin + i * slot_w
+        foot.append(
+            f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s">'
+            f'<text x="{sx:.1f}" y="{H - 20}" font-size="12" font-weight="700" fill="{color}">{esc(v)}'
+            f'<tspan font-size="10" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
+            f'</text></g>'
+        )
 
     defs = f"""
 <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
