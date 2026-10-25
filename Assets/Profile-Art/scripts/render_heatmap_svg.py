@@ -92,9 +92,9 @@ def main():
 
 
     foot = []
-    margin = 42
-    font_value = 12
-    font_label = 10
+    margin = 24
+    font_value = 11
+    font_label = 9
 
     # Estimate each stat's rendered width
     widths = [
@@ -112,7 +112,7 @@ def main():
         foot.append(
             f'<g class="f" style="animation-delay:{1.6 + i * 0.15:.2f}s">'
             f'<text x="{sx:.1f}" y="{H - 20}" font-size="{font_value}" font-weight="700" fill="{color}">{esc(v)}'
-            f'<tspan font-size="{font_label}" font-weight="400" fill="var(--window-muted)" dx="4">{esc(label)}</tspan>'
+            f'<tspan font-size="{font_label}" font-weight="400" fill="var(--window-muted)" dx="3">{esc(label)}</tspan>'
             f'</text></g>'
         )
         sx += widths[i] + gap
