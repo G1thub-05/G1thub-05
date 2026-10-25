@@ -66,10 +66,10 @@ jobs:
             --clean \
             --out /tmp/readme-generated
 
-          mkdir -p Assets/cards
+          mkdir -p Assets/Neo-Cards
           find /tmp/readme-generated/cards \
             -maxdepth 1 -type f -name '*.svg' \
-            -exec cp -t Assets/cards/ {} +
+            -exec cp -t Assets/Neo-Cards/ {} +
 
       # - name: Commit if anything changed
       #   run: |
@@ -94,7 +94,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add -- 'Assets/cards/*.svg'
+          git add -- 'Assets/Neo-Cards/*.svg'
 
           if git diff --cached --quiet; then
             echo "No SVG card changes."
