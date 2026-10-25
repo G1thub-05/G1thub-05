@@ -16,16 +16,17 @@
 #   SECTION 10: COMMIT ALL GENERATED FILES TO MAIN-BRANCH FILES ONCE IF ANYTHING CHNAGED
 
 # SCHEDULE:
-#   Runs at 00:30 and 12:30 UTC, which is 06:00 AM and 06:00 PM IST.
+#   Runs daily at 00:30 and 12:30 UTC (06:00 AM and 06:00 PM IST).
 #   It can also be started manually from GitHub Actions.
-#
+
 # IMPORTANT:
-#   - All sections run sequentially in ONE job, on the same checked-out repo.
-#   - Generated files on main are committed together at the end, avoiding
-#     several workflows racing to push commits to main at the same time.
-#   - The dist/ directory is published to the output branch separately.
-#   - This workflow assumes the paths and scripts used by the four original
-#     workflows still exist in the repository.
+#   - All sections run sequentially in ONE job, on the same checked-out repo from the output branch into dist/Assets before generation.
+#   - The workflow checks out main and copies required source assets
+#   - Generated assets are collected under dist/ and published to output.
+#   - The publish step updates the output branch; it does not merge branches or commit generated files to main.
+#   - Generated files are not committed to main by this workflow.
+#   - The push path filters ignore selected generated paths on main to help prevent unnecessary workflow runs from generated-file changes.
+#   - This workflow assumes the source files and scripts on output exist at the paths referenced by the workflow.
 # =============================================================================
 
 # Name of the workflow displayed in the GitHub Actions tab
