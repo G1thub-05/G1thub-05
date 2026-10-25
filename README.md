@@ -170,11 +170,31 @@
 </p>
 </div>
 
+
+<div align="center">
+<!-- Light Mode -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-light.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-light.svg" alt="Productive Time"/>
+</a>
+
+<!-- Dark Mode -->
+<a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-dark.svg" alt="GitHub Summary Stats"/>
+  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-dark.svg" alt="Productive Time"/>
+</a>
+</div>
+
 <!-- <h3><code>Digeshwar@github ~ $ .snake --eat-commits</code></h3>
 <div align="center">
 <img src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile-Art/svg/contrib-snake.svg" width="860" alt="Snake eating the contribution graph" />
 </div> -->
 
+</br>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Neo-Cards/stats.svg">
@@ -285,14 +305,14 @@
     </picture>
 </a>
 </div>
-
-<!-- 
 -->
+
+<!--
 ## 📈 𝐺𝑖𝑡ℎ𝑢𝑏 𝐴𝑛𝑎𝑙𝑦𝑡𝑖𝑐𝑠
 <div align="center">
 
 <!-- GitHub Stats: Light/Dark mode, generated and stored in this repository -->
-
+<!--
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-stats-dark.svg">
@@ -300,7 +320,7 @@
 </picture>
 
 <!-- GitHub Streak: Light/Dark mode, generated and stored in this repository -->
-
+<!--
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-streak-dark.svg">
@@ -308,30 +328,8 @@
 </picture>
 </div>
 
-</br>
-<div align="center">
-<!-- Light Mode -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-light.svg" alt="Repos Per Language"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-light.svg" alt="Most Commit Language"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-light.svg" alt="GitHub Summary Stats"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-light.svg" alt="Productive Time"/>
-</a>
-
-<!-- Dark Mode -->
-
-<a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/repos-per-language-dark.svg" alt="Repos Per Language"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/most-commit-language-dark.svg" alt="Most Commit Language"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/summary-stats-dark.svg" alt="GitHub Summary Stats"/>
-  <img width="24%" src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/productive-time-dark.svg" alt="Productive Time"/>
-</a>
-</div>
-
-
 
 ## 🏆 𝐴𝑐ℎ𝑖𝑒𝑣𝑒𝑚𝑒𝑛𝑡𝑠
-
 <div align="center">
   <img
     src="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/github-trophies.svg"
@@ -341,11 +339,10 @@
 </div>
 
 
-
 ## ⚙️ Top Language
 
 <!-- Top Languages -->
-
+<!--
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/G1thub-05/G1thub-05/output/Assets/Profile/top-langs-light.svg">
