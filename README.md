@@ -151,14 +151,14 @@
 </div>
 
 
-</br>
+<!-- </br>
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./Assets/cards/activity.svg">
   <img src="./Assets/cards/activity-light.svg" alt="GitHub Contribution Activity" width="100%">
 </picture>
 </div>
-
+ -->
 
 <div align="center">
 <p align="center">
