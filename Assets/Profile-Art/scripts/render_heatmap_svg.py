@@ -64,12 +64,23 @@ def main():
         + f'<text x="{legend_x + 6 * 15 + 4}" y="{ly + 10}" font-size="11" fill="var(--window-muted)">More</text>'
     )
     best = date.fromisoformat(st["best_day"]["date"]).strftime("%b %d, %Y")
+    # stats = [
+    #     (f"{st['total']:,}", "contributions", "var(--color-green)"),
+    #     (f"{st['current_streak']}d", "current streak", "var(--color-cyan)"),
+    #     (f"{st['longest_streak']}d", "longest streak", "var(--color-purple)"),
+    #     (f"{st['best_day']['count']}", f"best day · {best}", "var(--color-orange)"),
+    # ]
+
+    daily_avg = st["total"] / len(days) if days else 0
     stats = [
         (f"{st['total']:,}", "contributions", "var(--color-green)"),
         (f"{st['current_streak']}d", "current streak", "var(--color-cyan)"),
         (f"{st['longest_streak']}d", "longest streak", "var(--color-purple)"),
+        (f"{daily_avg:.1f}", "daily average", "var(--color-cyan)"),
         (f"{st['best_day']['count']}", f"best day · {best}", "var(--color-orange)"),
     ]
+
+
     sx = x0
     foot = []
     for i, (v, label, color) in enumerate(stats):
