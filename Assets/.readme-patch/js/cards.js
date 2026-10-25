@@ -505,7 +505,7 @@
 		              : "")
 		        : "LAST " + a.windowDays + " DAYS";
 		
-		var body = title(p, "CONTRIBUTION STREAK", win);
+		var body = title(p, "STREAK", win);
 		var cols = [
 			{
 				v: a.current,
