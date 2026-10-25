@@ -1719,7 +1719,8 @@
 				'" font-size="20" font-weight="700" fill="' +
 				t.ink +
 				'">' +
-				esc(shortDate(st.peak.date)) +
+				// esc(shortDate(st.peak.date)) +
+				esc(fullDate(st.peak.date)) +
 				"</text>" +
 				'<text x="' +
 				px +
