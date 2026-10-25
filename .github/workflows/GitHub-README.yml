@@ -1,5 +1,5 @@
 # Name of the workflow displayed in the GitHub Actions tab
-name: GitHub README Update
+name: GitHub README
 
 # Define when the workflow should run
 on:
