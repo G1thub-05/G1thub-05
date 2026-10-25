@@ -1,0 +1,411 @@
+# =============================================================================
+# WORKFLOW: GitHub Profile - All-in-One
+# =============================================================================
+# This single workflow replaces these four separate workflows:
+#   1. Github-Profile-Art.yml
+#   2. GitHub-README.yml
+#   3. GitHub-README-Neo.yml
+#   4. GitHub-README-3D-Universe.yml
+#
+# ORGANIZATION:
+#   SECTION 1 - Common workflow settings
+#   SECTION 2 - Checkout and common setup
+#   SECTION 3 - GitHub README statistics, languages, activity, streak, trophies
+#   SECTION 4 - Neo Cards generator
+#   SECTION 5 - 3D Universe generator
+#   SECTION 6 - Profile Art data, SVGs, portrait, and contribution snake
+#   SECTION 7 - Publish dist/ SVGs to the output branch
+#   SECTION 8 - Commit generated files to main once, if anything changed
+#
+# SCHEDULE:
+#   Runs at 00:30 and 12:30 UTC, which is 06:00 AM and 06:00 PM IST.
+#   It can also be started manually from GitHub Actions.
+#
+# IMPORTANT:
+#   - All sections run sequentially in ONE job, on the same checked-out repo.
+#   - Generated files on main are committed together at the end, avoiding
+#     several workflows racing to push commits to main at the same time.
+#   - The dist/ directory is published to the output branch separately.
+#   - This workflow assumes the paths and scripts used by the four original
+#     workflows still exist in the repository.
+# =============================================================================
+
+name: GitHub Profile - All-in-One
+
+# -----------------------------------------------------------------------------
+# SECTION 1: WHEN THIS WORKFLOW RUNS
+# -----------------------------------------------------------------------------
+on:
+  schedule:
+    # Run twice daily: 00:30 UTC = 06:00 IST; 12:30 UTC = 18:00 IST.
+    - cron: "30 0,12 * * *"
+
+  # Allow a manual run from Actions -> GitHub Profile - All-in-One -> Run workflow.
+  workflow_dispatch:
+
+  # Also run when source files change on main.
+  # Generated output paths are ignored to avoid triggering another run from
+  # this workflow's own generated commits.
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "Assets/Profile-Art/data/**"
+      - "Assets/Profile-Art/svg/**"
+      - "Assets/Profile-Art/source-prepped.png"
+      - "Assets/Profile/**"
+      - "Assets/Neo-Cards/**"
+      - "dist/**"
+
+# -----------------------------------------------------------------------------
+# SECTION 2: PERMISSIONS AND CONCURRENCY
+# -----------------------------------------------------------------------------
+permissions:
+  # Needed to commit generated assets and publish the output branch.
+  contents: write
+
+concurrency:
+  # Keep this group consistent so this workflow does not race with the old
+  # workflows while they are still enabled. Disable the old workflows after
+  # verifying this combined workflow.
+  group: generated-profile-assets
+  # Queue runs instead of cancelling an in-progress run.
+  queue: max
+  cancel-in-progress: false
+
+jobs:
+  generate-profile-assets:
+    # Use an Ubuntu hosted runner for all generators.
+    runs-on: ubuntu-latest
+
+    # Fail the job if all generation steps together take too long.
+    timeout-minutes: 30
+
+    steps:
+      # =======================================================================
+      # SECTION 3: CHECKOUT AND COMMON SETUP
+      # =======================================================================
+
+      # Download the repository once. All following sections use this checkout.
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          # Fetch history so the final commit can rebase onto the latest main.
+          fetch-depth: 0
+
+      # Set up Node.js for the local README/Neo/Universe generator.
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Set up Python for the Profile Art scripts.
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: Assets/Profile-Art/scripts/requirements.txt
+
+      # =======================================================================
+      # SECTION 4: GITHUB README STATISTICS AND PROFILE CARDS
+      # Source: GitHub-README.yml
+      # =======================================================================
+
+      # Create the folder where the light/dark statistics and language cards
+      # are stored.
+      - name: Prepare README profile-card directory
+        run: mkdir -p Assets/Profile
+
+      # Generate the GitHub statistics card for light mode.
+      - name: Generate Light Mode GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
+          path: Assets/Profile/github-stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Generate the GitHub statistics card for dark mode.
+      - name: Generate Dark Mode GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: "username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
+          path: Assets/Profile/github-stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Generate the compact top-languages card for light mode.
+      - name: Generate Light Mode Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=G1thub-05&layout=compact&theme=default&hide_border=true"
+          path: Assets/Profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Generate the compact top-languages card for dark mode.
+      - name: Generate Dark Mode Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=G1thub-05&layout=compact&theme=tokyonight&hide_border=true"
+          path: Assets/Profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      # Generate light-mode activity graph into dist/ for output-branch publishing.
+      - name: Generate Light Mode Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: G1thub-05
+          options: "theme=github-compact&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
+          output_path: dist/activity-graph-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate dark-mode activity graph into dist/ for output-branch publishing.
+      - name: Generate Dark Mode Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: G1thub-05
+          options: "theme=github&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
+          output_path: dist/activity-graph-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate profile summary cards. AUTO_PUSH is disabled because this
+      # combined workflow collects the output and commits it at the end.
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: G1thub-05
+          UTC_OFFSET: 5.5
+          AUTO_PUSH: false
+
+      # Copy summary-card SVGs into Assets/Profile using the original filenames.
+      - name: Copy Summary Cards to Assets Profile
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p Assets/Profile
+          SRC="profile-summary-card-output"
+
+          cp "$SRC/default/1-repos-per-language.svg" Assets/Profile/repos-per-language-light.svg
+          cp "$SRC/default/2-most-commit-language.svg" Assets/Profile/most-commit-language-light.svg
+          cp "$SRC/default/3-stats.svg" Assets/Profile/summary-stats-light.svg
+          cp "$SRC/default/4-productive-time.svg" Assets/Profile/productive-time-light.svg
+
+          cp "$SRC/github_dark/1-repos-per-language.svg" Assets/Profile/repos-per-language-dark.svg
+          cp "$SRC/github_dark/2-most-commit-language.svg" Assets/Profile/most-commit-language-dark.svg
+          cp "$SRC/github_dark/3-stats.svg" Assets/Profile/summary-stats-dark.svg
+          cp "$SRC/github_dark/4-productive-time.svg" Assets/Profile/productive-time-dark.svg
+
+      # Generate the light-mode contribution streak card.
+      - name: Generate Light Mode Streak
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: "user=G1thub-05&theme=default&hide_border=true&background=ffffff&ring=00c6ff&fire=0072ff&currStreakLabel=0072ff&sideNums=24292f&sideLabels=24292f&dates=6b7280&card_width=495&card_height=195&disable_animations=true"
+          path: Assets/Profile/github-streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Generate the dark-mode contribution streak card.
+      - name: Generate Dark Mode Streak
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: "user=G1thub-05&theme=radical&hide_border=true&background=0d1117&ring=ff512f&fire=ff1744&currStreakLabel=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=9ca3af&card_width=495&card_height=195&disable_animations=true"
+          path: Assets/Profile/github-streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # =======================================================================
+      # SECTION 5: NEO CARDS GENERATOR
+      # Source: GitHub-README-Neo.yml
+      # =======================================================================
+
+      # Run the local generator to create the README-style cards.
+      # Output is first written to /tmp so the generated cards can be copied
+      # into Assets/Neo-Cards without overwriting unrelated files.
+      - name: Generate Neo SVG Cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" \
+            --config Assets/.readme-patch/config.json \
+            --require-activity \
+            --clean \
+            --out /tmp/readme-generated
+
+          mkdir -p Assets/Neo-Cards
+          if [ -d /tmp/readme-generated/cards ]; then
+            find /tmp/readme-generated/cards \
+              -maxdepth 1 -type f -name '*.svg' \
+              -exec cp -t Assets/Neo-Cards/ {} +
+          else
+            echo "ERROR: Neo card generator did not create /tmp/readme-generated/cards."
+            exit 1
+          fi
+
+      # =======================================================================
+      # SECTION 6: 3D CONTRIBUTION UNIVERSE GENERATOR
+      # Source: GitHub-README-3D-Universe.yml
+      # =======================================================================
+
+      # Run the same local generator in universe-only mode. This writes the
+      # universe SVGs to Assets, as in the original workflow.
+      - name: Generate 3D Universe SVGs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          node Assets/.readme-patch/cli.js "$GITHUB_REPOSITORY_OWNER" \
+            --config Assets/.readme-patch/config.json \
+            --require-activity \
+            --universe-only \
+            --out Assets
+
+      # =======================================================================
+      # SECTION 7: PROFILE ART - PYTHON DATA AND SVG GENERATION
+      # Source: Github-Profile-Art.yml
+      # =======================================================================
+
+      # Install dependencies used by the contribution/profile data scripts.
+      - name: Install Profile Art Python Dependencies
+        run: pip install -r Assets/Profile-Art/scripts/requirements.txt
+
+      # Fetch the GitHub contribution and profile data used by the local SVG
+      # renderers. GITHUB_TOKEN is provided through the repository's token.
+      - name: Fetch Profile Art Data
+        working-directory: Assets/Profile-Art/scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          python fetch_contributions.py
+          python fetch_profile.py
+
+      # Render the standard Profile Art SVGs from the fetched data.
+      - name: Render Profile Art SVGs
+        working-directory: Assets/Profile-Art/scripts
+        run: python render_all.py
+
+      # Install the separate dependencies required for background removal and
+      # portrait processing. This is separate because the original workflow
+      # used requirements-portrait.txt for the portrait tools.
+      - name: Install Portrait Dependencies
+        run: pip install -r Assets/Profile-Art/scripts/requirements-portrait.txt
+
+      # Prepare the portrait image. With no command-line argument, prep_photo.py
+      # downloads the GitHub avatar for USERNAME in config.py.
+      - name: Prepare ASCII Portrait Source Image
+        working-directory: Assets/Profile-Art/scripts
+        run: python prep_photo.py
+
+      # Convert the prepared portrait into an ASCII-art SVG.
+      - name: Generate ASCII Portrait SVG
+        working-directory: Assets/Profile-Art/scripts
+        run: python make_ascii_svg.py
+
+      # Generate the contribution snake SVG in Profile Art's SVG folder.
+      - name: Generate Profile Art Contribution Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            Assets/Profile-Art/svg/contrib-snake.svg?palette=github-dark&color_snake=%2358d5e8
+
+      # =======================================================================
+      # SECTION 8: PUBLISH dist/ TO THE OUTPUT BRANCH
+      # Source: GitHub-README.yml (snake/activity/trophy output job)
+      # =======================================================================
+
+      # Recreate dist/ so it contains only the files intended for the output
+      # branch. The activity graphs generated earlier are preserved by copying
+      # them to a temporary directory before cleaning dist/.
+      - name: Prepare Output Branch Files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/profile-dist
+          if [ -f dist/activity-graph-light.svg ]; then
+            cp dist/activity-graph-light.svg /tmp/profile-dist/
+          fi
+          if [ -f dist/activity-graph-dark.svg ]; then
+            cp dist/activity-graph-dark.svg /tmp/profile-dist/
+          fi
+          rm -rf dist
+          mkdir -p dist
+          cp /tmp/profile-dist/*.svg dist/ 2>/dev/null || true
+
+      # Generate both light and dark contribution snakes into dist/.
+      - name: Generate Output Branch Contribution Snakes
+        uses: Platane/snk@v3
+        with:
+          github_user_name: G1thub-05
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=%2300c6ff
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
+
+      # Generate GitHub achievement trophies into dist/.
+      - name: Generate GitHub Achievement Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: G1thub-05
+          output_path: dist/github-trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: flat
+
+      # Publish the contents of dist/ to the output branch. This action pushes
+      # to the output branch; it does not commit these files to main.
+      - name: Publish SVGs to Output Branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # =======================================================================
+      # SECTION 9: COMMIT ALL GENERATED MAIN-BRANCH FILES ONCE
+      # =======================================================================
+
+      # Stage the generated files from all four original workflows. Using
+      # explicit folders keeps unrelated user changes out of the commit.
+      - name: Commit Generated Files to Main If Changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Set the bot identity used for the generated commit.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage generated Profile Art data, SVGs, and prepared portrait.
+          git add -- Assets/Profile-Art/
+
+          # Stage generated README statistics, language, streak, and summary cards.
+          git add -- Assets/Profile/
+
+          # Stage Neo cards and any universe SVGs generated under Assets.
+          git add -- Assets/Neo-Cards/
+          git add -- Assets/universe*.svg Assets/Neo-Cards/universe*.svg 2>/dev/null || true
+
+          # If no generated file has changed, skip creating an empty commit.
+          if git diff --cached --quiet; then
+            echo "No generated files changed; nothing to commit."
+            exit 0
+          fi
+
+          # Commit all staged generated files together.
+          git commit -m "Update generated GitHub profile assets"
+
+          # Rebase onto the latest main in case another commit arrived during
+          # generation, then push the combined generated-assets commit.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
