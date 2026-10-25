@@ -176,7 +176,7 @@ jobs:
         with:
           username: G1thub-05
           options: "theme=github-compact&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
-          path: dist/Assets/Profile/activity-graph-light.svg
+          output_path: dist/Assets/Profile/activity-graph-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # Generate dark-mode activity graph into dist/ for output-branch publishing.
@@ -185,7 +185,7 @@ jobs:
         with:
           username: G1thub-05
           options: "theme=github&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
-          path: dist/Assets/Profile/activity-graph-dark.svg
+          output_path: dist/Assets/Profile/activity-graph-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # 4. Generate profile summary cards. AUTO_PUSH is disabled because this
