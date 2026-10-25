@@ -87,7 +87,11 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No Profile-Art changes."
-          else
-            git commit -m "Profile-Art"
-            git push
+            exit 0
           fi
+
+          git commit -m "Profile-Art"
+
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
