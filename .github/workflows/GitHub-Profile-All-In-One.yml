@@ -1,22 +1,20 @@
 # =============================================================================
 # WORKFLOW: GitHub Profile - All-in-One
 # =============================================================================
-# This single workflow replaces these four separate workflows:
-#   1. Github-Profile-Art.yml
-#   2. GitHub-README.yml
-#   3. GitHub-README-Neo.yml
-#   4. GitHub-README-3D-Universe.yml
 #
 # ORGANIZATION:
-#   SECTION 1 - Common workflow settings
-#   SECTION 2 - Checkout and common setup
-#   SECTION 3 - GitHub README statistics, languages, activity, streak, trophies
-#   SECTION 4 - Neo Cards generator
-#   SECTION 5 - 3D Universe generator
-#   SECTION 6 - Profile Art data, SVGs, portrait, and contribution snake
-#   SECTION 7 - Publish dist/ SVGs to the output branch
-#   SECTION 8 - Commit generated files to main once, if anything changed
-#
+
+#   SECTION 1: WHEN THIS WORKFLOW RUNS
+#   SECTION 2: PERMISSIONS AND CONCURRENCY
+#   SECTION 3: CHECKOUT AND COMMON SETUP
+#   SECTION 4: GITHUB README STATISTICS AND PROFILE CARDS (GitHub-README.yml)
+#   SECTION 5: NEO CARDS GENERATOR (GitHub-README-Neo.yml)
+#   SECTION 6: 3D CONTRIBUTION UNIVERSE GENERATOR (GitHub-README-3D-Universe.yml)
+#   SECTION 7: PROFILE ART - PYTHON DATA AND SVG GENERATION (Github-Profile-Art.yml)
+#   SECTION 8: Publish the contents of dist/ to the output branch.
+#   SECTION 9: PUBLISH dist/ TO THE OUTPUT BRANCH (snake/activity/trophy output job)
+#   SECTION 10: COMMIT ALL GENERATED FILES TO MAIN-BRANCH FILES ONCE IF ANYTHING CHNAGED
+
 # SCHEDULE:
 #   Runs at 00:30 and 12:30 UTC, which is 06:00 AM and 06:00 PM IST.
 #   It can also be started manually from GitHub Actions.
@@ -212,15 +210,13 @@ jobs:
           SRC="profile-summary-card-output"
 
           cp "$SRC/default/1-repos-per-language.svg" "$DEST/repos-per-language-light.svg"
-          cp "$SRC/github_dark/1-repos-per-language.svg" "$DEST/repos-per-language-dark.svg"
-
           cp "$SRC/default/2-most-commit-language.svg" "$DEST/most-commit-language-light.svg"
-          cp "$SRC/github_dark/2-most-commit-language.svg" "$DEST/most-commit-language-dark.svg"
-
           cp "$SRC/default/3-stats.svg" "$DEST/summary-stats-light.svg"
-          cp "$SRC/github_dark/3-stats.svg" "$DEST/summary-stats-dark.svg"
-
           cp "$SRC/default/4-productive-time.svg" "$DEST/productive-time-light.svg"
+
+          cp "$SRC/github_dark/1-repos-per-language.svg" "$DEST/repos-per-language-dark.svg"
+          cp "$SRC/github_dark/2-most-commit-language.svg" "$DEST/most-commit-language-dark.svg"
+          cp "$SRC/github_dark/3-stats.svg" "$DEST/summary-stats-dark.svg"
           cp "$SRC/github_dark/4-productive-time.svg" "$DEST/productive-time-dark.svg"
 
       # 5. Generate the light-mode contribution streak card.
@@ -231,7 +227,7 @@ jobs:
           output_path: dist/Assets/Profile/github-streak-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Generate the dark-mode contribution streak card.
+      # 6. Generate the dark-mode contribution streak card.
       - name: Generate Dark Mode Streak
         uses: zients/github-readme-streak-stats@v2
         with:
@@ -239,9 +235,27 @@ jobs:
           output_path: dist/Assets/Profile/github-streak-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 7. Generate both light and dark contribution snakes into dist/.
+      - name: Generate Output Branch Contribution Snakes
+        uses: Platane/snk@v3
+        with:
+          github_user_name: G1thub-05
+          outputs: |
+            dist/Assets/Profile/github-snake.svg?palette=github-light&color_snake=%2300c6ff
+            dist/Assets/Profile/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
+
+      # 8. Generate GitHub achievement trophies into dist/.
+      - name: Generate GitHub Achievement Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: G1thub-05
+          # output_path: dist/github-trophies.svg
+          output_path: dist/Assets/Profile/github-trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: flat
+
       # =======================================================================
-      # SECTION 5: NEO CARDS GENERATOR
-      # Source: GitHub-README-Neo.yml
+      # SECTION 5: NEO CARDS GENERATOR (GitHub-README-Neo.yml)
       # =======================================================================
 
       # Run the local generator to create the README-style cards.
@@ -270,8 +284,7 @@ jobs:
           fi
 
       # =======================================================================
-      # SECTION 6: 3D CONTRIBUTION UNIVERSE GENERATOR
-      # Source: GitHub-README-3D-Universe.yml
+      # SECTION 6: 3D CONTRIBUTION UNIVERSE GENERATOR (GitHub-README-3D-Universe.yml)
       # =======================================================================
 
       # Run the same local generator in universe-only mode. This writes the
@@ -289,8 +302,7 @@ jobs:
             --out dist/Assets
 
       # =======================================================================
-      # SECTION 7: PROFILE ART - PYTHON DATA AND SVG GENERATION
-      # Source: Github-Profile-Art.yml
+      # SECTION 7: PROFILE ART - PYTHON DATA AND SVG GENERATION (Github-Profile-Art.yml)
       # =======================================================================
 
       # Install dependencies used by the contribution/profile data scripts.
@@ -336,11 +348,22 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/Assets/Profile-Art/svg/contrib-snake.svg?palette=github-dark&color_snake=%2358d5e8
+            dist/Assets/Profile-Art/svg/contrib-snake.svg?palette=github-dark&color_snake=#58d5e8
+
 
       # =======================================================================
-      # SECTION 8: PUBLISH dist/ TO THE OUTPUT BRANCH
-      # Source: GitHub-README.yml (snake/activity/trophy output job)
+      # SECTION 8: Publish the contents of dist/ to the output branch. This action pushes to the output branch; it does not commit these files to main.
+      # =======================================================================
+      - name: Publish SVGs to Output Branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # =======================================================================
+      # SECTION 9: PUBLISH dist/ TO THE OUTPUT BRANCH (snake/activity/trophy output job)
       # =======================================================================
 
       # Recreate dist/ so it contains only the files intended for the output
@@ -361,37 +384,8 @@ jobs:
       #     mkdir -p dist
       #     cp /tmp/profile-dist/*.svg dist/ 2>/dev/null || true
 
-      # Generate both light and dark contribution snakes into dist/.
-      - name: Generate Output Branch Contribution Snakes
-        uses: Platane/snk@v3
-        with:
-          github_user_name: G1thub-05
-          outputs: |
-            dist/Assets/Profile/github-snake.svg?palette=github-light&color_snake=%2300c6ff
-            dist/Assets/Profile/github-snake-dark.svg?palette=github-dark&color_snake=%23ff512f
-
-      # Generate GitHub achievement trophies into dist/.
-      - name: Generate GitHub Achievement Trophies
-        uses: ryo-ma/github-profile-trophy@master
-        with:
-          username: G1thub-05
-          # output_path: dist/github-trophies.svg
-          output_path: dist/Assets/Profile/github-trophies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          theme: flat
-
-      # Publish the contents of dist/ to the output branch. This action pushes
-      # to the output branch; it does not commit these files to main.
-      - name: Publish SVGs to Output Branch
-        uses: crazy-max/ghaction-github-pages@v5
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       # =======================================================================
-      # SECTION 9: COMMIT ALL GENERATED MAIN-BRANCH FILES ONCE
+      # SECTION 10: COMMIT ALL GENERATED FILES TO MAIN-BRANCH FILES ONCE IF ANYTHING CHNAGED
       # =======================================================================
 
       # Stage the generated files from all four original workflows. Using
