@@ -70,7 +70,24 @@ jobs:
           outputs: |
             Assets/Profile-Art/svg/contrib-snake.svg?palette=github-dark&color_snake=#58d5e8
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update-Profile-Art"
-          file_pattern: "Assets/Profile-Art/data/*.json Assets/Profile-Art/svg/*.svg Assets/Profile-Art/source-prepped.png"
+      # - uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: "Update-Profile-Art"
+      #     file_pattern: "Assets/Profile-Art/data/*.json Assets/Profile-Art/svg/*.svg Assets/Profile-Art/source-prepped.png"
+
+      - name: Commit Profile-Art only if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -u -- Assets/Profile-Art/
+
+          if git diff --cached --quiet; then
+            echo "No Profile-Art changes."
+          else
+            git commit -m "Update Profile-Art"
+            git push
+          fi
