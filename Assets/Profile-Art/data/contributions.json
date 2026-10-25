@@ -2,41 +2,6 @@
   "username": "G1thub-05",
   "days": [
     {
-      "date": "2025-10-19",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-20",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-21",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-22",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-23",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-24",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-25",
-      "level": 0,
-      "count": 0
-    },
-    {
       "date": "2025-10-26",
       "level": 0,
       "count": 0
@@ -1829,18 +1794,48 @@
     {
       "date": "2026-10-19",
       "level": 1,
-      "count": 12
+      "count": 17
+    },
+    {
+      "date": "2026-10-20",
+      "level": 1,
+      "count": 7
+    },
+    {
+      "date": "2026-10-21",
+      "level": 1,
+      "count": 8
+    },
+    {
+      "date": "2026-10-22",
+      "level": 1,
+      "count": 3
+    },
+    {
+      "date": "2026-10-23",
+      "level": 2,
+      "count": 23
+    },
+    {
+      "date": "2026-10-24",
+      "level": 1,
+      "count": 4
+    },
+    {
+      "date": "2026-10-25",
+      "level": 1,
+      "count": 4
     }
   ],
   "stats": {
-    "total": 834,
-    "current_streak": 13,
-    "longest_streak": 13,
+    "total": 888,
+    "current_streak": 19,
+    "longest_streak": 19,
     "best_day": {
       "date": "2026-05-17",
       "count": 139
     },
-    "active_days": 51,
+    "active_days": 57,
     "busiest_weekday": "Sunday",
     "monthly": {
       "2025-10": 0,
@@ -1855,11 +1850,11 @@
       "2026-07": 40,
       "2026-08": 62,
       "2026-09": 3,
-      "2026-10": 329
+      "2026-10": 383
     },
     "range": [
-      "2025-10-19",
-      "2026-10-19"
+      "2025-10-26",
+      "2026-10-25"
     ]
   }
 }
