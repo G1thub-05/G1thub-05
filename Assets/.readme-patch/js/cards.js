@@ -703,7 +703,7 @@
 		// headline numbers
 		var bestDate = hasDates ? new Date(startMs + bestIdx * DAYMS) : null;
 		var bestLabel = bestDate
-			? MONTHS[bestDate.getUTCMonth()] + " " + bestDate.getUTCDate()
+			? MONTHS[bestDate.getUTCMonth()] + " " + bestDate.getUTCDate() + ", " + bestDate.getUTCFullYear()
 			: "";
 		var stats = [
 			{ big: fmt(total), label: "Contributions" },
