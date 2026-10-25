@@ -210,6 +210,9 @@ jobs:
           DEST="dist/Assets/Profile"
           SRC="profile-summary-card-output"
 
+          cp "$SRC/default/0-profile-details.svg" "$DEST/profile-details-light.svg"
+          cp "$SRC/github_dark/0-profile-details.svg" "$DEST/profile-details-dark.svg"
+
           cp "$SRC/default/1-repos-per-language.svg" "$DEST/repos-per-language-light.svg"
           cp "$SRC/default/2-most-commit-language.svg" "$DEST/most-commit-language-light.svg"
           cp "$SRC/default/3-stats.svg" "$DEST/summary-stats-light.svg"
