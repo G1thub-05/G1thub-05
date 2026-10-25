@@ -131,7 +131,7 @@ jobs:
           # Configure username, icons, theme, and colors
           options: "username=G1thub-05&show_icons=true&theme=default&hide_border=true&title_color=00c6ff&icon_color=0072ff&text_color=24292f&bg_color=ffffff"
 
-          output_path: dist/Assets/Profile/github-stats-light.svg # Save the generated SVG at this location
+          path: dist/Assets/Profile/github-stats-light.svg # Save the generated SVG at this location
           token: ${{ secrets.GITHUB_TOKEN }} # Authenticate using the GitHub Actions token
           fail_on_error: true # Fail the job if SVG generation fails
 
@@ -141,7 +141,7 @@ jobs:
         with:
           card: stats
           options: "username=G1thub-05&show_icons=true&theme=radical&hide_border=true&title_color=ff512f&icon_color=ff1744&text_color=ffffff&bg_color=0d1117"
-          output_path: dist/Assets/Profile/github-stats-dark.svg
+          path: dist/Assets/Profile/github-stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
@@ -176,9 +176,8 @@ jobs:
         with:
           username: G1thub-05
           options: "theme=github-compact&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
-          output_path: dist/Assets/Profile/activity-graph-light.svg
+          path: dist/Assets/Profile/activity-graph-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
 
       # Generate dark-mode activity graph into dist/ for output-branch publishing.
       - name: Generate Dark Mode Activity Graph
@@ -186,9 +185,8 @@ jobs:
         with:
           username: G1thub-05
           options: "theme=github&color=00c6ff&line=00c6ff&point=ff512f&area=true&hide_border=true"
-          output_path: dist/Assets/Profile/activity-graph-dark.svg
+          path: dist/Assets/Profile/activity-graph-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
 
       # 4. Generate profile summary cards. AUTO_PUSH is disabled because this
       # combined workflow collects the output and commits it at the end.
@@ -353,7 +351,6 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/Assets/Profile-Art/svg/contrib-snake.svg?palette=github-dark&color_snake=#58d5e8
-
 
       # =======================================================================
       # SECTION 8: Publish the contents of dist/ to the output branch. This action pushes to the output branch; it does not commit these files to main.
