@@ -144,7 +144,9 @@ jobs:
 
       # Commit and push the generated statistics and streak SVGs
       - name: Commit generated SVG cards
+        shell: bash
         run: |
+          set -euo pipefail
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -169,9 +171,10 @@ jobs:
             exit 0
           fi
 
-
-          git commit -m "Update GitHub Profile README"
-          git push
+          git commit -m "GitHub Profile README"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
 
   # JOB 2: Generate Snake, Activity Graph, and Trophies
   Update-Running-Snake:
