@@ -1,6 +1,8 @@
 {
 	"vscode_custom_css.imports": [
 		"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.9/dist/updateHandler.js",
+		"file:///c:/Users/devdigeshwar/.vscode/extensions/vscodefx.vscode-fx-1.0.4/dist/fx.css",
+		"file:///c:/Users/devdigeshwar/.vscode/extensions/vscodefx.vscode-fx-1.0.4/dist/fx.js"
 	],
 
 	// ✨ Developer: Toggle Screencast Mode Setting
@@ -868,4 +870,5 @@
 	"neonGlow.chromaSpan": 0.5,
 	"neonGlow.floor": 0.4,
 	"neonGlow.minLightness": 0.25,
+	"vscodeFX.installMethod": "Custom CSS and JS",
 }
