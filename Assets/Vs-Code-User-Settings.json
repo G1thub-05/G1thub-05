@@ -1,7 +1,18 @@
 {
 	"vscode_custom_css.imports": [
-		"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+		"file:///c:/Users/devdigeshwar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.9/dist/updateHandler.js",
 	],
+
+	// ✨ Developer: Toggle Screencast Mode Setting
+	"workbench.settings.alwaysShowAdvancedSettings": true,
+	"window.newWindowProfile": "Default",
+	"editor.mouseWheelZoom": true,
+	"screencastMode.fontSize": 20,
+	"screencastMode.keyboardOptions": {
+		"showCommandGroups": true,
+		"showKeys": false,
+		"showCommands": true,
+	},
 
 	"java.codeGeneration.useBlocks": true,
 	"java.import.maven.enabled": true,
@@ -18,17 +29,6 @@
 
 	"[html]": { "editor.defaultFormatter": "vscode.html-language-features" }, // Use built-in HTML formatter
 
-	// ✨ ScreenCast Setting
-	"workbench.settings.alwaysShowAdvancedSettings": true,
-	"window.newWindowProfile": "Default",
-	"editor.mouseWheelZoom": true,
-	"screencastMode.fontSize": 20,
-	"screencastMode.keyboardOptions": {
-		"showCommandGroups": true,
-		"showKeys": false,
-		"showCommands": true,
-	},
-
 	// ✨ Animation Setting
 	"animations.Install-Method": "Custom CSS and JS",
 	"animations.Custom-CSS": true,
@@ -37,12 +37,12 @@
 	"animations.Command-Palette": "Slide",
 	"animations.Scrolling": "Slide",
 	"animations.Enabled": true,
-	// "animations.UseCursorColorForCursorAnimation": true,
+	"animations.UseCursorColorForCursorAnimation": true,
 	"animations.Tabs": "Slide",
 	"animations.CursorAnimationOptions": {
 		"Color": "#ffffff",
 		"CursorStyle": "line",
-		"TrailLength": 30,
+		"TrailLength": 15,
 	},
 
 	// 🔏 Bakcground Realted Setting
@@ -75,30 +75,39 @@
 	"workbench.startupEditor": "none",
 	"workbench.editor.highlightModifiedTabs": true,
 	"workbench.list.smoothScrolling": true,
-	"workbench.preferredDarkColorTheme": "Visual Studio Dark",
+	"workbench.preferredDarkColorTheme": "Best Themes - Ayu Darkvenom",
 	"workbench.preferredHighContrastLightColorTheme": "Tinacious Design (High Contrast)",
-	"workbench.colorTheme": "Tinacious Design (High Contrast)",
 	"workbench.colorCustomizations": {
-		"terminal.background": "#0f0f1f",
+		"terminal.background": "#000000",
+
+		"sideBar.activeSelectionBackground": "#1776b633",
+		"sideBar.activeSelectionForeground": "#1776b6",
+		"sideBarSectionHeader.border": "#1776b630",
+
 		"statusBar.background": "#0f0f1f",
 		"statusBar.foreground": "#ffffff",
+		"statusBarItem.remoteBackground": "#1776b6",
+		"statusBarItem.remoteForeground": "#12141a",
+
 		"editor.selectionForeground": "#ffffff",
 		"editor.inactiveSelectionBackground": "#264f7840",
 		"editor.selectionBackground": "#fdfdfd41",
 		"editor.selectionHighlightBackground": "#0078d440",
-		"activityBar.activeBorder": "#1776b6",
-		"activityBar.activeFocusBorder": "#1776b6",
-		"activityBarBadge.background": "#1776b6",
-		"badge.background": "#1776b6",
-		"breadcrumb.focusForeground": "#1776b6",
-		"button.background": "#1776b6",
-		"button.hoverBackground": "#1776b6",
-		// "checkbox.background": "#1776b6",
-		"editorCursor.foreground": "#1776b6",
 		"editor.findMatchBackground": "#1776b640",
 		"editor.findMatchBorder": "#1776b6",
 		"editor.findMatchHighlightBackground": "#1776b620",
 		"editor.findMatchHighlightBorder": "#1776b640",
+		// "editorCursor.foreground": "#1776b6",
+
+		"activityBar.activeBorder": "#1776b6",
+		"badge.background": "#1776b6",
+		"breadcrumb.focusForeground": "#1776b6",
+		"activityBar.activeFocusBorder": "#1776b6",
+		"activityBarBadge.background": "#1776b6",
+
+		"button.background": "#1776b6",
+		"button.hoverBackground": "#1776b6",
+		// "checkbox.background": "#1776b6",
 		"editorSuggestWidget.selectedBackground": "#1776b633",
 		"editorWidget.focusBorder": "#1776b6",
 		"extensionButton.prominentBackground": "#1776b6",
@@ -106,11 +115,10 @@
 		"input.activeBorder": "#1776b6",
 		"inputOption.activeBorder": "#1776b660",
 
-		// "list.activeSelectionBackground": "#1776b633",
 		"list.highlightForeground": "#1776b6",
-		"list.activeSelectionBackground": "#1776b6",
+		"list.activeSelectionBackground": "#80808040",
 		"list.activeSelectionForeground": "#FFFFFF",
-		"list.inactiveSelectionBackground": "#3A3D41",
+		"list.inactiveSelectionBackground": "#80808025",
 		"list.inactiveSelectionForeground": "#FFFFFF",
 
 		"menu.selectionBackground": "#1776b633",
@@ -123,11 +131,7 @@
 		"progressBar.background": "#1776b6",
 		"scrollbarSlider.activeBackground": "#1776b666",
 		"settings.modifiedItemIndicator": "#1776b6",
-		"sideBar.activeSelectionBackground": "#1776b633",
-		"sideBar.activeSelectionForeground": "#1776b6",
-		"sideBarSectionHeader.border": "#1776b630",
-		"statusBarItem.remoteBackground": "#1776b6",
-		"statusBarItem.remoteForeground": "#12141a",
+
 		"tab.activeBorderTop": "#1776b6",
 		"tab.activeModifiedBorder": "#1776b6",
 		"textLink.activeForeground": "#1776b6",
@@ -160,7 +164,7 @@
 	"terminal.integrated.cursorStyleInactive": "block",
 	"terminal.integrated.smoothScrolling": true,
 	"terminal.integrated.suggest.enabled": true,
-	"terminal.integrated.tabs.defaultColor": "terminal.ansiCyan",
+	"terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
 	"terminal.integrated.confirmOnExit": "always",
 	"terminal.integrated.gpuAcceleration": "auto",
 
@@ -212,7 +216,7 @@
 	"eslint.format.enable": true,
 	"hediet.vscode-drawio.resizeImages": null,
 	"html.format.templating": true,
-	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"js/ts.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
 	"geminicodeassist.project": "stalwart-mantis-bxr35",
 
 	// 🔴 cSpell Related Setting
@@ -236,35 +240,40 @@
 	// ✨ Highlight Related Setting
 	"highlight-matching-tag.highlightFromContent": true,
 	"highlight-matching-tag.highlightSelfClosing": true,
-	"highlight-matching-tag.matchingTagBackground": "#155FFA",
+	"highlight-matching-tag.matchingTagBackground": "#263B5266",
+
 	"highlight-matching-tag.styles": {
 		"opening": {
 			"left": {
-				"underline": "yellow",
-				"surround": "#155FFA",
+				"surround": "#526D8A",
+				"underline": "#7898BC",
 			},
 			"full": {
-				"underline": "yellow",
-				"surround": "#155FFA",
+				"surround": "#526D8A",
+				"underline": "#7898BC",
 			},
 			"right": {
-				"underline": "yellow",
-				"surround": "#155FFA",
+				"surround": "#526D8A",
+				"underline": "#7898BC",
 			},
 			"name": {
-				"underline": "yellow",
-				"surround": "#155FFA",
+				"surround": "#526D8A",
+				"underline": "#7898BC",
 			},
 		},
 		"right": {
-			"surround": "#155FFA",
+			"surround": "#526D8A",
+			"underline": "#7898BC",
 		},
 		"name": {
-			"highlight": "rgba(180, 20, 80, 0.3)",
+			"highlight": "rgba(0, 0, 0, 0)",
 		},
 	},
 
 	// ✏️ Editor Setting
+	"editor.overviewRulerLanes": 0,
+	"editor.overviewRulerBorder": false,
+	"editor.hideCursorInOverviewRuler": true,
 	"editor.suggest.insertMode": "insert",
 	"editor.acceptSuggestionOnCommitCharacter": false,
 	"editor.acceptSuggestionOnEnter": "off",
@@ -276,7 +285,7 @@
 	"editor.fontFamily": "CascadiaMonoNF-LightItalic ,Consolas, 'Courier New', monospace",
 	"editor.fontligatures": true,
 	"editor.fontLigatures": " 'calt', 'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.codeActionsOnSave": {
 		"source.addMissingImports": "always",
@@ -755,8 +764,88 @@
 		},
 	},
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.shellIntegration.decorationsEnabled": "never",
 	"dbcode.connections": [],
 	"workbench.activityBar.location": "top",
 	"code-runner.showExecutionMessage": false,
+	"markdown-preview-enhanced.previewTheme": "vscode.css",
+	"git-autoconfig.configList": [
+		{
+			"user.email": "mr.digeshwar05@gmail.com",
+			"user.name": "Mr. Digeshwar",
+		},
+		{},
+	],
+	"gitlens.graph.details.location": "auto",
+	"gitlens.graph.changesColumn.enabled": true,
 	"workbench.statusBar.visible": false,
+	"mssql.connectionGroups": [
+		{
+			"name": "ROOT",
+			"id": "ROOT",
+		},
+	],
+
+	// 🎛️ HTML Highlighter
+	"divColorHighlighter.enabled": true,
+	"htmlHighlighter.enabled": true,
+	"htmlHighlighter.glowIntensity": "medium",
+	"htmlHighlighter.glowStyle": "soft",
+	"htmlHighlighter.colorMode": "rainbow",
+
+	// Elements to highlight
+	"htmlHighlighter.enabledElements": [
+		"html", "head", "body", "script", "style", "div", "span",
+		"section", "article", "nav", "header", "footer", "main",
+		"aside", "p", "h1", "h2", "button", "a", "form", "input",
+	],
+
+	// 🔧 Advanced Configuration
+	"htmlHighlighter.showNestingLines": false,
+	"htmlHighlighter.hierarchyIntensity": true,
+	"htmlHighlighter.themeAdaptation": true,
+	"htmlHighlighter.performanceMode": false,
+	"htmlHighlighter.showStatusBar": true,
+
+	// 🎨 Semantic Color Customization
+	"htmlHighlighter.semanticColors": {
+		"header": "#FF6B9D",
+		"nav": "#4ECDC4",
+		"main": "#45B7D1",
+		"section": "#96CEB4",
+		"article": "#FECA57",
+		"aside": "#FF9FF3",
+		"footer": "#54A0FF",
+		"div": "auto",
+		"span": "auto",
+	},
+	"workbench.colorTheme": "Best Themes - Ayu Darkvenom",
+	"window.autoDetectColorScheme": true,
+	"neonGlow.glowLayers": 1,
+	"neonGlow.maxBlur": 64,
+	"neonGlow.brightness": 3,
+	"neonGlow.cursorTrail": 400,
+	"neonGlow.saveShake": 3,
+	"neonGlow.findGlow": 48,
+	"neonGlow.selectionGlow": 10,
+	"neonGlow.occurrenceGlow": 10,
+	"neonGlow.gutterGlow": 8,
+	"neonGlow.bracketMatchGlow": 10,
+	"neonGlow.squiggleGlow": 5,
+	"neonGlow.diffGlow": 10,
+	"neonGlow.lineHighlightGlow": 8,
+	"neonGlow.breakpointGlow": 8,
+	"neonGlow.snippetGlow": 8,
+	"neonGlow.renameGlow": 12,
+	"neonGlow.terminalGlow": 32,
+	"neonGlow.breathe": 6000,
+	"neonGlow.caretArc": "wave",
+	"neonGlow.caretArcColor":"#02c2f7",
+	"neonGlow.caretArcMinJump": 1,
+	"neonGlow.caretArcDuration": 1200,
+	"neonGlow.caretArcOnDrag": true,
+	"neonGlow.minChroma":0.3,
+	"neonGlow.chromaSpan":0.5,
+	"neonGlow.floor":0.4,
+	"neonGlow.minLightness":0.25,
 }
