@@ -795,9 +795,27 @@
 
 	// Elements to highlight
 	"htmlHighlighter.enabledElements": [
-		"html", "head", "body", "script", "style", "div", "span",
-		"section", "article", "nav", "header", "footer", "main",
-		"aside", "p", "h1", "h2", "button", "a", "form", "input",
+		"html",
+		"head",
+		"body",
+		"script",
+		"style",
+		"div",
+		"span",
+		"section",
+		"article",
+		"nav",
+		"header",
+		"footer",
+		"main",
+		"aside",
+		"p",
+		"h1",
+		"h2",
+		"button",
+		"a",
+		"form",
+		"input",
 	],
 
 	// 🔧 Advanced Configuration
@@ -819,6 +837,8 @@
 		"div": "auto",
 		"span": "auto",
 	},
+
+	// Neon Glow
 	"workbench.colorTheme": "Best Themes - Ayu Darkvenom",
 	"window.autoDetectColorScheme": true,
 	"neonGlow.glowLayers": 1,
@@ -840,12 +860,12 @@
 	"neonGlow.terminalGlow": 32,
 	"neonGlow.breathe": 6000,
 	"neonGlow.caretArc": "wave",
-	"neonGlow.caretArcColor":"#02c2f7",
+	"neonGlow.caretArcColor": "#02c2f7",
 	"neonGlow.caretArcMinJump": 1,
 	"neonGlow.caretArcDuration": 1200,
 	"neonGlow.caretArcOnDrag": true,
-	"neonGlow.minChroma":0.3,
-	"neonGlow.chromaSpan":0.5,
-	"neonGlow.floor":0.4,
-	"neonGlow.minLightness":0.25,
+	"neonGlow.minChroma": 0.3,
+	"neonGlow.chromaSpan": 0.5,
+	"neonGlow.floor": 0.4,
+	"neonGlow.minLightness": 0.25,
 }
