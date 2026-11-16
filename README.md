@@ -2,31 +2,51 @@
 
 <div align="center">
 <!-- Light Mode Header -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
+<!-- <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
+</a> -->
+
+<!-- Dark Mode Header -->
+<!-- <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
+</a> -->
+
+
+
+<!-- Light Mode Header -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:0072FF,100:0B1F3A&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
 </a>
 
 <!-- Dark Mode Header -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,50:0072FF,100:00C6FF&height=260&section=header&text=𝙳𝚒𝚐𝚎𝚜𝚑𝚠𝚊𝚛&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=𝐽𝑎𝑣𝑎%20𝐹𝑢𝑙𝑙%20𝑆𝑡𝑎𝑐𝑘%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝑊𝑒𝑏%20𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟%20%7C%20𝐶𝑟𝑒𝑎𝑡𝑖𝑣𝑒%20𝑆𝑜𝑙𝑢𝑡𝑖𝑜𝑛𝑠&descAlignY=58&descSize=18"/>
 </a>
-
-
-
 
    <div align="center">
      <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"/>
    </div>
 
 <!-- Light Mode Typing -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
+<!-- <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
+</a> -->
+
+<!-- Dark Mode Typing -->
+<!-- <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=FF512F&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
+</a> -->
+
+<!-- Light Mode Typing -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=0072FF&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
 </a>
 
 <!-- Dark Mode Typing -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=FF512F&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=700&size=24&duration=2500&pause=1000&color=00C6FF&center=true&vCenter=true&width=1000&lines=Eat+%7C+Sleep+%7C+Code+%7C+Build+%7C+Scale+%7C+Repeat;Building+Scalable+Applications+with+Java;Clean+Code+%7C+Secure+APIs+%7C+Better+Systems;Developing+Solutions+for+Real+Problems;Simplicity+is+the+Ultimate+Sophistication"/>
 </a>
+
 
    <div align="center">
      <a href="https://github.com/G1thub-05" style="text-decoration:none; border:none;">
@@ -60,14 +80,28 @@
 
 <div align="center">
 <!-- Light Mode Footer -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
+<!-- <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"/>
+</a> -->
+
+<!-- Dark Mode Footer -->
+<!-- <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"/>
+</a> -->
+
+
+
+
+<!-- Light Mode Footer -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:0072FF,100:0B1F3A&height=120&section=footer"/>
 </a>
 
 <!-- Dark Mode Footer -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,50:0072FF,100:00C6FF&height=120&section=footer"/>
 </a>
+
 </div>
 
 ## 🙎🏻‍♂️ 𝐴𝑏𝑜𝑢𝑡 𝑀𝑒: 
@@ -359,12 +393,23 @@
 <!-- Footer -->
 <div align="center">
 <!-- Light Mode Footer -->
-<a href="https://github.com/G1thub-05#gh-light-mode-only">
+<!-- <a href="https://github.com/G1thub-05#gh-light-mode-only">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:8e2de2&height=120&section=footer"/>
+</a> -->
+
+<!-- Dark Mode Footer -->
+<!-- <a href="https://github.com/G1thub-05#gh-dark-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"/>
+</a> -->
+
+
+<!-- Light Mode Footer -->
+<a href="https://github.com/G1thub-05#gh-light-mode-only">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,50:0072FF,100:0B1F3A&height=120&section=footer"/>
 </a>
 
 <!-- Dark Mode Footer -->
 <a href="https://github.com/G1thub-05#gh-dark-mode-only">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff512f,50:dd2476,100:ff0000&height=120&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1F3A,50:0072FF,100:00C6FF&height=120&section=footer"/>
 </a>
 </div>
