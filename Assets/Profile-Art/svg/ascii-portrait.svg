@@ -1,0 +1,211 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="370"
+    height="420"
+    viewBox="0 0 370 420"
+    font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+
+<defs>
+    <style>
+:root {
+    color-scheme: dark;
+
+    --window-bg: #0d1117;
+    --window-fg: #c9d1d9;
+    --window-panel: #161b22;
+    --window-border: #30363d;
+    --window-muted: #8b949e;
+
+    --color-green: #39d353;
+    --color-cyan: #58d5e8;
+    --color-purple: #bc8cff;
+    --color-orange: #ffa657;
+    --color-pink: #ff7b9c;
+    --color-sweep: #fff;
+    --color-cmd: #39d353;
+
+    --globe-land-dot: #39d353;
+    --globe-atmosphere: #58d5e8;
+    --globe-home-pin: #ffa657;
+    --globe-packet-pink: #ff7b9c;
+
+
+    --ocean-center: #16324a;
+    --ocean-mid: #0c1724;
+    --ocean-edge: #070b12;
+    --shade-color: #05080d;
+    --shade-opacity: 0.75;
+    --globe-grid: #2d3a4a;
+
+    --tech-languages: #F2C14E;
+    --tech-frontend: #58D5E8;
+    --tech-backend: #39D353;
+    --tech-databases: #FFA657;
+    --tech-messaging: #BC8CFF;
+    --tech-cloud-devops: #79C0FF;
+    --tech-monitoring: #FF7B72;
+    --tech-testing-quality: #FF7B9C;
+    --tech-wireframe: #2D3A4A;
+    --tech-core: #BC8CFF;
+    --tech-glow: #58D5E8;
+    --tech-wireframe-width: 0.9;
+    --tech-wireframe-opacity: 0.9;
+
+    --top-0: #161b22; /* Level 0: No contributions */
+    --top-1: #0e4429; /* Level 1: Very low */
+    --top-2: #006d32; /* Level 2: Low */
+    --top-3: #26a641; /* Level 3: Medium */
+    --top-4: #39d353; /* Level 4: High */
+    --top-5: #69f0a0; /* Level 5: Highest */
+
+    --left-0: #171d25; /* Level 0: No contributions */
+    --left-1: #0a3820; /* Level 1: Very low */
+    --left-2: #005528; /* Level 2: Low */
+    --left-3: #1d8136; /* Level 3: Medium */
+    --left-4: #2d9f46; /* Level 4: High */
+    --left-5: #4bbd70; /* Level 5: Highest */
+
+    --right-0: #12171e; /* Level 0: No contributions */
+    --right-1: #082d1b; /* Level 1: Very low */
+    --right-2: #06451f; /* Level 2: Low */
+    --right-3: #155c29; /* Level 3: Medium */
+    --right-4: #227538; /* Level 4: High */
+    --right-5: #3d995b; /* Level 5: Highest */
+}
+
+
+/* Glass effect styles — yahan add karo */
+.glass-panel {
+    fill: var(--window-panel);
+    stroke: var(--window-border);
+    stroke-width: 1;
+}
+
+.glass-highlight {
+    fill: none;
+    stroke: rgba(255, 255, 255, 0.8);
+    stroke-width: 1;
+}
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+
+        /* Main window */
+        --window-bg: #E8ECF0;
+        --window-fg: #161B22;
+        --window-panel: rgba(255, 255, 255, 0.68);
+        --window-border: rgba(255, 255, 255, 0.85);
+        --window-muted: #57606A;
+
+        /* Accent colors */
+        --color-green: #03d329;
+        --color-cyan: #58d5e8;
+        --color-purple: #8250DF;
+        --color-orange: #f07a05;
+        --color-sweep: #03d329;
+        --color-cmd:#CF222E;
+
+
+        --globe-land-dot: #2F8F46;
+        --globe-atmosphere: #36AFC0;
+        --globe-home-pin: #B54708;
+        --globe-packet-pink: #C04483;
+        --ocean-center: #E3EDF6;
+        --ocean-mid: #C7D9E9;
+        --ocean-edge: #9CB5CC;
+        --shade-color: #526779;
+        --shade-opacity: 0.22;
+        --globe-grid: #7193B1;
+
+        --tech-languages: #8A6500;
+        --tech-frontend: #218B9A;
+        --tech-backend: #2F8F46;
+        --tech-databases: #BC4C00;
+        --tech-messaging: #8250DF;
+        --tech-cloud-devops: #0969DA;
+        --tech-monitoring: #CF222E;
+        --tech-testing-quality: #BF3989;
+        --tech-wireframe: #7193B1;
+        --tech-core: #40C463;
+        --tech-glow: #218B9A;
+        --tech-wireframe-width: 0.7;
+        --tech-wireframe-opacity: 0.48;
+
+        /* Contribution tops */
+        --top-0: #E0E0E0;        /* Level 0: No contributions */
+        --top-1: #9BE9A8;        /* Level 1: Very low */
+        --top-2: #40C463;        /* Level 2: Low */
+        --top-3: #30A14E;        /* Level 3: Medium */
+        --top-4: #216E39;        /* Level 4: High */
+        --top-5: #14532D;        /* Level 5: Highest */
+
+        /* Left building faces */
+        --left-0: #171D25;        /* Level 0: No contributions */
+        --left-1: #78C985;        /* Level 1: Very low */
+        --left-2: #329C4D;        /* Level 2: Low */
+        --left-3: #268440;        /* Level 3: Medium */
+        --left-4: #195A30;        /* Level 4: High */
+        --left-5: #104523;        /* Level 5: Highest */
+
+        /* Right building faces */
+        --right-0: #12171E;       /* Level 0: No contributions */
+        --right-1: #60AE70;       /* Level 1: Very low */
+        --right-2: #278440;       /* Level 2: Low */
+        --right-3: #1C6C35;       /* Level 3: Medium */
+        --right-4: #164A29;       /* Level 4: High */
+        --right-5: #0C381C;       /* Level 5: Highest */
+    }
+}
+
+</style>
+    
+<linearGradient id="ink" x1="0" y1="0" x2="370" y2="420" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+  <stop offset="0" stop-color="#39d353"/><stop offset="0.5" stop-color="#58d5e8"/><stop offset="1" stop-color="#bc8cff"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="0 0;370 420;0 0" begin="3.19s" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+</defs>
+
+<rect
+    x="0.5"
+    y="0.5"
+    width="369"
+    height="419"
+    rx="10"
+    fill="var(--window-bg)"
+    stroke="var(--window-border)"
+/>
+
+<path
+    d="M0.5 27 V10.5
+       a10 10 0 0 1 10 -10
+       H359.5
+       a10 10 0 0 1 10 10
+       V28 Z"
+    fill="var(--window-panel)"
+/>
+
+<line
+    x1="0.5"
+    y1="27"
+    x2="369.5"
+    y2="27"
+    stroke="var(--window-border)"
+/>
+
+<circle cx="18" cy="14" r="3.5" fill="#ff5f56"/>
+<circle cx="36" cy="14" r="3.5" fill="#ffbd2e"/>
+<circle cx="54" cy="14" r="3.5" fill="#27c93f"/>
+
+<text
+    x="185.0"
+    y="18"
+    fill="var(--window-muted)"
+    font-size="13"
+    text-anchor="middle">Portrait.txt</text>
+
+
+<g fill="url(#ink)" font-size="6.2"><clipPath id="c4"><rect x="13.9" y="74.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.48s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="81.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c4)">                                       ```.  .`--`                                          </text><rect x="13.9" y="75.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.48s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.48s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.03s"/></rect><clipPath id="c5"><rect x="13.9" y="81.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.52s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="88.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c5)">                                  ``.`=+=-:.:---`.  ..`.                                    </text><rect x="13.9" y="82.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.52s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.52s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.07s"/></rect><clipPath id="c6"><rect x="13.9" y="88.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.57s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="95.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c6)">                                .`:` `+=:``==`  .:====-:`                                   </text><rect x="13.9" y="89.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.57s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.57s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.12s"/></rect><clipPath id="c7"><rect x="13.9" y="95.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.61s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="102.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c7)">                               .-`..`-=:``+=. .:=-:-`::+=--                                 </text><rect x="13.9" y="96.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.61s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.61s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.17s"/></rect><clipPath id="c8"><rect x="13.9" y="102.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.66s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="109.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c8)">                             `` `-: `----+=-`.*=`   `:.:-`--                                </text><rect x="13.9" y="103.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.66s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.66s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.21s"/></rect><clipPath id="c9"><rect x="13.9" y="109.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.70s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="116.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c9)">                            `--.``-`   .``-=-:`. .:--=-.-=:`.                               </text><rect x="13.9" y="110.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.70s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.70s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.25s"/></rect><clipPath id="c10"><rect x="13.9" y="116.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.75s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="123.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c10)">                           ...=``` ... `:::---==+*+****=:``.                                </text><rect x="13.9" y="117.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.75s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.75s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.30s"/></rect><clipPath id="c11"><rect x="13.9" y="123.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.79s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="130.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c11)">                           .-`.  `:-=+ccsssccs%@%%%%##ssc=.  .                              </text><rect x="13.9" y="124.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.79s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.79s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.34s"/></rect><clipPath id="c12"><rect x="13.9" y="130.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.84s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="137.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c12)">                            .`..-+*css##%#%%%%%%%%@@%%#sss*:-:                              </text><rect x="13.9" y="131.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.84s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.84s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.39s"/></rect><clipPath id="c13"><rect x="13.9" y="137.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.89s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="144.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c13)">                              `+***ccss##%%##%%###%###ssss*-:`                              </text><rect x="13.9" y="138.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.89s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.89s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.44s"/></rect><clipPath id="c14"><rect x="13.9" y="144.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.93s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="151.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c14)">                              `+***cs##%%%@%%%#%%@@@@%#ssc*:                                </text><rect x="13.9" y="145.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.93s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.93s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.48s"/></rect><clipPath id="c15"><rect x="13.9" y="151.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="0.97s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="158.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c15)">                              :*=----=+cs#%%%####sc***+=+*c-                                </text><rect x="13.9" y="152.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="0.97s"/><animate attributeName="x" from="13.9" to="356.1" begin="0.97s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.52s"/></rect><clipPath id="c16"><rect x="13.9" y="158.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.02s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="165.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c16)">                              =*::::`.   :=*cs*-:. .:=+=--c+                                </text><rect x="13.9" y="159.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.02s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.02s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.57s"/></rect><clipPath id="c17"><rect x="13.9" y="165.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.06s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="172.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c17)">                              =*====-:=:  .=s%#*-.``-+**++c*                                </text><rect x="13.9" y="166.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.06s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.06s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.61s"/></rect><clipPath id="c18"><rect x="13.9" y="172.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.11s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="179.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c18)">                            `=+c+:`-:.+*-::+s@%#c:`..--:+s#*+c:                             </text><rect x="13.9" y="173.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.11s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.11s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.66s"/></rect><clipPath id="c19"><rect x="13.9" y="179.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.16s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="186.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c19)">                            :+*cc*c***ccc=-=s@%#%%sccccs###**#*                             </text><rect x="13.9" y="180.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.16s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.16s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.71s"/></rect><clipPath id="c20"><rect x="13.9" y="186.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.20s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="193.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c20)">                            ==*ss##%%%@#++-*%@%##s%@%%%%%%#c+#s                             </text><rect x="13.9" y="187.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.20s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.20s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.75s"/></rect><clipPath id="c21"><rect x="13.9" y="193.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.24s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="200.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c21)">                            :-+cs##%%@%:-+-*s%#cc*-c%@@@%#s*=s*                             </text><rect x="13.9" y="194.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.24s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.24s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.79s"/></rect><clipPath id="c22"><rect x="13.9" y="200.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.29s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="207.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c22)">                            :*-cs###%%c::. .`=+=+%*:+#%%##s*-#:                             </text><rect x="13.9" y="201.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.29s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.29s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.84s"/></rect><clipPath id="c23"><rect x="13.9" y="207.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.33s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="214.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c23)">                             =:cccsssc=:`..::`==++*=-*ss#ss=-c                              </text><rect x="13.9" y="208.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.33s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.33s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.89s"/></rect><clipPath id="c24"><rect x="13.9" y="214.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.38s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="221.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c24)">                               =cccsc:  `:-===++=-  :+ccs#c-                                </text><rect x="13.9" y="215.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.38s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.38s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.93s"/></rect><clipPath id="c25"><rect x="13.9" y="221.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.43s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="228.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c25)">                               `+**c+-=--==+**ccc*+: =sccc+.                                </text><rect x="13.9" y="222.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.43s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.43s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="1.98s"/></rect><clipPath id="c26"><rect x="13.9" y="228.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.47s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="235.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c26)">                                `==++csssc*+=++*s##s*=+=+=`                                 </text><rect x="13.9" y="229.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.47s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.47s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.02s"/></rect><clipPath id="c27"><rect x="13.9" y="235.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.51s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="242.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c27)">                                 `-==c########%%%%%##c+=--.                                 </text><rect x="13.9" y="236.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.51s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.51s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.06s"/></rect><clipPath id="c28"><rect x="13.9" y="242.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.56s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="249.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c28)">                                 `-`:-+ccsscccc#%#sc+-:`-s:  ..                             </text><rect x="13.9" y="243.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.56s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.56s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.11s"/></rect><clipPath id="c29"><rect x="13.9" y="249.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.60s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="256.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c29)">                                 .s+`.``----:`:=--::..-*##-  .  `.`::                       </text><rect x="13.9" y="250.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.60s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.60s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.16s"/></rect><clipPath id="c30"><rect x="13.9" y="256.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.65s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="263.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c30)">                        ..     .. c#c=`            .-*#%##*  --.   -+-                      </text><rect x="13.9" y="257.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.65s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.65s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.20s"/></rect><clipPath id="c31"><rect x="13.9" y="263.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.70s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="270.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c31)">                       `=     :`  +###c+=:`....:-=*c#%%%%#s-.--` .==-=:                     </text><rect x="13.9" y="264.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.70s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.70s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.25s"/></rect><clipPath id="c32"><rect x="13.9" y="270.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.74s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="277.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c32)">                       +=:   .`.  =ss##sc*++++*css#%%%%%%%*:::`:===---=`                    </text><rect x="13.9" y="271.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.74s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.74s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.29s"/></rect><clipPath id="c33"><rect x="13.9" y="277.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.78s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="284.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c33)">                      -+=--:.  .. :*cs#sscccccss#####%%##+``::-==-:::::=-`                  </text><rect x="13.9" y="278.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.78s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.78s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.33s"/></rect><clipPath id="c34"><rect x="13.9" y="284.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.83s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="291.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c34)">                     =+-::::::`.. :++*csscccsssssssssssc-`:-------:::--:--::                </text><rect x="13.9" y="285.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.83s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.83s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.38s"/></rect><clipPath id="c35"><rect x="13.9" y="291.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.88s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="298.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c35)">                    :=:--:::```:::-*cc**cc**cccccccs##c-:--::::----::```..`:-.              </text><rect x="13.9" y="292.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.88s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.88s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.42s"/></rect><clipPath id="c36"><rect x="13.9" y="298.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.92s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="305.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c36)">                .:--:.  ..`::```:-:`-+s#########%@%#c=:-:::::::``.    ..```::--:.           </text><rect x="13.9" y="299.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.92s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.92s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.47s"/></rect><clipPath id="c37"><rect x="13.9" y="305.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="1.97s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="312.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c37)">            .:---:`.`:.          :- ..:+s%@@@@@@%c+:` --.....   ..``::::```````::::`.       </text><rect x="13.9" y="306.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="1.97s"/><animate attributeName="x" from="13.9" to="356.1" begin="1.97s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.52s"/></rect><clipPath id="c38"><rect x="13.9" y="312.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.01s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="319.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c38)">         .:=--:``..`::..`` ..    .=     .=s%%#*-`    .=    ..``:::::::::::`````````:::      </text><rect x="13.9" y="313.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.01s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.01s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.56s"/></rect><clipPath id="c39"><rect x="13.9" y="319.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.05s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="326.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c39)">        :--:````.``::`.`````:.   .=. ...`.`--`....   :-..```:```::`:::``::`:`````````       </text><rect x="13.9" y="320.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.05s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.05s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.60s"/></rect><clipPath id="c40"><rect x="13.9" y="326.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.10s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="333.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c40)">       `:``:`....`::`````::::`.. `=.    ..`.`````..  -:.```````````::``:``````````:`        </text><rect x="13.9" y="327.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.10s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.10s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.65s"/></rect><clipPath id="c41"><rect x="13.9" y="333.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.15s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="340.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c41)">       .` .:`....`:```::::::``.. :-....```::::::```  =`.```...```````:`````::`..`:.         </text><rect x="13.9" y="334.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.15s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.15s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.70s"/></rect><clipPath id="c42"><rect x="13.9" y="340.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.19s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="347.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c42)">        ::.``...`:````::::::``.  -:..```::::::::::` `=.``..:--:..`````````::`  ``           </text><rect x="13.9" y="341.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.19s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.19s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.74s"/></rect><clipPath id="c43"><rect x="13.9" y="347.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.23s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="354.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c43)">         :+=.  `:`..```::::````. -`.````::::::::::: :-.`.=cs##sc:.```````::`. .`            </text><rect x="13.9" y="348.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.23s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.23s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.79s"/></rect><clipPath id="c44"><rect x="13.9" y="354.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.28s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="361.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c44)">           =*-.`...`````::````` .=. `````:::::::::` -:..:@* .` s%````...``  .``             </text><rect x="13.9" y="355.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.28s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.28s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.83s"/></rect><clipPath id="c45"><rect x="13.9" y="361.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.32s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="368.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c45)">             =*=`  .``````````` :- ..````::`::::::` -:..:%c-``=%#````. ...`--.              </text><rect x="13.9" y="362.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.32s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.32s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.88s"/></rect><clipPath id="c46"><rect x="13.9" y="368.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.37s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="375.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c46)">               -++-.  .``````.. -: .``````::`::`::. =`.``:**.-%*`.`..  `=+=`                </text><rect x="13.9" y="369.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.37s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.37s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.92s"/></rect><clipPath id="c47"><rect x="13.9" y="375.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.41s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="382.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c47)">                 `=+=:....````..-..````````:`:::``..=`````.`.`. ....`-=+-                   </text><rect x="13.9" y="376.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.41s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.41s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.96s"/></rect><clipPath id="c48"><rect x="13.9" y="382.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.46s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="389.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c48)">                    `=++-:.... .-..``````````:::`` `=.```````...`:=++-.                     </text><rect x="13.9" y="383.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.46s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.46s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="3.01s"/></rect><clipPath id="c49"><rect x="13.9" y="389.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.50s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="396.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c49)">                       `-+++=:.`: .``````````````` :-...`..`:-=++=:                         </text><rect x="13.9" y="390.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.50s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.50s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="3.05s"/></rect><clipPath id="c50"><rect x="13.9" y="396.1" width="0" height="8.0"><animate attributeName="width" from="0" to="342.2" begin="2.55s" dur="0.55s" fill="freeze"/></rect></clipPath><text x="13.9" y="403.1" textLength="342.2" lengthAdjust="spacing" clip-path="url(#c50)">                           `-++*+-:``````````````` :- `:-=+*+=:.                            </text><rect x="13.9" y="397.1" width="3.7" height="6.0" fill="#39d353" opacity="0"><set attributeName="opacity" to="1" begin="2.55s"/><animate attributeName="x" from="13.9" to="356.1" begin="2.55s" dur="0.55s" fill="freeze"/><set attributeName="opacity" to="0" begin="3.10s"/></rect></g>
+
+</svg>
