@@ -108,6 +108,7 @@ Step 2: Open folder on your computer
 	git init					                                               → Initializes a new Git repository in the current directory (once per repository).
 	git init -b <branch-name>                                                  → Initializes a new Git repository and sets its initial branch name to <branch-name>
 	git remote -v				                                               → Shows the remote repositories configured for the local repository.
+	git rev-parse --show-toplevel                                              → Displays the root directory of the current Git repository.
 	git remote add <remote-name> <repository-url>.git                          → Adds a remote repository with the specified name and URL
 	git remote add origin https://github.com/username/repository-name.git      → Adds a GitHub repository as a remote named `origin`
 	git remote show origin                                                     → Shows details about the remote repository `origin`, including tracked branches and push/pull configuration
