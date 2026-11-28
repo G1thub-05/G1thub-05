@@ -1,0 +1,131 @@
+
+
+
+FLEXBOX (flex-direction: row (Default))        GRID (English LTR writing Default mode)
+---------------------------------------        ---------------------------------------
+Horizontal = Main Axis  (row)                  Horizontal = Inline Axis (LTR)
+Vertical   = Cross Axis (row)                  Vertical   = Block Axis  (LTR)
+
+FLEXBOX (flex-direction: column (Modify))      GRID (English RTL writing Modify mode)
+---------------------------------------        --------------------------------------
+Vertical   = Main Axis  (column)               Vertical   = Inline Axis (RTL)
+Horizontal = Cross Axis (column)               Horizontal = Block Axis  (RTL)
+
+
+## Important difference:
+
+  - content → Complete content group.
+  - items   → All items inside parent.
+  - self    → Individual item.
+
+
+justify-content  = Flexbox + Grid
+align-content    = Flexbox + Grid
+place-content    = Flexbox + Grid
+align-items      = Flexbox + Grid
+align-self       = Flexbox + Grid
+
+
+justify-items    = Grid
+justify-self     = Grid
+place-items      = Grid
+place-self       = Grid
+
+
+
+CSS PROPERTY                  | PURPOSE                                                           | DISPLAY LAYOUT
+------------------------------|-------------------------------------------------------------------|----------------
+margin: 0 auto                | Block element center         (horizontally)                       | Block       (Not required)
+text-align: center            | Text / inline content center (horizontally)                       | Normal flow (Not required)
+display: flex                 | Flex layout activate                                              | Flexbox     (Itself)
+display: grid                 | Grid layout activate                                              | Grid        (Itself)
+
+align-content: center         | Cross axis content alignment (vertically)                         | Flex / Grid
+justify-content: center       | Main  axis content alignment (horizontally)                       | Flex / Grid
+place-content: center         | Both  axis content alignment (align-content + justify-content)    | Flex / Grid
+
+align-items: center           | Cross axis items alignment  (vertically)                          | Flex / Grid
+justify-items: center         | Main  axis items alignment  (horizontally)                        | Grid
+place-items: center           | Both  axis items alignment  (align-items + justify-items)         | Grid
+
+align-self: center            | Individual item alignment (vertically)                            | Flex / Grid
+justify-self: center          | Individual item alignment (horizontally)                          | Grid
+place-self: center            | Individual item both axis alignment (align-self + justify-self)   | Grid
+
+
+Margin Auto: .parent {width: 100%;}   .child {width: 80%; margin: 0 auto;}  / .parent {text-align: center;}
+Flexbox:     .parent {display: flex;} .child {align-self: center;}          / .parent {display: flex; justify-content: center; align-items: center;}
+Grid:        .parent {display: grid;} .child {place-self: center;}          / .parent {display: grid; place-items: center;}
+
+
+
+
+|  VALUE           | center | start | end | flex-start | flex-end | baseline | stretch | space-between | space-around | space-evenly | left | right | self-start | self-end | normal | first baseline | last baseline |
+|------------------|--------|-------|-----|------------|----------|----------|---------|---------------|--------------|--------------|------|-------|------------|----------|--------|----------------|---------------|
+|  justify-items   |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ✅     ✅        ✅          ✅       ✅          ✅              ✅       |
+|  align-items     |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ❌     ❌        ✅          ✅       ✅          ✅              ✅       |
+|  place-items     |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ⚠️     ⚠️        ✅          ✅       ✅          ✅              ✅       |
+
+|  justify-content |  ✅       ✅    ✅       ✅         ✅        ❌        ✅*          ✅             ✅            ✅         ✅*    ✅*       ❌          ❌       ✅          ❌              ❌       |
+|  align-content   |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ✅             ✅            ✅         ❌     ❌        ❌          ❌       ✅          ✅              ✅       |       
+|  place-content   |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ✅             ✅            ✅         ⚠️     ⚠️        ❌          ❌       ✅          ✅              ✅       |
+
+|  justify-self    |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ✅     ✅        ✅          ✅       ✅          ✅              ✅       |
+|  align-self      |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ❌     ❌        ✅          ✅       ✅          ✅              ✅       |
+|  place-self      |  ✅       ✅    ✅       ✅         ✅        ✅        ✅           ❌             ❌            ❌         ⚠️     ⚠️        ✅          ✅       ✅          ✅              ✅       |
+|------------------|--------|-------|-----|------------|----------|----------|---------|---------------|--------------|--------------|------|-------|------------|----------|--------|----------------|---------------|   
+
+
+
+Legend:
+
+- ✅  = Supported
+- ✅* = Layout-dependent behaviour
+- ❌  = Not Supported
+- ⚠️  = Supported only as the second value in a two-value shorthand declaration.
+
+ 
+position – Element Positioning
+
+	position: static     		   -	  Default positioning of an element.
+	position: relative   		   -	  Positions an element relative to its normal position.
+	position: absolute   		   -	  Positions an element relative to its nearest positioned ancestor.
+	position: fixed	     	   -	  Positions an element relative to the viewport.
+	position: sticky    		   - 	  Switches between relative and fixed positioning based on scrolling.
+
+
+2. transform – Element Movement
+
+	transform: translate(50%, 50%)   -   Moves the element (right and down) by 50% of its own dimensions (width and height).
+	transform: translate(-50%, -50%) -	Moves the element (left  and up)   by 50% of its own dimensions (width and height).
+	transform: translateX(50%)       -	Moves the element right by 50% of its own width (Horizontally right).
+	transform: translateX(-50%)      - 	Moves the element left by 50% of its own width  (Horizontally left).
+	transform: translateY(50%)       -	Moves the element down  by 50% of its own height (Vertically down).
+	transform: translateY(-50%)      -   Moves the element up   by 50% of its own height  (Vertically up).
+
+
+3. line-height – Line Spacing
+
+	line-height: normal		   -    Uses the browser's default line height.
+	line-height: 1			   -    Sets line height equal to the font size.
+	line-height: 1.5		   -    Sets line height to 1.5 times the font size.
+	line-height: 2			   -    Sets line height to twice the font size.
+	line-height: 20px		   -    Sets a fixed line height of 20 pixels.
+	line-height: 150%	 	   -    Sets line height to 150% of the font size.
+
+
+4. vertical-align – Vertical Alignment
+
+	vertical-align: baseline    	   -    Aligns the element with the parent's text baseline.
+	vertical-align: middle	  	   -    Aligns the middle of the element with the parent's baseline plus half the x-height.
+	vertical-align: top	 	   -    Aligns the top of the element with the top of the tallest element on the line.
+	vertical-align: bottom	     	   -    Aligns the bottom of the element with the bottom of the line box.
+	vertical-align: sub		   -    Aligns the element as a subscript.
+	vertical-align: super		   -    Aligns the element as a superscript.
+	vertical-align: text-top	   -    Aligns the top of the element with the top of the parent's font.
+	vertical-align: text-bottom	   -    Aligns the bottom of the element with the bottom of the parent's font.
+	vertical-align: length		   -    Moves the element up or down by a specified length.
+	vertical-align: percentage	   -    Moves the element up or down by a percentage of the parent's line height.
+
+
+
