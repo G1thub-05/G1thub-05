@@ -90,17 +90,17 @@ position – Element Positioning
 	position: static     		   -	  Default positioning of an element.
 	position: relative   		   -	  Positions an element relative to its normal position.
 	position: absolute   		   -	  Positions an element relative to its nearest positioned ancestor.
-	position: fixed	     	   -	  Positions an element relative to the viewport.
+	position: fixed	     	       -	  Positions an element relative to the viewport.
 	position: sticky    		   - 	  Switches between relative and fixed positioning based on scrolling.
 
 
 2. transform – Element Movement
 
 	transform: translate(50%, 50%)   -   Moves the element (right and down) by 50% of its own dimensions (width and height).
-	transform: translate(-50%, -50%) -	Moves the element (left  and up)   by 50% of its own dimensions (width and height).
-	transform: translateX(50%)       -	Moves the element right by 50% of its own width (Horizontally right).
-	transform: translateX(-50%)      - 	Moves the element left by 50% of its own width  (Horizontally left).
-	transform: translateY(50%)       -	Moves the element down  by 50% of its own height (Vertically down).
+	transform: translate(-50%, -50%) -	 Moves the element (left  and up)   by 50% of its own dimensions (width and height).
+	transform: translateX(50%)       -	 Moves the element right by 50% of its own width (Horizontally right).
+	transform: translateX(-50%)      - 	 Moves the element left by 50% of its own width  (Horizontally left).
+	transform: translateY(50%)       -	 Moves the element down  by 50% of its own height (Vertically down).
 	transform: translateY(-50%)      -   Moves the element up   by 50% of its own height  (Vertically up).
 
 
@@ -116,11 +116,11 @@ position – Element Positioning
 
 4. vertical-align – Vertical Alignment
 
-	vertical-align: baseline    	   -    Aligns the element with the parent's text baseline.
+	vertical-align: baseline       -    Aligns the element with the parent's text baseline.
 	vertical-align: middle	  	   -    Aligns the middle of the element with the parent's baseline plus half the x-height.
-	vertical-align: top	 	   -    Aligns the top of the element with the top of the tallest element on the line.
-	vertical-align: bottom	     	   -    Aligns the bottom of the element with the bottom of the line box.
-	vertical-align: sub		   -    Aligns the element as a subscript.
+	vertical-align: top	 	       -    Aligns the top of the element with the top of the tallest element on the line.
+	vertical-align: bottom	       -    Aligns the bottom of the element with the bottom of the line box.
+	vertical-align: sub		       -    Aligns the element as a subscript.
 	vertical-align: super		   -    Aligns the element as a superscript.
 	vertical-align: text-top	   -    Aligns the top of the element with the top of the parent's font.
 	vertical-align: text-bottom	   -    Aligns the bottom of the element with the bottom of the parent's font.
