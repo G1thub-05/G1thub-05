@@ -1,4 +1,22 @@
+✨ Windows – Fix .git Folder Permission Issue
 
+Problem: Windows does not allow deleting the .git folder and displays an Access Denied / Permission Required error.
+Solution: Open Command Prompt as Administrator and execute the following commands from the project root directory.
+
+Step 1: Navigate to Project Directory   -    cd /d "D:\Code-Alpha\01-Simple E-Commerce Store"
+Step 2: Take Ownership of .git          -    takeown /F ".git" /R /D Y
+Step 3: Grant Full Control Permission   -    icacls ".git" /grant "%USERDOMAIN%\%USERNAME%:(OI)(CI)F" /T /C
+Step 4: Delete .git Folder              -    rmdir /S /Q ".git"
+
+1. (OI) – Object Inherit
+2. (CI) – Container Inherit
+3. F – Full Control
+4. /T – Applies permissions recursively.
+5. /C – Continues even if errors occur.
+6. /S – Deletes the directory and all its contents.
+7. /Q – Quiet mode; does not ask for confirmation.
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 ✨ Prerequisites — Don’t skip these
 	• Git installed locally (Linux/Windows/macOS) and accessible from your terminal
