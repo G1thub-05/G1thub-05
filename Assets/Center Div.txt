@@ -35,7 +35,9 @@ place-self       = Grid
 
 CSS PROPERTY                  | PURPOSE                                                           | DISPLAY LAYOUT
 ------------------------------|-------------------------------------------------------------------|----------------
+margin: auto                  | Block element center         (horizontally + vertically)          | Block       (Not required)
 margin: 0 auto                | Block element center         (horizontally)                       | Block       (Not required)
+margin: auto 0                | Block element center         (vertically)                         | Block       (Not required)
 text-align: center            | Text / inline content center (horizontally)                       | Normal flow (Not required)
 display: flex                 | Flex layout activate                                              | Flexbox     (Itself)
 display: grid                 | Grid layout activate                                              | Grid        (Itself)
