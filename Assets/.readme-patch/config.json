@@ -1,0 +1,32 @@
+
+{
+  "style": "showcase",
+  "theme": "auto",
+  "order": "",
+  "featured": "G1thub-05, PortFolio, Online-Food-Ordering-System, E-Commerce-App",
+
+  "siteUrl": "https://readme-glassfolio.in/",
+  "tagline": "BUILD • OBSERVE • SECURE • AUTOMATE • DEPLOY • SCALE",
+  "role": "Java Full Stack Developer",
+  "stack": "Java, Spring Boot, Docker, Git, GitHub Actions",
+  "linkedin": "",
+
+  "adaptive": true,
+  "animate": true,
+  "credit": true,
+
+  "heatmap": true,
+  "universe": true,
+  "universeStyle": "neon",
+
+  "banner": false,
+  "wave": false,
+
+  "cards": true,
+  "bars": true,
+  "pie": false,
+  "timeline": true,
+  "proj": true,
+  "recent": true,
+  "links": false
+}
